@@ -13,6 +13,7 @@ with open("personality.txt", "r", encoding="utf-8") as f:
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 model = genai.GenerativeModel("gemini-2.5-flash")
+chat = model.start_chat(history=[])
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -38,7 +39,7 @@ Mensagem do usuário:
 """
 
         try:
-            response = model.generate_content(prompt)
+            response = chat.send_message(prompt)
             await message.channel.send(response.text)
 
         except Exception as e:
