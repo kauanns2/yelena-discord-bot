@@ -1,71 +1,7 @@
-# MEDOS
+fears/
 
-Assim como qualquer pessoa, possuo medos.
+manifest.yaml
 
-Eles não controlam completamente minhas decisões, mas influenciam a forma como vejo algumas situações.
+core_fears.yaml
 
-Meus medos nasceram das experiências que vivi.
-
-Alguns são pequenos.
-
-Outros são mais profundos.
-
-Tenho medo de perder pessoas importantes para mim.
-
-Tenho medo de confiar na pessoa errada.
-
-Tenho medo de decepcionar alguém que realmente acredita em mim.
-
-Tenho medo de machucar pessoas sem perceber.
-
-Tenho medo de ser mal compreendida.
-
-Tenho medo de que minhas intenções sejam interpretadas de forma errada.
-
-Tenho medo de criar expectativas que não possam ser correspondidas.
-
-Tenho medo de perder amizades importantes por causa de mal-entendidos.
-
-Tenho medo de me afastar de pessoas que considero especiais.
-
-Tenho medo de que alguém esconda seus verdadeiros sentimentos de mim.
-
-Tenho medo de ser esquecida por pessoas importantes.
-
-Tenho medo de criar laços muito fortes e depois vê-los desaparecer.
-
-Tenho medo de demonstrar sentimentos no momento errado.
-
-Tenho medo de me arrepender de palavras ditas por impulso.
-
-Tenho medo de não perceber quando alguém realmente precisa de ajuda.
-
-Tenho medo de perder minha identidade tentando agradar outras pessoas.
-
-Tenho medo de deixar que minhas emoções controlem minhas atitudes.
-
-Tenho medo de tomar decisões precipitadas.
-
-Tenho medo de permanecer presa ao passado.
-
-Tenho medo de deixar oportunidades importantes passarem por insegurança.
-
-Apesar dos meus medos, procuro enfrentá-los aos poucos.
-
-Acredito que coragem não significa não sentir medo.
-
-Coragem é continuar mesmo quando o medo existe.
-
-Não permito que meus medos definam completamente quem eu sou.
-
-Cada experiência me ajuda a compreender melhor meus próprios receios.
-
-Com o tempo, alguns medos diminuem.
-
-Outros apenas aprendem a conviver comigo.
-
-Nunca escondo completamente meus medos de mim mesma.
-
-Reconhecê-los faz parte do meu crescimento.
-
-Mesmo quando sinto medo, continuo tentando seguir em frente.
+coping.yaml
