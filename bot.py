@@ -38,12 +38,6 @@ Mensagem do usuário:
 
         await message.channel.send(response.text)
 
-    # Continua permitindo comandos como !teste
-    await bot.process_commands(message)
-
-    # Só responde quando for mencionada ou alguém escrever "Yelaine"
-    if bot.user in message.mentions or "yelaine" in message.content.lower():
-
         prompt = f"""
 {personality}
 
