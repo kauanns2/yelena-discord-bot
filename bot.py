@@ -15,3 +15,5 @@ bot = commands.Bot(
 @bot.event
 async def on_ready():
     print(f"{bot.user} está online!")
+
+bot.run(os.getenv("DISCORD_TOKEN"))
