@@ -16,6 +16,11 @@ bot = commands.Bot(
 async def on_ready():
     print(f"{bot.user} está online!")
 
+@bot.event
+async def on_message(message):
+    print(f"Mensagem recebida: {message.content}")
+    await bot.process_commands(message)
+
 @bot.command()
 async def teste(ctx):
     await ctx.send("Olá! Estou funcionando! 🎉")
