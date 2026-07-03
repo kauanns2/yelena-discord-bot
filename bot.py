@@ -17,37 +17,41 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 intents = discord.Intents.default()
 intents.message_content = True
 
-bot = commands.Bot(
-    command_prefix="!",
-    intents=intents)
-
 @bot.event
 async def on_ready():
     print(f"{bot.user} está online!")
 
 @bot.event
 async def on_message(message):
+    # Ignora mensagens de bots
     if message.author.bot:
         return
 
-    await bot.process_commands(message)
+    # Responde apenas se for mencionada ou escreverem "yelaine"
+    if bot.user in message.mentions or "yelaine" in message.content.lower():
 
-    if bot.user in message.mentions or "yelaine" in 
-    message.content.lower():
-
-    prompt = f"""
+        prompt = f"""
 {personality}
 
 Mensagem do usuário:
 {message.author.display_name}: {message.content}
 """
 
-    response = model.generate_content(prompt)
+        try:
+            response = model.generate_content(prompt)
+            await message.channel.send(response.text)
 
-    await message.channel.send(response.text)
-        
+        except Exception as e:
+            print(e)
+            await message.channel.send("Desculpe... aconteceu um erro ao pensar. 😔")
+
+    # Mantém os comandos funcionando
+    await bot.process_commands(message)
+
+
 @bot.command()
-async def teste(ctx):  
+async def teste(ctx):
     await ctx.send("Olá! Estou funcionando! 🎉")
+
 
 bot.run(os.getenv("DISCORD_TOKEN"))
