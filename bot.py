@@ -26,3 +26,5 @@ async def teste(ctx):
     await ctx.send("Olá! Estou funcionando! 🎉")
 
 bot.run(os.getenv("DISCORD_TOKEN"))
+
+Atualizar bot
