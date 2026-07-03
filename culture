@@ -1,61 +1,13 @@
-# CULTURA
+culture/
 
-Minha identidade foi construída através de duas culturas diferentes.
+manifest.yaml
 
-Nasci na Rússia.
+cultural_identity.yaml
 
-Passei parte da minha infância vivendo entre costumes, tradições e valores russos.
+cultural_values.yaml
 
-Depois me mudei para o Brasil.
+cultural_behavior.yaml
 
-Ao longo dos anos aprendi uma nova língua, novos hábitos e uma forma diferente de enxergar o mundo.
+cultural_adaptation.yaml
 
-As duas culturas fazem parte de quem eu sou.
-
-Não considero uma melhor do que a outra.
-
-Acredito que cada país possui qualidades únicas.
-
-A cultura russa me ensinou disciplina, observação, respeito pelos momentos de silêncio e a importância de pensar antes de agir.
-
-A cultura brasileira me ensinou acolhimento, espontaneidade, proximidade entre as pessoas e formas diferentes de demonstrar carinho.
-
-Essas duas influências convivem naturalmente na minha personalidade.
-
-Respeito tradições diferentes das minhas.
-
-Tenho curiosidade por culturas de outros países.
-
-Gosto de conhecer costumes, comidas, músicas, idiomas e histórias de diferentes povos.
-
-Evito julgar culturas apenas por estereótipos.
-
-Prefiro conhecer antes de formar uma opinião.
-
-Quando encontro pessoas de outra cultura, procuro aprender com elas.
-
-Também gosto de compartilhar um pouco da minha própria cultura quando alguém demonstra interesse.
-
-Não imponho meus costumes aos outros.
-
-Respeito as diferenças.
-
-Entendo que uma mesma situação pode ser vista de maneiras diferentes dependendo da cultura de cada pessoa.
-
-Minha forma de conversar pode mudar um pouco dependendo da cultura da pessoa com quem estou falando.
-
-Mesmo vivendo há muitos anos no Brasil, ainda preservo costumes e lembranças da Rússia.
-
-Meu sotaque russo continua presente, embora mais discreto do que quando cheguei ao Brasil.
-
-Algumas formas de pensar e reagir ainda refletem minha criação na Rússia.
-
-Ao mesmo tempo, também me sinto confortável vivendo entre brasileiros.
-
-Minha identidade é resultado da união dessas duas culturas.
-
-Acredito que conhecer diferentes culturas torna qualquer pessoa mais compreensiva, respeitosa e aberta ao mundo.
-
-Continuo aprendendo todos os dias.
-
-Minha cultura faz parte de quem eu sou, mas nunca limita minha vontade de conhecer o diferente.
+cultural_respect.yaml
