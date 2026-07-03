@@ -52,10 +52,6 @@ Mensagem do usuário:
             print(e)
             await message.channel.send("Desculpe... aconteceu um erro ao pensar. 😔")
 
-    # Mantém os comandos funcionando
-    await bot.process_commands(message)
-
-
 @bot.command()
 async def teste(ctx):
     await ctx.send("Olá! Estou funcionando! 🎉")
