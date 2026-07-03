@@ -23,6 +23,21 @@ async def on_message(message):
     if message.author.bot:
         return
 
+    await bot.process_commands(message)
+
+    if bot.user in message.mentions or "yelaine" in message.content.lower():
+
+        prompt = f"""
+{personality}
+
+Mensagem do usuário:
+{message.author.display_name}: {message.content}
+"""
+
+        response = model.generate_content(prompt)
+
+        await message.channel.send(response.text)
+
     # Continua permitindo comandos como !teste
     await bot.process_commands(message)
 
