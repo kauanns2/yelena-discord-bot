@@ -27,4 +27,5 @@ async def teste(ctx):
 
 bot.run(os.getenv("DISCORD_TOKEN"))
 
-Atualizar bot
+with open("personality.txt", "r", encoding="utf-8") as f:
+    personality = f.read()
