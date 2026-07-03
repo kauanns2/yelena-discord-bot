@@ -2,6 +2,8 @@ import os
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+import google.generativeai as genai
+import asyncio
 
 load_dotenv()
 
@@ -25,7 +27,7 @@ async def on_message(message):
 async def teste(ctx):
     await ctx.send("Olá! Estou funcionando! 🎉")
 
-bot.run(os.getenv("DISCORD_TOKEN"))
-
 with open("personality.txt", "r", encoding="utf-8") as f:
     personality = f.read()
+    
+bot.run(os.getenv("DISCORD_TOKEN") 
