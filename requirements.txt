@@ -3,4 +3,4 @@ aiohttp
 python-dotenv
 Flask
 gunicorn
-google-genai
+google-generativeai
