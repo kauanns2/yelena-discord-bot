@@ -1,1 +1,11 @@
-
+system_prompt.txt
+conversation_prompt.txt
+memory_prompt.txt
+emotion_prompt.txt
+decision_prompt.txt
+reply_prompt.txt
+thinking_prompt.txt
+language_prompt.txt
+behavior_prompt.txt
+safety_prompt.txt
+context_prompt.txt
