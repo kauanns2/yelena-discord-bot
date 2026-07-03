@@ -35,18 +35,19 @@ async def on_message(message):
     if bot.user in message.mentions or "yelaine" in 
     message.content.lower():
 
-   prompt=f"""
+    prompt = f"""
 {personality}
 
 Mensagem do usuário:
 {message.author.display_name}: {message.content}
 """
+
     response = model.generate_content(prompt)
 
     await message.channel.send(response.text)
         
 @bot.command()
-async def teste(ctx):
+async def teste(ctx):  
     await ctx.send("Olá! Estou funcionando! 🎉")
 
 bot.run(os.getenv("DISCORD_TOKEN"))
