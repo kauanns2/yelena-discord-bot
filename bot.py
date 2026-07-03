@@ -49,5 +49,4 @@ Mensagem do usuário:
 async def teste(ctx):
     await ctx.send("Olá! Estou funcionando! 🎉")
 
-with open("personality.txt", "r", encoding="utf-8") as f:
-    personality = f.read()
+bot.run(os.getenv("DISCORD_TOKEN"))
