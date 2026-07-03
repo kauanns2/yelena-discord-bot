@@ -7,6 +7,13 @@ import asyncio
 
 load_dotenv()
 
+with open("personality.txt", "r", encoding="utf-8") as f:
+    personality = f.read()
+
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+
+model = genai.GenerativeModel("gemini-2.5-flash")
+
 intents = discord.Intents.default()
 intents.message_content = True
 
@@ -44,9 +51,3 @@ async def teste(ctx):
 
 with open("personality.txt", "r", encoding="utf-8") as f:
     personality = f.read()
-
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-
-model = genai.GenerativeModel("gemini-2.5-flash")
-
-bot.run(os.getenv("DISCORD_TOKEN") 
