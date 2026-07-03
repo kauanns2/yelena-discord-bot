@@ -52,15 +52,6 @@ Mensagem do usuário:
             print(e)
             await message.channel.send("Desculpe... aconteceu um erro ao pensar. 😔")
 
-try:
-    response = chat.send_message(prompt)
-    await message.channel.send(response.text)
-
-except Exception as e:
-    print(e)
-    await message.channel.send("Desculpe... aconteceu um erro ao pensar. 😔")
-
-
 @bot.command()
 async def teste(ctx):
     await ctx.send("Olá! Estou funcionando! 🎉")
