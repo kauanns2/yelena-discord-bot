@@ -37,18 +37,7 @@ Mensagem do usuário:
         response = model.generate_content(prompt)
 
         await message.channel.send(response.text)
-
-        prompt = f"""
-{personality}
-
-Mensagem do usuário:
-{message.author.display_name}: {message.content}
-"""
-
-        response = model.generate_content(prompt)
-
-        await message.channel.send(response.text)
-
+        
 @bot.command()
 async def teste(ctx):
     await ctx.send("Olá! Estou funcionando! 🎉")
