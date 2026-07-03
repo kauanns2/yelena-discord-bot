@@ -43,10 +43,12 @@ Mensagem do usuário:
 
         response = model.generate_content(prompt)
 
-        await message.channel.send(response.text)
+await message.channel.send(response.text)
         
 @bot.command()
 async def teste(ctx):
     await ctx.send("Olá! Estou funcionando! 🎉")
 
 bot.run(os.getenv("DISCORD_TOKEN"))
+
+if bot.user in message.mentions or "yelaine" in message.content.lower():
