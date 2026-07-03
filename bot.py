@@ -29,5 +29,9 @@ async def teste(ctx):
 
 with open("personality.txt", "r", encoding="utf-8") as f:
     personality = f.read()
-    
+
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+
+model = genai.GenerativeModel("gemini-2.5-flash")
+
 bot.run(os.getenv("DISCORD_TOKEN") 
