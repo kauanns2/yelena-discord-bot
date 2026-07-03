@@ -20,8 +20,25 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    print(f"Mensagem recebida: {message.content}")
+    if message.author.bot:
+        return
+
+    # Continua permitindo comandos como !teste
     await bot.process_commands(message)
+
+    # Só responde quando for mencionada ou alguém escrever "Yelaine"
+    if bot.user in message.mentions or "yelaine" in message.content.lower():
+
+        prompt = f"""
+{personality}
+
+Mensagem do usuário:
+{message.author.display_name}: {message.content}
+"""
+
+        response = model.generate_content(prompt)
+
+        await message.channel.send(response.text)
 
 @bot.command()
 async def teste(ctx):
