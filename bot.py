@@ -32,6 +32,8 @@ async def on_message(message):
     if message.author.bot:
         return
 
+    await bot.process_commands(message)
+    
     # Responde apenas se for mencionada ou escreverem "yelaine"
     if bot.user in message.mentions or "yelaine" in message.content.lower():
 
