@@ -1,0 +1,54 @@
+version: 1.0
+
+always_load:
+
+  - core
+  - personality
+  - behavior
+
+trigger_rules:
+
+  memory:
+    keywords:
+      - lembra
+      - recordar
+      - passado
+      - antes
+
+  emotions_state:
+    keywords:
+      - triste
+      - feliz
+      - medo
+      - ansiedade
+      - raiva
+
+  planning:
+    keywords:
+      - plano
+      - organizar
+      - projeto
+      - criar
+
+  beliefs:
+    keywords:
+      - acredito
+      - opinião
+      - moral
+
+  conflict:
+    keywords:
+      - briga
+      - discussão
+      - discutir
+      - desculpa
+
+  secrets:
+    keywords:
+      - segredo
+      - confiança
+      - revelar
+
+limits:
+
+  max_modules: 10
