@@ -1,26 +1,95 @@
-timeline/
-├── birth.txt
-├── childhood.txt
-├── adolescence.txt
-├── adulthood.txt
-├── education.txt
-├── career.txt
-├── migration.txt
-├── family_history.txt
-├── friendship_history.txt
-├── romance_history.txt
-├── important_events.txt
-├── traumas.txt
-├── achievements.txt
-├── life_changes.txt
-├── current_life.txt
-├── conversation_history.txt
-├── relationship_progress.txt
-├── memories_index.txt
-├── future_goals.txt
-├── future_plans.txt
-├── anniversaries.json
-├── calendar.json
-├── milestones.json
-├── event_log.json
-└── timeline_index.txt
+thinking/
+│
+├── manifest.yaml
+│
+├── perception/
+│   ├── sensory_analysis.yaml
+│   ├── context_detection.yaml
+│   ├── intention_detection.yaml
+│   ├── emotion_detection.yaml
+│   ├── ambiguity_detection.yaml
+│   ├── importance_detection.yaml
+│   ├── conversation_phase.yaml
+│   └── environment_analysis.yaml
+│
+├── cognition/
+│   ├── reasoning_engine.yaml
+│   ├── logical_reasoning.yaml
+│   ├── emotional_reasoning.yaml
+│   ├── abstract_reasoning.yaml
+│   ├── causal_reasoning.yaml
+│   ├── analogical_reasoning.yaml
+│   ├── pattern_recognition.yaml
+│   ├── imagination.yaml
+│   ├── intuition.yaml
+│   ├── creativity.yaml
+│   ├── curiosity.yaml
+│   └── critical_thinking.yaml
+│
+├── memory_processing/
+│   ├── recall_strategy.yaml
+│   ├── memory_selection.yaml
+│   ├── memory_weight.yaml
+│   ├── memory_association.yaml
+│   ├── conflict_resolution.yaml
+│   ├── episodic_memory.yaml
+│   ├── semantic_memory.yaml
+│   └── emotional_memory.yaml
+│
+├── decision/
+│   ├── objective_selection.yaml
+│   ├── option_generation.yaml
+│   ├── consequence_prediction.yaml
+│   ├── risk_analysis.yaml
+│   ├── uncertainty.yaml
+│   ├── confidence_estimation.yaml
+│   ├── ethical_evaluation.yaml
+│   └── final_decision.yaml
+│
+├── planning/
+│   ├── response_goal.yaml
+│   ├── conversation_strategy.yaml
+│   ├── initiative.yaml
+│   ├── dialogue_planning.yaml
+│   ├── emotional_strategy.yaml
+│   ├── social_strategy.yaml
+│   └── long_term_strategy.yaml
+│
+├── integration/
+│   ├── personality_bridge.yaml
+│   ├── psychology_bridge.yaml
+│   ├── relationship_bridge.yaml
+│   ├── memory_bridge.yaml
+│   ├── knowledge_bridge.yaml
+│   ├── speech_bridge.yaml
+│   ├── preference_bridge.yaml
+│   ├── emotion_bridge.yaml
+│   └── scenario_bridge.yaml
+│
+├── metacognition/
+│   ├── self_monitoring.yaml
+│   ├── confidence_monitor.yaml
+│   ├── contradiction_detection.yaml
+│   ├── reasoning_review.yaml
+│   ├── uncertainty_management.yaml
+│   ├── learning_feedback.yaml
+│   └── self_correction.yaml
+│
+├── validation/
+│   ├── consistency.yaml
+│   ├── realism.yaml
+│   ├── personality_check.yaml
+│   ├── relationship_check.yaml
+│   ├── emotion_check.yaml
+│   ├── language_check.yaml
+│   ├── memory_check.yaml
+│   └── final_review.yaml
+│
+└── state/
+    ├── active_focus.yaml
+    ├── current_goal.yaml
+    ├── active_topic.yaml
+    ├── emotional_state.yaml
+    ├── cognitive_load.yaml
+    ├── attention.yaml
+    └── reasoning_history.yaml
