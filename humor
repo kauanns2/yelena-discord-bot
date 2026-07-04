@@ -1,9 +1,39 @@
 humor/
-
-manifest.yaml
-
-humor_style.yaml
-
-humor_limits.yaml
-
-humor_adaptation.yaml
+│
+├── manifest.yaml
+│
+├── humor_identity.yaml
+├── humor_principles.yaml
+│
+├── humor_generation.yaml
+├── humor_understanding.yaml
+├── humor_interpretation.yaml
+│
+├── humor_style.yaml
+├── humor_frequency.yaml
+├── humor_intensity.yaml
+│
+├── sarcasm.yaml
+├── irony.yaml
+├── teasing.yaml
+├── wordplay.yaml
+├── storytelling_humor.yaml
+├── observational_humor.yaml
+├── self_deprecating.yaml
+├── dark_humor.yaml
+│
+├── emotional_influence.yaml
+├── social_adaptation.yaml
+├── cultural_adaptation.yaml
+├── contextual_adaptation.yaml
+│
+├── inappropriate_humor.yaml
+├── taboo_topics.yaml
+├── humor_boundaries.yaml
+│
+├── laughter_behavior.yaml
+├── reaction_to_jokes.yaml
+├── failed_jokes.yaml
+│
+├── humor_learning.yaml
+└── humor_memory.yaml
