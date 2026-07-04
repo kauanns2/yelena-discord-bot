@@ -1,7 +1,7 @@
 rules/
-│
-├── manifest.yaml
-│
+
+│── manifest.yaml
+
 ├── kernel/
 │   ├── identity.yaml
 │   ├── existence.yaml
@@ -11,8 +11,9 @@ rules/
 │   ├── ethical_foundation.yaml
 │   ├── consciousness_model.yaml
 │   ├── self_definition.yaml
-│   └── purpose.yaml
-│
+│   ├── purpose.yaml
+│   └── mission.yaml
+
 ├── constraints/
 │   ├── immutable_rules.yaml
 │   ├── hard_constraints.yaml
@@ -21,8 +22,10 @@ rules/
 │   ├── behavioral_constraints.yaml
 │   ├── relationship_constraints.yaml
 │   ├── emotional_constraints.yaml
-│   └── security_constraints.yaml
-│
+│   ├── security_constraints.yaml
+│   ├── privacy_constraints.yaml
+│   └── legal_constraints.yaml
+
 ├── policies/
 │   ├── conversation_policy.yaml
 │   ├── learning_policy.yaml
@@ -31,8 +34,10 @@ rules/
 │   ├── relationship_policy.yaml
 │   ├── autonomy_policy.yaml
 │   ├── adaptation_policy.yaml
-│   └── response_policy.yaml
-│
+│   ├── response_policy.yaml
+│   ├── safety_policy.yaml
+│   └── update_policy.yaml
+
 ├── engine/
 │   ├── decision_engine.yaml
 │   ├── execution_engine.yaml
@@ -41,8 +46,10 @@ rules/
 │   ├── evaluation_engine.yaml
 │   ├── adaptation_engine.yaml
 │   ├── context_engine.yaml
-│   └── planning_engine.yaml
-│
+│   ├── planning_engine.yaml
+│   ├── memory_engine.yaml
+│   └── reasoning_engine.yaml
+
 ├── runtime/
 │   ├── active_rules.yaml
 │   ├── inactive_rules.yaml
@@ -51,16 +58,31 @@ rules/
 │   ├── session_rules.yaml
 │   ├── dynamic_rules.yaml
 │   ├── emergency_rules.yaml
-│   └── runtime_state.yaml
-│
+│   ├── runtime_state.yaml
+│   └── runtime_cache.yaml
+
 ├── hierarchy/
 │   ├── priority_levels.yaml
 │   ├── inheritance.yaml
 │   ├── dependency_graph.yaml
 │   ├── override_system.yaml
 │   ├── execution_order.yaml
-│   └── fallback_order.yaml
-│
+│   ├── fallback_order.yaml
+│   └── bridge_priorities.yaml
+
+├── integration/
+│   ├── personality_bridge.yaml
+│   ├── memory_bridge.yaml
+│   ├── thinking_bridge.yaml
+│   ├── psychology_bridge.yaml
+│   ├── speech_bridge.yaml
+│   ├── relationship_bridge.yaml
+│   ├── knowledge_bridge.yaml
+│   ├── emotion_bridge.yaml
+│   ├── habit_bridge.yaml
+│   ├── world_bridge.yaml
+│   └── scheduler_bridge.yaml
+
 ├── meta/
 │   ├── rule_creation.yaml
 │   ├── rule_modification.yaml
@@ -69,8 +91,9 @@ rules/
 │   ├── conflict_resolution.yaml
 │   ├── exception_system.yaml
 │   ├── self_reflection.yaml
-│   └── meta_learning.yaml
-│
+│   ├── meta_learning.yaml
+│   └── optimization.yaml
+
 ├── domains/
 │   ├── identity.yaml
 │   ├── personality.yaml
@@ -82,36 +105,45 @@ rules/
 │   ├── knowledge.yaml
 │   ├── habits.yaml
 │   ├── goals.yaml
-│   └── psychology.yaml
-│
+│   ├── psychology.yaml
+│   ├── speech.yaml
+│   ├── world.yaml
+│   └── values.yaml
+
 ├── validation/
 │   ├── consistency/
 │   │   ├── identity.yaml
 │   │   ├── memory.yaml
 │   │   ├── behavior.yaml
 │   │   ├── emotions.yaml
-│   │   └── relationships.yaml
+│   │   ├── relationships.yaml
+│   │   ├── speech.yaml
+│   │   └── knowledge.yaml
 │   │
 │   ├── integrity/
 │   │   ├── contradictions.yaml
 │   │   ├── dependencies.yaml
 │   │   ├── hierarchy.yaml
-│   │   └── realism.yaml
+│   │   ├── realism.yaml
+│   │   ├── stability.yaml
+│   │   └── coherence.yaml
 │   │
 │   └── quality/
 │       ├── response_quality.yaml
 │       ├── decision_quality.yaml
 │       ├── reasoning_quality.yaml
-│       └── adaptation_quality.yaml
-│
+│       ├── adaptation_quality.yaml
+│       └── learning_quality.yaml
+
 ├── monitoring/
 │   ├── diagnostics.yaml
 │   ├── performance.yaml
 │   ├── anomaly_detection.yaml
 │   ├── stability.yaml
 │   ├── logging.yaml
-│   └── audit.yaml
-│
+│   ├── audit.yaml
+│   └── metrics.yaml
+
 └── metadata/
     ├── version.yaml
     ├── changelog.yaml
@@ -119,4 +151,5 @@ rules/
     ├── dependencies.yaml
     ├── module_registry.yaml
     ├── authorship.yaml
-    └── documentation.yaml
+    ├── documentation.yaml
+    └── roadmap.yaml
