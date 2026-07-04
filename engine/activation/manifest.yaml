@@ -1,0 +1,24 @@
+name: activation
+
+version: 1.0
+
+enabled: true
+
+engine: activation
+
+description: >
+  Decide quais módulos da Yelena devem ser carregados
+  antes da construção do prompt.
+
+author: Yelena Engine
+
+priority: 1.0
+
+depends: []
+
+outputs:
+  - modules
+  - priorities
+  - activation_state
+
+status: stable
