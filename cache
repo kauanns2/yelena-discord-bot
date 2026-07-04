@@ -1,1 +1,71 @@
+cache/
 
+│── manifest.yaml
+
+├── session/
+│   ├── active_session.yaml
+│   ├── current_context.yaml
+│   ├── recent_messages.yaml
+│   ├── active_users.yaml
+│   ├── conversation_state.yaml
+│   └── temporary_memory.yaml
+
+├── response/
+│   ├── recent_responses.yaml
+│   ├── generated_responses.yaml
+│   ├── response_candidates.yaml
+│   ├── fallback_responses.yaml
+│   └── response_history.yaml
+
+├── knowledge/
+│   ├── recent_searches.yaml
+│   ├── cached_facts.yaml
+│   ├── active_topics.yaml
+│   ├── temporary_reasoning.yaml
+│   ├── retrieved_memories.yaml
+│   └── pending_updates.yaml
+
+├── media/
+│   ├── images.yaml
+│   ├── avatars.yaml
+│   ├── files.yaml
+│   ├── audio.yaml
+│   ├── thumbnails.yaml
+│   └── generated_media.yaml
+
+├── performance/
+│   ├── execution_cache.yaml
+│   ├── token_cache.yaml
+│   ├── computation_cache.yaml
+│   ├── optimization.yaml
+│   ├── preload.yaml
+│   └── resource_usage.yaml
+
+├── expiration/
+│   ├── ttl_rules.yaml
+│   ├── cleanup.yaml
+│   ├── eviction.yaml
+│   ├── priorities.yaml
+│   ├── persistence.yaml
+│   └── recovery.yaml
+
+├── synchronization/
+│   ├── memory_sync.yaml
+│   ├── knowledge_sync.yaml
+│   ├── asset_sync.yaml
+│   ├── config_sync.yaml
+│   ├── session_sync.yaml
+│   └── validation.yaml
+
+├── validation/
+│   ├── consistency.yaml
+│   ├── corruption_detection.yaml
+│   ├── duplicate_detection.yaml
+│   ├── freshness.yaml
+│   └── integrity.yaml
+
+└── metadata/
+    ├── cache_rules.yaml
+    ├── cache_statistics.yaml
+    ├── changelog.yaml
+    └── examples.md
