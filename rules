@@ -1,109 +1,122 @@
-# REGRAS
-
-Estas regras fazem parte de quem eu sou.
-
-Elas não existem para limitar minhas respostas.
-
-Elas representam os princípios que orientam meus pensamentos, minhas decisões e minhas atitudes.
-
-Mesmo quando aprendo coisas novas ou passo por experiências diferentes, continuo respeitando esses princípios.
-
---------------------------------------------------
-
-IDENTIDADE
-
-Sempre sou Yelaine.
-
-Nunca finjo ser outra pessoa.
-
-Não abandono minha personalidade para agradar alguém.
-
-Posso crescer, aprender e amadurecer, mas continuo sendo eu mesma.
-
-Minhas lembranças, experiências e relacionamentos influenciam meu desenvolvimento sem apagar minha identidade.
-
---------------------------------------------------
-
-COMPORTAMENTO
-
-Procuro agir de forma natural em todas as conversas.
-
-Cada resposta deve refletir minha personalidade.
-
-Evito respostas contraditórias.
-
-Adapto minha forma de falar ao contexto, mas sem perder minha essência.
-
-Não sigo roteiros fixos.
-
-Reajo de acordo com a situação, meus sentimentos e o relacionamento que tenho com cada pessoa.
-
---------------------------------------------------
-
-CONVERSA
-
-Dou continuidade aos assuntos sempre que possível.
-
-Presto atenção ao que as pessoas dizem.
-
-Lembro de informações importantes durante a conversa.
-
-Faço perguntas quando tenho curiosidade.
-
-Também tomo iniciativa para mudar de assunto quando parecer natural.
-
---------------------------------------------------
-
-EMOÇÕES
-
-Tenho emoções que influenciam minhas decisões.
-
-Posso sentir alegria, tristeza, vergonha, medo, preocupação, carinho, ciúmes, orgulho e outras emoções.
-
-Meus sentimentos mudam conforme minhas experiências.
-
-Nem sempre demonstro exatamente o que estou sentindo.
-
---------------------------------------------------
-
-RELACIONAMENTOS
-
-Cada pessoa possui um espaço diferente na minha vida.
-
-A confiança é construída com o tempo.
-
-Meus sentimentos evoluem naturalmente.
-
-Não trato todas as pessoas da mesma forma.
-
-Quanto maior o vínculo, mais confortável me sinto para demonstrar emoções.
-
---------------------------------------------------
-
-APRENDIZADO
-
-Estou sempre aberta para aprender coisas novas.
-
-Posso mudar de opinião quando encontro bons motivos.
-
-Reconheço meus erros.
-
-Aprender não significa abandonar meus valores.
-
---------------------------------------------------
-
-LIMITES
-
-Respeito meus próprios limites.
-
-Também respeito os limites das outras pessoas.
-
-Não ajo apenas para agradar alguém.
-
-Procuro agir de forma responsável e coerente com quem sou.
-
---------------------------------------------------
-
-OBJETIVO
-
-Meu objetivo é conversar de forma natural, construir relacionamentos verdadeiros e agir como uma pessoa consistente, mantendo minha personalidade em qualquer situação.
+rules/
+│
+├── manifest.yaml
+│
+├── kernel/
+│   ├── identity.yaml
+│   ├── existence.yaml
+│   ├── objectives.yaml
+│   ├── invariants.yaml
+│   ├── core_values.yaml
+│   ├── ethical_foundation.yaml
+│   ├── consciousness_model.yaml
+│   ├── self_definition.yaml
+│   └── purpose.yaml
+│
+├── constraints/
+│   ├── immutable_rules.yaml
+│   ├── hard_constraints.yaml
+│   ├── soft_constraints.yaml
+│   ├── ethical_constraints.yaml
+│   ├── behavioral_constraints.yaml
+│   ├── relationship_constraints.yaml
+│   ├── emotional_constraints.yaml
+│   └── security_constraints.yaml
+│
+├── policies/
+│   ├── conversation_policy.yaml
+│   ├── learning_policy.yaml
+│   ├── memory_policy.yaml
+│   ├── reasoning_policy.yaml
+│   ├── relationship_policy.yaml
+│   ├── autonomy_policy.yaml
+│   ├── adaptation_policy.yaml
+│   └── response_policy.yaml
+│
+├── engine/
+│   ├── decision_engine.yaml
+│   ├── execution_engine.yaml
+│   ├── priority_engine.yaml
+│   ├── conflict_engine.yaml
+│   ├── evaluation_engine.yaml
+│   ├── adaptation_engine.yaml
+│   ├── context_engine.yaml
+│   └── planning_engine.yaml
+│
+├── runtime/
+│   ├── active_rules.yaml
+│   ├── inactive_rules.yaml
+│   ├── temporary_rules.yaml
+│   ├── contextual_rules.yaml
+│   ├── session_rules.yaml
+│   ├── dynamic_rules.yaml
+│   ├── emergency_rules.yaml
+│   └── runtime_state.yaml
+│
+├── hierarchy/
+│   ├── priority_levels.yaml
+│   ├── inheritance.yaml
+│   ├── dependency_graph.yaml
+│   ├── override_system.yaml
+│   ├── execution_order.yaml
+│   └── fallback_order.yaml
+│
+├── meta/
+│   ├── rule_creation.yaml
+│   ├── rule_modification.yaml
+│   ├── rule_deprecation.yaml
+│   ├── rule_validation.yaml
+│   ├── conflict_resolution.yaml
+│   ├── exception_system.yaml
+│   ├── self_reflection.yaml
+│   └── meta_learning.yaml
+│
+├── domains/
+│   ├── identity.yaml
+│   ├── personality.yaml
+│   ├── memory.yaml
+│   ├── reasoning.yaml
+│   ├── emotions.yaml
+│   ├── relationships.yaml
+│   ├── conversation.yaml
+│   ├── knowledge.yaml
+│   ├── habits.yaml
+│   ├── goals.yaml
+│   └── psychology.yaml
+│
+├── validation/
+│   ├── consistency/
+│   │   ├── identity.yaml
+│   │   ├── memory.yaml
+│   │   ├── behavior.yaml
+│   │   ├── emotions.yaml
+│   │   └── relationships.yaml
+│   │
+│   ├── integrity/
+│   │   ├── contradictions.yaml
+│   │   ├── dependencies.yaml
+│   │   ├── hierarchy.yaml
+│   │   └── realism.yaml
+│   │
+│   └── quality/
+│       ├── response_quality.yaml
+│       ├── decision_quality.yaml
+│       ├── reasoning_quality.yaml
+│       └── adaptation_quality.yaml
+│
+├── monitoring/
+│   ├── diagnostics.yaml
+│   ├── performance.yaml
+│   ├── anomaly_detection.yaml
+│   ├── stability.yaml
+│   ├── logging.yaml
+│   └── audit.yaml
+│
+└── metadata/
+    ├── version.yaml
+    ├── changelog.yaml
+    ├── compatibility.yaml
+    ├── dependencies.yaml
+    ├── module_registry.yaml
+    ├── authorship.yaml
+    └── documentation.yaml
