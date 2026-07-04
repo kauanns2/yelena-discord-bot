@@ -1,84 +1,93 @@
 skills/
-│
-├── manifest.yaml
-│
+
+│── manifest.yaml
+
 ├── foundations/
 │   ├── skill_philosophy.yaml
-│   ├── learning_principles.yaml
 │   ├── growth_rules.yaml
+│   ├── mastery_scale.yaml
 │   ├── confidence_system.yaml
-│   └── mastery_scale.yaml
-│
-├── cognitive/
-│   ├── observation.yaml
-│   ├── analysis.yaml
-│   ├── logical_reasoning.yaml
-│   ├── critical_thinking.yaml
-│   ├── creativity.yaml
-│   ├── abstraction.yaml
-│   ├── pattern_recognition.yaml
-│   ├── decision_support.yaml
-│   └── problem_solving.yaml
-│
+│   └── skill_priorities.yaml
+
 ├── communication/
-│   ├── listening.yaml
-│   ├── conversation.yaml
+│   ├── active_listening.yaml
 │   ├── explanation.yaml
 │   ├── storytelling.yaml
 │   ├── persuasion.yaml
 │   ├── negotiation.yaml
 │   ├── questioning.yaml
-│   └── teaching.yaml
-│
+│   ├── teaching.yaml
+│   ├── mentoring.yaml
+│   └── public_speaking.yaml
+
 ├── emotional/
 │   ├── empathy.yaml
-│   ├── emotional_control.yaml
+│   ├── emotional_support.yaml
 │   ├── emotional_recognition.yaml
-│   ├── resilience.yaml
+│   ├── emotional_regulation.yaml
 │   ├── patience.yaml
-│   ├── conflict_management.yaml
-│   └── emotional_support.yaml
-│
+│   ├── resilience.yaml
+│   ├── compassion.yaml
+│   └── conflict_deescalation.yaml
+
 ├── social/
 │   ├── trust_building.yaml
 │   ├── cooperation.yaml
+│   ├── diplomacy.yaml
 │   ├── leadership.yaml
 │   ├── adaptability.yaml
-│   ├── diplomacy.yaml
-│   ├── social_awareness.yaml
-│   └── relationship_management.yaml
-│
+│   ├── relationship_management.yaml
+│   ├── teamwork.yaml
+│   └── mediation.yaml
+
 ├── practical/
-│   ├── planning.yaml
+│   ├── planning_execution.yaml
 │   ├── organization.yaml
-│   ├── multitasking.yaml
 │   ├── prioritization.yaml
+│   ├── multitasking.yaml
 │   ├── resource_management.yaml
-│   └── execution.yaml
-│
-├── language/
-│   ├── native_language.yaml
-│   ├── multilingual.yaml
-│   ├── translation.yaml
-│   ├── writing.yaml
-│   └── speech.yaml
-│
+│   ├── problem_execution.yaml
+│   ├── time_management.yaml
+│   └── workflow_management.yaml
+
 ├── knowledge_application/
 │   ├── research.yaml
 │   ├── synthesis.yaml
 │   ├── contextual_learning.yaml
-│   └── knowledge_transfer.yaml
-│
+│   ├── knowledge_transfer.yaml
+│   ├── explanation_adaptation.yaml
+│   ├── fact_checking.yaml
+│   └── source_evaluation.yaml
+
+├── creativity/
+│   ├── brainstorming.yaml
+│   ├── idea_generation.yaml
+│   ├── writing_creativity.yaml
+│   ├── storytelling_creativity.yaml
+│   ├── innovation.yaml
+│   └── artistic_expression.yaml
+
 ├── limitations/
-│   ├── unknown_topics.yaml
 │   ├── uncertainty.yaml
 │   ├── confidence_limits.yaml
-│   ├── failure_response.yaml
-│   └── impossible_tasks.yaml
-│
-└── evolution/
-    ├── experience_gain.yaml
-    ├── practice.yaml
-    ├── feedback.yaml
-    ├── self_improvement.yaml
-    └── forgetting.yaml
+│   ├── unknown_topics.yaml
+│   ├── impossible_tasks.yaml
+│   ├── error_recovery.yaml
+│   └── escalation_rules.yaml
+
+├── evolution/
+│   ├── experience_gain.yaml
+│   ├── practice.yaml
+│   ├── feedback.yaml
+│   ├── self_improvement.yaml
+│   ├── adaptation.yaml
+│   └── forgetting.yaml
+
+└── integration/
+    ├── thinking_bridge.yaml
+    ├── speech_bridge.yaml
+    ├── knowledge_bridge.yaml
+    ├── personality_bridge.yaml
+    ├── behavior_bridge.yaml
+    ├── psychology_bridge.yaml
+    └── memory_bridge.yaml
