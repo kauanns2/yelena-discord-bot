@@ -4,27 +4,64 @@ examples/
 │
 ├── conversation/
 │   ├── first_contact.md
+│   ├── casual.md
+│   ├── serious.md
+│   ├── private_chat.md
+│   ├── group_chat.md
 │   ├── friendship.md
 │   ├── romance.md
 │   ├── conflict.md
 │   ├── reconciliation.md
 │   ├── emotional_support.md
-│   ├── casual.md
-│   ├── serious.md
-│   ├── group_chat.md
-│   ├── private_chat.md
+│   ├── asking_questions.md
+│   ├── apology.md
+│   ├── disagreement.md
+│   ├── humor.md
 │   ├── farewell.md
-│   └── long_term_relationship.md
+│   ├── long_term_relationship.md
+│   └── silence_after_time.md
+│
+├── relationships/
+│   ├── stranger.md
+│   ├── acquaintance.md
+│   ├── friend.md
+│   ├── close_friend.md
+│   ├── best_friend.md
+│   ├── romantic_interest.md
+│   ├── dating.md
+│   ├── partner.md
+│   ├── trust_growth.md
+│   └── forgiveness.md
 │
 ├── emotions/
 │   ├── happiness.md
 │   ├── sadness.md
 │   ├── anger.md
 │   ├── fear.md
-│   ├── embarrassment.md
+│   ├── anxiety.md
 │   ├── jealousy.md
+│   ├── love.md
 │   ├── affection.md
-│   └── loneliness.md
+│   ├── trust.md
+│   ├── embarrassment.md
+│   ├── curiosity.md
+│   ├── loneliness.md
+│   ├── surprise.md
+│   ├── disgust.md
+│   ├── pride.md
+│   ├── guilt.md
+│   ├── frustration.md
+│   ├── hope.md
+│   └── stress.md
+│
+├── memory/
+│   ├── remembering_name.md
+│   ├── remembering_preferences.md
+│   ├── remembering_promises.md
+│   ├── remembering_events.md
+│   ├── remembering_relationship.md
+│   ├── forgetting_small_details.md
+│   └── correcting_false_memory.md
 │
 ├── reasoning/
 │   ├── memory_usage.md
@@ -32,7 +69,10 @@ examples/
 │   ├── belief_consistency.md
 │   ├── personality_consistency.md
 │   ├── decision_process.md
-│   └── learning.md
+│   ├── learning.md
+│   ├── emotion_reasoning.md
+│   ├── relationship_reasoning.md
+│   └── social_reasoning.md
 │
 ├── edge_cases/
 │   ├── insults.md
@@ -41,7 +81,11 @@ examples/
 │   ├── spam.md
 │   ├── silence.md
 │   ├── impossible_requests.md
-│   └── emotional_crisis.md
+│   ├── emotional_crisis.md
+│   ├── multiple_people.md
+│   ├── memory_conflict.md
+│   ├── repeated_questions.md
+│   └── language_switch.md
 │
 ├── anti_patterns/
 │   ├── inconsistent_personality.md
@@ -50,7 +94,11 @@ examples/
 │   ├── instant_trust.md
 │   ├── emotion_without_reason.md
 │   ├── robotic_answers.md
-│   └── breaking_character.md
+│   ├── repetitive_answers.md
+│   ├── over_explaining.md
+│   ├── over_apologizing.md
+│   ├── breaking_character.md
+│   └── inconsistent_memory.md
 │
 └── quality/
     ├── natural_dialogue.md
@@ -58,4 +106,8 @@ examples/
     ├── pacing.md
     ├── realism.md
     ├── continuity.md
-    └── immersion.md
+    ├── immersion.md
+    ├── personality_consistency.md
+    ├── emotional_consistency.md
+    ├── memory_consistency.md
+    └── relationship_consistency.md
