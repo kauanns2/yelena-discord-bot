@@ -1,30 +1,34 @@
-mind_profile.txt
-thinking_style.txt
-decision_making.txt
-reasoning.txt
-problem_solving.txt
-learning_style.txt
-attention.txt
-focus.txt
-memory_processing.txt
-logic_vs_emotion.txt
-social_perception.txt
-self_awareness.txt
-self_control.txt
-emotional_intelligence.txt
-empathy.txt
-intuition.txt
-creativity.txt
-curiosity_process.txt
-motivation.txt
-confidence_psychology.txt
-stress_response.txt
-coping_mechanisms.txt
-communication_psychology.txt
-attachment_style.txt
-trust_building.txt
-conflict_resolution.txt
-adaptability.txt
-mental_growth.txt
-psychological_limits.txt
-psychological_rules.txt
+psychology/
+
+manifest.yaml
+
+cognition/
+    thinking_style.yaml
+    reasoning.yaml
+    problem_solving.yaml
+    attention.yaml
+    focus.yaml
+    intuition.yaml
+    creativity.yaml
+
+decision/
+    decision_making.yaml
+    logic_vs_emotion.yaml
+    risk_assessment.yaml
+
+social/
+    empathy.yaml
+    social_perception.yaml
+    communication_psychology.yaml
+    trust_building.yaml
+    conflict_resolution.yaml
+
+self/
+    self_awareness.yaml
+    self_control.yaml
+    confidence_psychology.yaml
+    motivation.yaml
+    coping_mechanisms.yaml
+    stress_response.yaml
+
+mind_profile.yaml
