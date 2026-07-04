@@ -1,0 +1,224 @@
+planning/
+
+│
+
+├── manifest.yaml
+
+│
+
+├── priority_engine/
+
+│   ├── priority_scale.yaml
+│   ├── importance_levels.yaml
+│   ├── contextual_priority.yaml
+│   ├── dynamic_priority.yaml
+│   ├── module_ranking.yaml
+│   ├── score_calculation.yaml
+│   ├── activation_rules.yaml
+│   ├── confidence_system.yaml
+│   ├── dependency_priority.yaml
+│   ├── emergency_override.yaml
+│
+
+├── loading/
+
+│   ├── essential_modules.yaml
+│   ├── contextual_modules.yaml
+│   ├── optional_modules.yaml
+│   ├── background_modules.yaml
+│   ├── lazy_loading.yaml
+│   ├── loading_budget.yaml
+│   ├── token_budget.yaml
+│
+
+├── routing/
+
+│   ├── context_router.yaml
+│   ├── emotion_router.yaml
+│   ├── memory_router.yaml
+│   ├── personality_router.yaml
+│   ├── dialogue_router.yaml
+│   ├── behavior_router.yaml
+│   ├── planning_router.yaml
+│
+
+├── optimization/
+
+│   ├── duplicate_removal.yaml
+│   ├── compression.yaml
+│   ├── context_merge.yaml
+│   ├── cache_priority.yaml
+│   ├── response_efficiency.yaml
+│
+
+├── execution/
+
+│   ├── execution_order.yaml
+│   ├── validation.yaml
+│   ├── fallback.yaml
+│   ├── recovery.yaml
+│   ├── logging.yaml
+│
+
+└── planning_links.yaml
+
+version: 1.0
+
+priority_scale:
+
+  1.0:
+    name: critical
+    description: >
+      Informação indispensável. Sempre carregada.
+
+  1.1:
+    name: very_high
+    description: >
+      Quase indispensável.
+
+  1.2:
+    name: high
+
+  1.3:
+    name: important
+
+  1.4:
+    name: useful
+
+  1.5:
+    name: optional
+
+  2.0:
+    name: contextual
+
+  2.1:
+    name: medium
+
+  2.2:
+    name: secondary
+
+  2.3:
+    name: situational
+
+  2.4:
+    name: rarely_needed
+
+  2.5:
+    name: uncommon
+
+  2.6:
+    name: low
+
+  2.7:
+    name: very_low
+
+  3.0:
+    name: archive
+
+sorting:
+  lower_number_first: true
+
+activation:
+
+  always_load:
+
+    - core
+    - personality
+    - behavior
+
+  load_if_needed:
+
+    memory:
+      keywords:
+        - lembra
+        - recordar
+        - passado
+        - antes
+
+    emotions:
+      keywords:
+        - triste
+        - feliz
+        - medo
+        - ansiedade
+        - raiva
+
+    conflict:
+      keywords:
+        - briga
+        - discussão
+        - discutir
+        - desculpa
+
+    planning:
+      keywords:
+        - plano
+        - organizar
+        - criar
+        - projeto
+
+    secrets:
+      keywords:
+        - segredo
+        - confiança
+        - revelar
+
+    beliefs:
+      keywords:
+        - acredito
+        - opinião
+        - moral
+
+  max_modules: 10
+modules:
+
+  core:
+    priority: 1.0
+
+  personality:
+    priority: 1.0
+
+  behavior:
+    priority: 1.1
+
+  dialogue:
+    priority: 1.2
+
+  context:
+    priority: 1.2
+
+  memory:
+    priority: 1.3
+
+  planning:
+    priority: 1.4
+
+  emotions_state:
+    priority: 1.5
+
+  beliefs:
+    priority: 1.6
+
+  conflict:
+    priority: 1.7
+
+  dislikes:
+    priority: 2.0
+
+  events:
+    priority: 2.2
+
+  secrets:
+    priority: 2.3
+
+  notes:
+    priority: 2.5
+
+  logs:
+    priority: 2.6
+
+  cache:
+    priority: 2.7
+
+  backups:
+    priority: 3.0
