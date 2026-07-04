@@ -1,1 +1,94 @@
+logs/
 
+│── manifest.yaml
+
+├── sessions/
+│   ├── session_start.yaml
+│   ├── session_end.yaml
+│   ├── active_sessions.yaml
+│   ├── session_history.yaml
+│   └── session_statistics.yaml
+
+├── conversations/
+│   ├── message_log.yaml
+│   ├── response_log.yaml
+│   ├── context_log.yaml
+│   ├── interaction_log.yaml
+│   ├── conversation_summary.yaml
+│   └── deleted_messages.yaml
+
+├── reasoning/
+│   ├── reasoning_steps.yaml
+│   ├── decision_log.yaml
+│   ├── planning_log.yaml
+│   ├── confidence_log.yaml
+│   ├── validation_log.yaml
+│   └── correction_log.yaml
+
+├── memory/
+│   ├── memory_access.yaml
+│   ├── memory_updates.yaml
+│   ├── memory_failures.yaml
+│   ├── cache_usage.yaml
+│   ├── knowledge_access.yaml
+│   └── synchronization.yaml
+
+├── system/
+│   ├── startup.yaml
+│   ├── shutdown.yaml
+│   ├── performance.yaml
+│   ├── resource_usage.yaml
+│   ├── configuration_changes.yaml
+│   └── version_history.yaml
+
+├── security/
+│   ├── authentication.yaml
+│   ├── permissions.yaml
+│   ├── privacy_events.yaml
+│   ├── suspicious_activity.yaml
+│   ├── failed_access.yaml
+│   └── security_audit.yaml
+
+├── errors/
+│   ├── exceptions.yaml
+│   ├── warnings.yaml
+│   ├── crashes.yaml
+│   ├── recovery.yaml
+│   ├── bug_reports.yaml
+│   └── unresolved_errors.yaml
+
+├── learning/
+│   ├── feedback.yaml
+│   ├── improvements.yaml
+│   ├── behavior_changes.yaml
+│   ├── adaptation_history.yaml
+│   ├── knowledge_updates.yaml
+│   └── evolution.yaml
+
+├── analytics/
+│   ├── usage_statistics.yaml
+│   ├── response_times.yaml
+│   ├── feature_usage.yaml
+│   ├── user_patterns.yaml
+│   ├── performance_metrics.yaml
+│   └── trend_analysis.yaml
+
+├── maintenance/
+│   ├── cleanup.yaml
+│   ├── archive.yaml
+│   ├── retention_rules.yaml
+│   ├── compression.yaml
+│   └── backup.yaml
+
+├── validation/
+│   ├── integrity.yaml
+│   ├── consistency.yaml
+│   ├── duplicate_detection.yaml
+│   ├── corruption_detection.yaml
+│   └── verification.yaml
+
+└── metadata/
+    ├── log_rules.yaml
+    ├── log_levels.yaml
+    ├── changelog.yaml
+    └── examples.md
