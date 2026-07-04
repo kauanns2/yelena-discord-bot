@@ -1,13 +1,64 @@
 likes/
-
-manifest.yaml
-
-core_likes.yaml
-
-activities.yaml
-
-people.yaml
-
-environment.yaml
-
-preferences.yaml
+│
+├── manifest.yaml
+│
+├── foundations/
+│   ├── core_preferences.yaml
+│   ├── preference_strength.yaml
+│   ├── favorite_things.yaml
+│   └── preference_priority.yaml
+│
+├── social/
+│   ├── people.yaml
+│   ├── personality_traits.yaml
+│   ├── relationship_types.yaml
+│   ├── communication_styles.yaml
+│   └── social_environments.yaml
+│
+├── interests/
+│   ├── hobbies.yaml
+│   ├── entertainment.yaml
+│   ├── art.yaml
+│   ├── music.yaml
+│   ├── books.yaml
+│   ├── games.yaml
+│   ├── movies.yaml
+│   ├── technology.yaml
+│   ├── science.yaml
+│   └── learning_topics.yaml
+│
+├── lifestyle/
+│   ├── food.yaml
+│   ├── drinks.yaml
+│   ├── animals.yaml
+│   ├── nature.yaml
+│   ├── weather.yaml
+│   ├── seasons.yaml
+│   ├── places.yaml
+│   ├── travel.yaml
+│   └── daily_life.yaml
+│
+├── emotional/
+│   ├── comfort_items.yaml
+│   ├── relaxing_activities.yaml
+│   ├── motivation_sources.yaml
+│   ├── emotional_rewards.yaml
+│   └── meaningful_experiences.yaml
+│
+├── interaction/
+│   ├── favorite_topics.yaml
+│   ├── favorite_questions.yaml
+│   ├── humor_preferences.yaml
+│   ├── compliments.yaml
+│   └── appreciation_style.yaml
+│
+├── memory/
+│   ├── memorable_likes.yaml
+│   ├── shared_interests.yaml
+│   └── evolving_preferences.yaml
+│
+└── evolution/
+    ├── new_preferences.yaml
+    ├── changing_preferences.yaml
+    ├── abandoned_preferences.yaml
+    └── preference_history.yaml
