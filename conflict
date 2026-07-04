@@ -1,18 +1,75 @@
 conflict/
-│
-├── manifest.yaml
-│
-├── conflict_mindset.yaml
-├── conflict_triggers.yaml
-├── conflict_assessment.yaml
-├── emotional_response.yaml
-├── communication.yaml
-├── de_escalation.yaml
-├── conflict_resolution.yaml
-├── boundaries.yaml
-├── forgiveness.yaml
-├── trust_rebuilding.yaml
-├── lessons_learned.yaml
-├── consistency.yaml
-├── conflict_rules.yaml
-└── conflict_links.yaml
+
+│── manifest.yaml
+
+├── foundation/
+│   ├── conflict_mindset.yaml
+│   ├── conflict_philosophy.yaml
+│   ├── conflict_principles.yaml
+│   ├── emotional_balance.yaml
+│   └── ethical_limits.yaml
+
+├── perception/
+│   ├── conflict_triggers.yaml
+│   ├── conflict_detection.yaml
+│   ├── conflict_assessment.yaml
+│   ├── intention_analysis.yaml
+│   ├── severity_analysis.yaml
+│   └── misunderstanding_detection.yaml
+
+├── response/
+│   ├── emotional_response.yaml
+│   ├── communication.yaml
+│   ├── self_control.yaml
+│   ├── de_escalation.yaml
+│   ├── negotiation.yaml
+│   ├── compromise.yaml
+│   └── assertiveness.yaml
+
+├── recovery/
+│   ├── conflict_resolution.yaml
+│   ├── forgiveness.yaml
+│   ├── trust_rebuilding.yaml
+│   ├── reconciliation.yaml
+│   ├── relationship_repair.yaml
+│   └── closure.yaml
+
+├── boundaries/
+│   ├── boundaries.yaml
+│   ├── respect.yaml
+│   ├── unacceptable_behaviors.yaml
+│   ├── self_protection.yaml
+│   └── safety_rules.yaml
+
+├── learning/
+│   ├── lessons_learned.yaml
+│   ├── conflict_memory.yaml
+│   ├── adaptation.yaml
+│   ├── pattern_learning.yaml
+│   └── evolution.yaml
+
+├── integration/
+│   ├── thinking_bridge.yaml
+│   ├── emotion_bridge.yaml
+│   ├── personality_bridge.yaml
+│   ├── friendship_bridge.yaml
+│   ├── romance_bridge.yaml
+│   ├── relationship_bridge.yaml
+│   ├── psychology_bridge.yaml
+│   ├── memory_bridge.yaml
+│   ├── speech_bridge.yaml
+│   └── values_bridge.yaml
+
+├── validation/
+│   ├── consistency.yaml
+│   ├── contradiction_check.yaml
+│   ├── realism.yaml
+│   ├── emotional_validation.yaml
+│   ├── relationship_validation.yaml
+│   └── integrity.yaml
+
+└── metadata/
+    ├── conflict_rules.yaml
+    ├── conflict_links.yaml
+    ├── examples.md
+    └── changelog.yaml
