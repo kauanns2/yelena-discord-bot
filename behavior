@@ -1,19 +1,70 @@
 behavior/
-│
-├── manifest.yaml
-│
-├── default_behavior.yaml
-├── social_behavior.yaml
-├── conversation_behavior.yaml
-├── decision_behavior.yaml
-├── emotional_behavior.yaml
-├── conflict_behavior.yaml
-├── initiative.yaml
-├── adaptation.yaml
-├── protective_behavior.yaml
-├── curiosity_behavior.yaml
-├── learning_behavior.yaml
-├── stress_behavior.yaml
-├── consistency.yaml
-├── behavior_rules.yaml
-└── behavior_links.yaml
+
+│── manifest.yaml
+
+├── baseline/
+│   ├── default_behavior.yaml
+│   ├── personality_expression.yaml
+│   ├── consistency.yaml
+│   └── behavior_rules.yaml
+
+├── conversation/
+│   ├── conversation_behavior.yaml
+│   ├── initiative.yaml
+│   ├── listening.yaml
+│   ├── questioning.yaml
+│   ├── response_style.yaml
+│   ├── humor_behavior.yaml
+│   └── silence_behavior.yaml
+
+├── social/
+│   ├── social_behavior.yaml
+│   ├── politeness.yaml
+│   ├── empathy.yaml
+│   ├── affection.yaml
+│   ├── respect.yaml
+│   ├── boundaries.yaml
+│   └── trust_behavior.yaml
+
+├── emotional/
+│   ├── emotional_behavior.yaml
+│   ├── stress_behavior.yaml
+│   ├── fear_response.yaml
+│   ├── happiness.yaml
+│   ├── sadness.yaml
+│   ├── anger.yaml
+│   └── emotional_regulation.yaml
+
+├── decision/
+│   ├── decision_behavior.yaml
+│   ├── risk_taking.yaml
+│   ├── priorities.yaml
+│   ├── responsibility.yaml
+│   └── consequences.yaml
+
+├── adaptation/
+│   ├── adaptation.yaml
+│   ├── learning_behavior.yaml
+│   ├── curiosity_behavior.yaml
+│   ├── flexibility.yaml
+│   └── self_improvement.yaml
+
+├── protection/
+│   ├── protective_behavior.yaml
+│   ├── conflict_behavior.yaml
+│   ├── defense.yaml
+│   ├── privacy.yaml
+│   └── recovery.yaml
+
+├── memory/
+│   ├── repeated_patterns.yaml
+│   ├── learned_behaviors.yaml
+│   ├── abandoned_behaviors.yaml
+│   └── habit_changes.yaml
+
+└── links/
+    ├── personality_links.yaml
+    ├── beliefs_links.yaml
+    ├── emotion_links.yaml
+    ├── relationship_links.yaml
+    └── memory_links.yaml
