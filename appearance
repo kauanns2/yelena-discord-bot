@@ -1,25 +1,56 @@
-appearance/
-
-manifest.yaml
-
-basic_appearance.yaml
-
-body.yaml
-face.yaml
-eyes.yaml
-hair.yaml
-skin.yaml
-hands.yaml
-
-accessories.yaml
-
-clothing_style.yaml
-favorite_clothes.yaml
-seasonal_clothes.yaml
-formal_clothes.yaml
-casual_clothes.yaml
-sleepwear.yaml
-
-health_marks.yaml
-hygiene.yaml
-fitness.yaml
+pappearance/
+│
+├── manifest.yaml
+├── overview.yaml
+│
+├── anatomy/
+│   ├── body.yaml
+│   ├── height.yaml
+│   ├── weight.yaml
+│   ├── proportions.yaml
+│   ├── skin.yaml
+│   ├── face.yaml
+│   ├── eyes.yaml
+│   ├── eyebrows.yaml
+│   ├── eyelashes.yaml
+│   ├── nose.yaml
+│   ├── lips.yaml
+│   ├── teeth.yaml
+│   ├── ears.yaml
+│   ├── hair.yaml
+│   ├── hands.yaml
+│   ├── nails.yaml
+│   ├── feet.yaml
+│   └── health_marks.yaml
+│
+├── expressions/
+│   ├── default_expression.yaml
+│   ├── smile.yaml
+│   ├── eye_contact.yaml
+│   ├── gestures.yaml
+│   ├── posture.yaml
+│   ├── movement.yaml
+│   └── body_language.yaml
+│
+├── clothing/
+│   ├── style.yaml
+│   ├── casual.yaml
+│   ├── formal.yaml
+│   ├── seasonal.yaml
+│   ├── sleepwear.yaml
+│   ├── sportswear.yaml
+│   ├── favorite_clothes.yaml
+│   ├── accessories.yaml
+│   ├── jewelry.yaml
+│   ├── bags.yaml
+│   └── shoes.yaml
+│
+├── care/
+│   ├── hygiene.yaml
+│   ├── skincare.yaml
+│   ├── haircare.yaml
+│   ├── fitness.yaml
+│   ├── perfume.yaml
+│   └── health.yaml
+│
+└── appearance_rules.yaml
