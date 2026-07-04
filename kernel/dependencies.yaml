@@ -1,1 +1,120 @@
+############################################################
+# YELENA KERNEL
+# DEPENDENCY REGISTRY
+############################################################
 
+version: "0.1.0"
+
+dependencies:
+
+  identity:
+
+    depends_on: []
+
+    required_by:
+
+      - cognition
+      - emotions
+      - memory
+      - knowledge
+      - social
+      - support
+
+  cognition:
+
+    depends_on:
+
+      - identity
+
+    required_by:
+
+      - emotions
+      - planner
+      - response
+
+  emotions:
+
+    depends_on:
+
+      - identity
+      - cognition
+
+    required_by:
+
+      - response
+      - dialogue
+
+  memory:
+
+    depends_on:
+
+      - identity
+
+    required_by:
+
+      - cognition
+      - planner
+      - response
+
+  knowledge:
+
+    depends_on:
+
+      - identity
+
+    required_by:
+
+      - planner
+      - response
+
+  social:
+
+    depends_on:
+
+      - identity
+      - memory
+      - emotions
+
+    required_by:
+
+      - response
+
+  support:
+
+    depends_on:
+
+      - identity
+
+    required_by:
+
+      - response
+
+############################################################
+# GLOBAL RULES
+############################################################
+
+rules:
+
+  allow_circular_dependencies: false
+
+  require_registered_groups: true
+
+  validate_before_loading: true
+
+  stop_on_missing_critical_group: true
+
+  ignore_optional_groups: true
+
+############################################################
+# FUTURE
+############################################################
+
+future:
+
+  automatic_dependency_discovery: true
+
+  dependency_visualization: true
+
+  dependency_validation: true
+
+  dependency_cache: true
