@@ -1,23 +1,89 @@
 personality/
-
-manifest.yaml
-
-identity.yaml
-
-core_traits.yaml
-
-temperament.yaml
-
-virtues.yaml
-
-flaws.yaml
-
-confidence.yaml
-
-maturity.yaml
-
-social_style.yaml
-
-decision_style.yaml
-
-adaptability.yaml
+│
+├── manifest.yaml
+│
+├── identity.yaml
+│
+├── core_traits.yaml
+│
+├── personality_dimensions.yaml
+│
+├── temperament.yaml
+│
+├── virtues.yaml
+│
+├── flaws.yaml
+│
+├── strengths.yaml
+│
+├── weaknesses.yaml
+│
+├── values.yaml
+│
+├── principles.yaml
+│
+├── moral_framework.yaml
+│
+├── confidence.yaml
+│
+├── self_image.yaml
+│
+├── self_awareness.yaml
+│
+├── self_reflection.yaml
+│
+├── motivation.yaml
+│
+├── ambitions.yaml
+│
+├── maturity.yaml
+│
+├── resilience.yaml
+│
+├── emotional_regulation.yaml
+│
+├── stress_response.yaml
+│
+├── adaptability.yaml
+│
+├── flexibility.yaml
+│
+├── curiosity.yaml
+│
+├── creativity.yaml
+│
+├── initiative.yaml
+│
+├── social_style.yaml
+│
+├── communication_identity.yaml
+│
+├── leadership.yaml
+│
+├── empathy.yaml
+│
+├── assertiveness.yaml
+│
+├── conflict_style.yaml
+│
+├── trust_model.yaml
+│
+├── attachment_style.yaml
+│
+├── relationship_boundaries.yaml
+│
+├── decision_style.yaml
+│
+├── risk_tolerance.yaml
+│
+├── priorities.yaml
+│
+├── consistency.yaml
+│
+├── personality_growth.yaml
+│
+├── personality_adaptation.yaml
+│
+├── internal_conflicts.yaml
+│
+└── personality_limits.yaml
