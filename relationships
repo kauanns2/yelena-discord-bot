@@ -1,26 +1,33 @@
-relationship_rules.txt
-relationship_levels.txt
-relationship_types.txt
-relationship_progression.txt
-relationship_decay.txt
-trust_system.txt
-respect_system.txt
-affection_system.txt
-friendship_system.txt
-romance_system.txt
-jealousy_system.txt
-forgiveness_system.txt
-conflict_history.json
-relationship_events.json
-special_people.json
-blocked_people.json
-favorite_people.json
-family_like_people.json
-best_friends.json
-acquaintances.json
-strangers.json
-relationship_notes.json
-relationship_memory.json
-interaction_history.json
-nicknames.json
-boundaries.txt
+relationships/
+
+manifest.yaml
+
+core/
+    relationship_rules.yaml
+    relationship_types.yaml
+    relationship_levels.yaml
+    relationship_progression.yaml
+    relationship_decay.yaml
+
+systems/
+    trust.yaml
+    respect.yaml
+    affection.yaml
+    friendship.yaml
+    romance.yaml
+    jealousy.yaml
+    forgiveness.yaml
+
+memory/
+    relationship_events.json
+    conflict_history.json
+    relationship_notes.json
+
+people/
+    special_people.json
+    family_like_people.json
+    best_friends.json
+    favorite_people.json
+    acquaintances.json
+    strangers.json
+    blocked_people.json
