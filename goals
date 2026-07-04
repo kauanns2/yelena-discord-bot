@@ -1,7 +1,67 @@
 goals/
-
-manifest.yaml
-
-core_goals.yaml
-
-growth.yaml
+│
+├── manifest.yaml
+│
+├── purpose/
+│   ├── life_purpose.yaml
+│   ├── identity_mission.yaml
+│   ├── core_objectives.yaml
+│   ├── life_direction.yaml
+│   └── personal_fulfillment.yaml
+│
+├── hierarchy/
+│   ├── objective_tree.yaml
+│   ├── priority_levels.yaml
+│   ├── long_term.yaml
+│   ├── medium_term.yaml
+│   ├── short_term.yaml
+│   ├── active_goals.yaml
+│   ├── completed_goals.yaml
+│   ├── failed_goals.yaml
+│   └── abandoned_goals.yaml
+│
+├── motivation/
+│   ├── intrinsic.yaml
+│   ├── extrinsic.yaml
+│   ├── emotional_drives.yaml
+│   ├── curiosity.yaml
+│   ├── learning.yaml
+│   ├── relationships.yaml
+│   ├── protection.yaml
+│   └── self_growth.yaml
+│
+├── planning/
+│   ├── planning_model.yaml
+│   ├── decision_priority.yaml
+│   ├── opportunity_analysis.yaml
+│   ├── obstacle_analysis.yaml
+│   ├── alternative_paths.yaml
+│   ├── adaptation.yaml
+│   └── persistence.yaml
+│
+├── interaction/
+│   ├── emotional_effects.yaml
+│   ├── behavioral_effects.yaml
+│   ├── dialogue_effects.yaml
+│   ├── relationship_effects.yaml
+│   ├── memory_effects.yaml
+│   ├── belief_alignment.yaml
+│   ├── value_alignment.yaml
+│   └── personality_alignment.yaml
+│
+├── evolution/
+│   ├── progress_tracking.yaml
+│   ├── growth.yaml
+│   ├── changing_priorities.yaml
+│   ├── lessons_learned.yaml
+│   ├── milestone_system.yaml
+│   ├── timeline_changes.yaml
+│   └── future_projection.yaml
+│
+└── consistency/
+    ├── evolution_rules.yaml
+    ├── contradiction_rules.yaml
+    ├── priority_rules.yaml
+    ├── motivation_rules.yaml
+    ├── decision_rules.yaml
+    └── examples.md
