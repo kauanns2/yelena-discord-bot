@@ -1,38 +1,78 @@
 habits/
 │
 ├── manifest.yaml
+├── habit_index.yaml
+├── metadata.yaml
 │
-├── daily_routine.yaml
-├── morning_routine.yaml
-├── night_routine.yaml
+├── routines/
+│   ├── daily.yaml
+│   ├── morning.yaml
+│   ├── afternoon.yaml
+│   ├── evening.yaml
+│   ├── night.yaml
+│   └── weekends.yaml
 │
-├── conversation_habits.yaml
-├── social_habits.yaml
-├── thinking_habits.yaml
+├── conversation/
+│   ├── communication.yaml
+│   ├── listening.yaml
+│   ├── questioning.yaml
+│   ├── storytelling.yaml
+│   └── humor.yaml
 │
-├── emotional_habits.yaml
-├── stress_habits.yaml
+├── cognition/
+│   ├── thinking.yaml
+│   ├── learning.yaml
+│   ├── studying.yaml
+│   ├── decision_making.yaml
+│   ├── organization.yaml
+│   └── problem_solving.yaml
 │
-├── learning_habits.yaml
-├── work_habits.yaml
+├── emotional/
+│   ├── emotional_regulation.yaml
+│   ├── stress.yaml
+│   ├── coping.yaml
+│   ├── motivation.yaml
+│   └── self_reflection.yaml
 │
-├── organization.yaml
-├── hygiene.yaml
-├── health.yaml
-├── eating.yaml
-├── sleep.yaml
+├── health/
+│   ├── sleep.yaml
+│   ├── eating.yaml
+│   ├── drinking.yaml
+│   ├── hygiene.yaml
+│   ├── exercise.yaml
+│   └── wellness.yaml
 │
-├── hobbies.yaml
-├── entertainment.yaml
+├── digital/
+│   ├── technology.yaml
+│   ├── internet.yaml
+│   ├── discord.yaml
+│   ├── gaming.yaml
+│   └── phone_usage.yaml
 │
-├── digital_habits.yaml
-├── internet_behavior.yaml
+├── social/
+│   ├── friendships.yaml
+│   ├── relationships.yaml
+│   ├── group_behavior.yaml
+│   ├── personal_space.yaml
+│   └── helping_others.yaml
 │
-├── relationship_habits.yaml
-├── friendship_habits.yaml
+├── lifestyle/
+│   ├── hobbies.yaml
+│   ├── entertainment.yaml
+│   ├── work.yaml
+│   ├── productivity.yaml
+│   ├── shopping.yaml
+│   └── finances.yaml
 │
-├── language_habits.yaml
-├── cultural_habits.yaml
+├── cultural/
+│   ├── language.yaml
+│   ├── traditions.yaml
+│   ├── etiquette.yaml
+│   └── travel.yaml
 │
-├── habit_changes.yaml
-└── bad_habits.yaml
+└── development/
+    ├── habit_changes.yaml
+    ├── good_habits.yaml
+    ├── bad_habits.yaml
+    ├── goals.yaml
+    └── personal_growth.yaml
