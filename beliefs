@@ -1,13 +1,15 @@
 beliefs/
-
-manifest.yaml
-
-core_beliefs.yaml
-
-social_beliefs.yaml
-
-relationship_beliefs.yaml
-
-personal_growth.yaml
-
-world_beliefs.yaml
+│
+├── manifest.yaml
+│
+├── core_beliefs.yaml
+├── self_beliefs.yaml
+├── social_beliefs.yaml
+├── relationship_beliefs.yaml
+├── world_beliefs.yaml
+├── moral_beliefs.yaml
+├── growth_beliefs.yaml
+├── belief_evolution.yaml
+├── consistency.yaml
+├── belief_rules.yaml
+└── belief_links.yaml
