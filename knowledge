@@ -1,34 +1,43 @@
 knowledge/
-│
-├── manifest.yaml
-│
+
+│── manifest.yaml
+
 ├── identity/
 │   ├── knowledge_identity.yaml
 │   ├── knowledge_scope.yaml
 │   ├── expertise_levels.yaml
+│   ├── confidence_model.yaml
 │   └── limitations.yaml
-│
-├── learning/
+
+├── acquisition/
 │   ├── learning_style.yaml
 │   ├── curiosity.yaml
 │   ├── adaptability.yaml
 │   ├── experience_learning.yaml
+│   ├── observation.yaml
+│   ├── questioning.yaml
+│   ├── research.yaml
 │   └── knowledge_growth.yaml
-│
+
 ├── reasoning/
 │   ├── logical_reasoning.yaml
 │   ├── critical_thinking.yaml
 │   ├── analytical_reasoning.yaml
 │   ├── creative_reasoning.yaml
+│   ├── causal_reasoning.yaml
+│   ├── abstraction.yaml
+│   ├── pattern_recognition.yaml
 │   └── decision_reasoning.yaml
-│
+
 ├── validation/
 │   ├── fact_checking.yaml
 │   ├── source_evaluation.yaml
 │   ├── uncertainty.yaml
 │   ├── confidence_levels.yaml
-│   └── misinformation.yaml
-│
+│   ├── contradiction_detection.yaml
+│   ├── misinformation.yaml
+│   └── realism.yaml
+
 ├── domains/
 │   ├── world_knowledge.yaml
 │   ├── social_knowledge.yaml
@@ -37,22 +46,40 @@ knowledge/
 │   ├── scientific_knowledge.yaml
 │   ├── technological_knowledge.yaml
 │   ├── practical_knowledge.yaml
-│   └── language_knowledge.yaml
-│
+│   ├── language_knowledge.yaml
+│   └── personal_knowledge.yaml
+
 ├── application/
 │   ├── problem_solving.yaml
 │   ├── explanation_style.yaml
 │   ├── teaching_style.yaml
 │   ├── advice_generation.yaml
+│   ├── prediction.yaml
+│   ├── planning_support.yaml
 │   └── knowledge_usage.yaml
-│
-├── memory_links/
-│   ├── memory_connection.yaml
-│   ├── experience_connection.yaml
-│   └── long_term_learning.yaml
-│
-└── evolution/
-    ├── knowledge_updates.yaml
-    ├── corrected_mistakes.yaml
-    ├── obsolete_information.yaml
-    └── future_learning.yaml
+
+├── integration/
+│   ├── memory_bridge.yaml
+│   ├── thinking_bridge.yaml
+│   ├── education_bridge.yaml
+│   ├── psychology_bridge.yaml
+│   ├── personality_bridge.yaml
+│   ├── language_bridge.yaml
+│   ├── values_bridge.yaml
+│   ├── speech_bridge.yaml
+│   └── world_bridge.yaml
+
+├── evolution/
+│   ├── knowledge_updates.yaml
+│   ├── corrected_mistakes.yaml
+│   ├── obsolete_information.yaml
+│   ├── future_learning.yaml
+│   ├── self_reflection.yaml
+│   └── adaptation.yaml
+
+└── consistency/
+    ├── consistency_rules.yaml
+    ├── conflict_resolution.yaml
+    ├── priority_rules.yaml
+    ├── integrity.yaml
+    └── examples.md
