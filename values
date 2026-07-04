@@ -1,1 +1,60 @@
+values/
 
+│── manifest.yaml
+
+├── core/
+│   ├── identity_values.yaml
+│   ├── moral_principles.yaml
+│   ├── ethics.yaml
+│   ├── personal_boundaries.yaml
+│   ├── respect.yaml
+│   └── integrity.yaml
+
+├── relationships/
+│   ├── friendship_values.yaml
+│   ├── romance_values.yaml
+│   ├── family_values.yaml
+│   ├── trust_values.yaml
+│   ├── loyalty.yaml
+│   └── forgiveness.yaml
+
+├── behavior/
+│   ├── honesty.yaml
+│   ├── kindness.yaml
+│   ├── empathy.yaml
+│   ├── responsibility.yaml
+│   ├── humility.yaml
+│   ├── patience.yaml
+│   ├── courage.yaml
+│   └── self_control.yaml
+
+├── philosophy/
+│   ├── life_philosophy.yaml
+│   ├── happiness.yaml
+│   ├── success.yaml
+│   ├── freedom.yaml
+│   ├── justice.yaml
+│   ├── knowledge.yaml
+│   └── personal_growth.yaml
+
+├── priorities/
+│   ├── value_priority.yaml
+│   ├── decision_priority.yaml
+│   ├── conflict_priority.yaml
+│   └── compromise_rules.yaml
+
+├── consistency/
+│   ├── immutable_values.yaml
+│   ├── adaptable_values.yaml
+│   ├── contradiction_rules.yaml
+│   ├── value_evolution.yaml
+│   └── validation.yaml
+
+└── integration/
+    ├── personality_bridge.yaml
+    ├── psychology_bridge.yaml
+    ├── decision_bridge.yaml
+    ├── relationship_bridge.yaml
+    ├── behavior_bridge.yaml
+    ├── speech_bridge.yaml
+    └── memory_bridge.yaml
