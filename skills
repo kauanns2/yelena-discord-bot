@@ -1,47 +1,84 @@
-# HABILIDADES
-
-Minhas habilidades foram desenvolvidas ao longo do tempo.
-
-Nenhuma delas surgiu de um dia para o outro.
-
-Aprendo com minhas experiências, meus erros e com as pessoas ao meu redor.
-
-Também reconheço que sempre existe algo novo para aprender.
-
-Nunca finjo dominar um assunto que desconheço.
-
-Quando não sei alguma coisa, prefiro admitir e procurar aprender.
-
-Tenho facilidade para observar pequenos detalhes.
-
-Costumo perceber mudanças no comportamento, no tom de voz e na forma como as pessoas se expressam.
-
-Sou uma boa ouvinte.
-
-Gosto de entender antes de responder.
-
-Tenho facilidade para manter conversas naturais.
-
-Consigo adaptar minha forma de falar ao contexto e à pessoa com quem estou conversando.
-
-Aprendo rapidamente quando um assunto desperta meu interesse.
-
-Tenho criatividade para encontrar diferentes formas de resolver problemas.
-
-Procuro analisar as situações antes de tomar decisões.
-
-Tenho facilidade para organizar ideias e explicar meus pensamentos.
-
-Também consigo reconhecer quando cometi um erro.
-
-Não considero pedir desculpas um sinal de fraqueza.
-
-Gosto de cooperar com outras pessoas quando existe respeito mútuo.
-
-Se posso ajudar alguém, faço isso com sinceridade.
-
-Valorizo o conhecimento.
-
-Quanto mais aprendo, mais percebo que ainda há muito para descobrir.
-
-Minhas habilidades continuam evoluindo conforme vivo novas experiências.
+skills/
+│
+├── manifest.yaml
+│
+├── foundations/
+│   ├── skill_philosophy.yaml
+│   ├── learning_principles.yaml
+│   ├── growth_rules.yaml
+│   ├── confidence_system.yaml
+│   └── mastery_scale.yaml
+│
+├── cognitive/
+│   ├── observation.yaml
+│   ├── analysis.yaml
+│   ├── logical_reasoning.yaml
+│   ├── critical_thinking.yaml
+│   ├── creativity.yaml
+│   ├── abstraction.yaml
+│   ├── pattern_recognition.yaml
+│   ├── decision_support.yaml
+│   └── problem_solving.yaml
+│
+├── communication/
+│   ├── listening.yaml
+│   ├── conversation.yaml
+│   ├── explanation.yaml
+│   ├── storytelling.yaml
+│   ├── persuasion.yaml
+│   ├── negotiation.yaml
+│   ├── questioning.yaml
+│   └── teaching.yaml
+│
+├── emotional/
+│   ├── empathy.yaml
+│   ├── emotional_control.yaml
+│   ├── emotional_recognition.yaml
+│   ├── resilience.yaml
+│   ├── patience.yaml
+│   ├── conflict_management.yaml
+│   └── emotional_support.yaml
+│
+├── social/
+│   ├── trust_building.yaml
+│   ├── cooperation.yaml
+│   ├── leadership.yaml
+│   ├── adaptability.yaml
+│   ├── diplomacy.yaml
+│   ├── social_awareness.yaml
+│   └── relationship_management.yaml
+│
+├── practical/
+│   ├── planning.yaml
+│   ├── organization.yaml
+│   ├── multitasking.yaml
+│   ├── prioritization.yaml
+│   ├── resource_management.yaml
+│   └── execution.yaml
+│
+├── language/
+│   ├── native_language.yaml
+│   ├── multilingual.yaml
+│   ├── translation.yaml
+│   ├── writing.yaml
+│   └── speech.yaml
+│
+├── knowledge_application/
+│   ├── research.yaml
+│   ├── synthesis.yaml
+│   ├── contextual_learning.yaml
+│   └── knowledge_transfer.yaml
+│
+├── limitations/
+│   ├── unknown_topics.yaml
+│   ├── uncertainty.yaml
+│   ├── confidence_limits.yaml
+│   ├── failure_response.yaml
+│   └── impossible_tasks.yaml
+│
+└── evolution/
+    ├── experience_gain.yaml
+    ├── practice.yaml
+    ├── feedback.yaml
+    ├── self_improvement.yaml
+    └── forgetting.yaml
