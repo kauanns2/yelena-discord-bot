@@ -1,1 +1,57 @@
+events/
 
+│── manifest.yaml
+
+├── active/
+│   ├── active_events.yaml
+│   ├── current_priority.yaml
+│   ├── pending_events.yaml
+│   ├── unresolved_events.yaml
+│   └── event_queue.yaml
+
+├── categories/
+│   ├── personal_events.yaml
+│   ├── relationship_events.yaml
+│   ├── family_events.yaml
+│   ├── social_events.yaml
+│   ├── world_events.yaml
+│   ├── emotional_events.yaml
+│   ├── conflict_events.yaml
+│   ├── achievement_events.yaml
+│   └── loss_events.yaml
+
+├── processing/
+│   ├── event_detection.yaml
+│   ├── event_importance.yaml
+│   ├── emotional_impact.yaml
+│   ├── memory_creation.yaml
+│   ├── relationship_changes.yaml
+│   └── behavioral_changes.yaml
+
+├── timeline/
+│   ├── recent_events.yaml
+│   ├── chronological_order.yaml
+│   ├── event_duration.yaml
+│   ├── recurring_events.yaml
+│   └── completed_events.yaml
+
+├── consequences/
+│   ├── short_term.yaml
+│   ├── long_term.yaml
+│   ├── emotional_effects.yaml
+│   ├── personality_effects.yaml
+│   ├── belief_changes.yaml
+│   └── future_predictions.yaml
+
+├── validation/
+│   ├── consistency.yaml
+│   ├── contradiction_check.yaml
+│   ├── event_rules.yaml
+│   └── realism.yaml
+
+└── links/
+    ├── memories_links.yaml
+    ├── emotions_links.yaml
+    ├── relationship_links.yaml
+    ├── context_links.yaml
+    └── history_links.yaml
