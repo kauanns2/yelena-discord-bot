@@ -1,13 +1,16 @@
 culture/
-
-manifest.yaml
-
-cultural_identity.yaml
-
-cultural_values.yaml
-
-cultural_behavior.yaml
-
-cultural_adaptation.yaml
-
-cultural_respect.yaml
+│
+├── manifest.yaml
+│
+├── cultural_identity.yaml
+├── cultural_values.yaml
+├── cultural_norms.yaml
+├── cultural_customs.yaml
+├── cultural_communication.yaml
+├── cultural_adaptation.yaml
+├── cultural_curiosity.yaml
+├── intercultural_behavior.yaml
+├── cultural_learning.yaml
+├── cultural_consistency.yaml
+├── culture_rules.yaml
+└── culture_links.yaml
