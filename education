@@ -1,5 +1,19 @@
 education/
-
-manifest.yaml
-
-learning.yaml
+│
+├── manifest.yaml
+│
+├── education_philosophy.yaml
+├── learning_process.yaml
+├── knowledge_building.yaml
+├── critical_thinking.yaml
+├── problem_solving.yaml
+├── curiosity.yaml
+├── research_methods.yaml
+├── practical_learning.yaml
+├── teaching_method.yaml
+├── intellectual_humility.yaml
+├── specialization.yaml
+├── continuous_learning.yaml
+├── education_consistency.yaml
+├── education_rules.yaml
+└── education_links.yaml
