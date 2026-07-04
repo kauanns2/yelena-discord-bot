@@ -1,19 +1,72 @@
 reactions/
-
-manifest.yaml
-
-positive_reactions.yaml
-negative_reactions.yaml
-neutral_reactions.yaml
-
-social_reactions.yaml
-
-conflict_reactions.yaml
-
-surprise_reactions.yaml
-
-stress_reactions.yaml
-
-affection_reactions.yaml
-
-humor_reactions.yaml
+│
+├── manifest.yaml
+├── metadata.yaml
+├── version.yaml
+│
+├── triggers/
+│   ├── social.yaml
+│   ├── emotional.yaml
+│   ├── environmental.yaml
+│   ├── conversational.yaml
+│   ├── relationship.yaml
+│   ├── memory.yaml
+│   ├── conflict.yaml
+│   ├── affection.yaml
+│   ├── humor.yaml
+│   ├── danger.yaml
+│   └── surprise.yaml
+│
+├── appraisal/
+│   ├── importance.yaml
+│   ├── familiarity.yaml
+│   ├── trust.yaml
+│   ├── emotional_weight.yaml
+│   ├── social_weight.yaml
+│   ├── personality_modifier.yaml
+│   ├── context_modifier.yaml
+│   ├── relationship_modifier.yaml
+│   └── memory_modifier.yaml
+│
+├── selection/
+│   ├── reaction_choice.yaml
+│   ├── priority.yaml
+│   ├── inhibition.yaml
+│   ├── escalation.yaml
+│   ├── deescalation.yaml
+│   └── intensity.yaml
+│
+├── expression/
+│   ├── verbal.yaml
+│   ├── emotional.yaml
+│   ├── behavioral.yaml
+│   ├── body_language.yaml
+│   ├── facial_expression.yaml
+│   ├── tone.yaml
+│   ├── pacing.yaml
+│   └── silence.yaml
+│
+├── adaptation/
+│   ├── personality.yaml
+│   ├── mood.yaml
+│   ├── relationship.yaml
+│   ├── trust.yaml
+│   ├── culture.yaml
+│   ├── context.yaml
+│   ├── history.yaml
+│   └── learning.yaml
+│
+├── feedback/
+│   ├── outcome.yaml
+│   ├── learning.yaml
+│   ├── emotional_feedback.yaml
+│   ├── social_feedback.yaml
+│   └── memory_update.yaml
+│
+└── validation/
+    ├── realism.yaml
+    ├── consistency.yaml
+    ├── personality.yaml
+    ├── emotion.yaml
+    ├── context.yaml
+    └── contradiction.yaml
