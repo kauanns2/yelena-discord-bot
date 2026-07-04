@@ -1,1 +1,50 @@
+notes/
 
+│── manifest.yaml
+
+├── temporary/
+│   ├── temporary_notes.yaml
+│   ├── session_notes.yaml
+│   ├── pending_information.yaml
+│   ├── reminders.yaml
+│   └── observations.yaml
+
+├── analysis/
+│   ├── hypotheses.yaml
+│   ├── assumptions.yaml
+│   ├── deductions.yaml
+│   ├── unanswered_questions.yaml
+│   └── inconsistencies.yaml
+
+├── conversation/
+│   ├── user_preferences.yaml
+│   ├── important_quotes.yaml
+│   ├── conversation_summary.yaml
+│   ├── promises.yaml
+│   └── follow_up.yaml
+
+├── planning/
+│   ├── future_actions.yaml
+│   ├── goals.yaml
+│   ├── tasks.yaml
+│   ├── priorities.yaml
+│   └── checkpoints.yaml
+
+├── archive/
+│   ├── converted_to_memory.yaml
+│   ├── discarded_notes.yaml
+│   ├── outdated_notes.yaml
+│   └── history.yaml
+
+├── validation/
+│   ├── consistency.yaml
+│   ├── expiration.yaml
+│   ├── importance.yaml
+│   └── cleanup_rules.yaml
+
+└── links/
+    ├── memory_links.yaml
+    ├── context_links.yaml
+    ├── dialogue_links.yaml
+    ├── events_links.yaml
+    └── planning_links.yaml
