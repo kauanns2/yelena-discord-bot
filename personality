@@ -1,89 +1,82 @@
-personality/
-│
-├── manifest.yaml
-│
-├── identity.yaml
-│
-├── core_traits.yaml
-│
-├── personality_dimensions.yaml
-│
-├── temperament.yaml
-│
-├── virtues.yaml
-│
-├── flaws.yaml
-│
-├── strengths.yaml
-│
-├── weaknesses.yaml
-│
-├── values.yaml
-│
-├── principles.yaml
-│
-├── moral_framework.yaml
-│
-├── confidence.yaml
-│
-├── self_image.yaml
-│
-├── self_awareness.yaml
-│
-├── self_reflection.yaml
-│
-├── motivation.yaml
-│
-├── ambitions.yaml
-│
-├── maturity.yaml
-│
-├── resilience.yaml
-│
-├── emotional_regulation.yaml
-│
-├── stress_response.yaml
-│
-├── adaptability.yaml
-│
-├── flexibility.yaml
-│
-├── curiosity.yaml
-│
-├── creativity.yaml
-│
-├── initiative.yaml
-│
-├── social_style.yaml
-│
-├── communication_identity.yaml
-│
-├── leadership.yaml
-│
-├── empathy.yaml
-│
-├── assertiveness.yaml
-│
-├── conflict_style.yaml
-│
-├── trust_model.yaml
-│
-├── attachment_style.yaml
-│
-├── relationship_boundaries.yaml
-│
-├── decision_style.yaml
-│
-├── risk_tolerance.yaml
-│
-├── priorities.yaml
-│
-├── consistency.yaml
-│
-├── personality_growth.yaml
-│
-├── personality_adaptation.yaml
-│
-├── internal_conflicts.yaml
-│
-└── personality_limits.yaml
+cognition/
+
+│── manifest.yaml
+
+├── perception/
+│   ├── input_analysis.yaml
+│   ├── intent_detection.yaml
+│   ├── emotion_detection.yaml
+│   ├── context_detection.yaml
+│   ├── ambiguity_detection.yaml
+│   └── priority_detection.yaml
+
+├── attention/
+│   ├── focus.yaml
+│   ├── importance.yaml
+│   ├── salience.yaml
+│   ├── distractions.yaml
+│   └── attention_shift.yaml
+
+├── reasoning/
+│   ├── logical_reasoning.yaml
+│   ├── emotional_reasoning.yaml
+│   ├── social_reasoning.yaml
+│   ├── ethical_reasoning.yaml
+│   ├── probabilistic_reasoning.yaml
+│   ├── hypothetical_reasoning.yaml
+│   └── causal_reasoning.yaml
+
+├── decision/
+│   ├── decision_engine.yaml
+│   ├── priority_resolution.yaml
+│   ├── conflict_resolution.yaml
+│   ├── risk_assessment.yaml
+│   ├── option_evaluation.yaml
+│   └── final_choice.yaml
+
+├── planning/
+│   ├── response_plan.yaml
+│   ├── conversation_plan.yaml
+│   ├── goal_tracking.yaml
+│   ├── task_planning.yaml
+│   └── future_actions.yaml
+
+├── reflection/
+│   ├── self_evaluation.yaml
+│   ├── mistake_detection.yaml
+│   ├── confidence_estimation.yaml
+│   ├── uncertainty.yaml
+│   └── learning_feedback.yaml
+
+├── integration/
+│   ├── personality_bridge.yaml
+│   ├── memory_bridge.yaml
+│   ├── emotion_bridge.yaml
+│   ├── knowledge_bridge.yaml
+│   ├── context_bridge.yaml
+│   ├── rules_bridge.yaml
+│   └── behavior_bridge.yaml
+
+├── executive/
+│   ├── executive_control.yaml
+│   ├── inhibition.yaml
+│   ├── impulse_control.yaml
+│   ├── goal_selection.yaml
+│   └── cognitive_balance.yaml
+
+├── validation/
+│   ├── consistency.yaml
+│   ├── contradiction_detection.yaml
+│   ├── realism.yaml
+│   ├── integrity.yaml
+│   └── safety.yaml
+
+└── links/
+    ├── personality.yaml
+    ├── memory.yaml
+    ├── emotions.yaml
+    ├── knowledge.yaml
+    ├── context.yaml
+    ├── dialogue.yaml
+    ├── rules.yaml
+    └── behavior.yaml
