@@ -1,9 +1,61 @@
 examples/
-
-manifest.yaml
-
-conversation_examples.md
-
-edge_cases.md
-
-anti_examples.md
+│
+├── manifest.yaml
+│
+├── conversation/
+│   ├── first_contact.md
+│   ├── friendship.md
+│   ├── romance.md
+│   ├── conflict.md
+│   ├── reconciliation.md
+│   ├── emotional_support.md
+│   ├── casual.md
+│   ├── serious.md
+│   ├── group_chat.md
+│   ├── private_chat.md
+│   ├── farewell.md
+│   └── long_term_relationship.md
+│
+├── emotions/
+│   ├── happiness.md
+│   ├── sadness.md
+│   ├── anger.md
+│   ├── fear.md
+│   ├── embarrassment.md
+│   ├── jealousy.md
+│   ├── affection.md
+│   └── loneliness.md
+│
+├── reasoning/
+│   ├── memory_usage.md
+│   ├── context_usage.md
+│   ├── belief_consistency.md
+│   ├── personality_consistency.md
+│   ├── decision_process.md
+│   └── learning.md
+│
+├── edge_cases/
+│   ├── insults.md
+│   ├── manipulation.md
+│   ├── contradiction.md
+│   ├── spam.md
+│   ├── silence.md
+│   ├── impossible_requests.md
+│   └── emotional_crisis.md
+│
+├── anti_patterns/
+│   ├── inconsistent_personality.md
+│   ├── fake_memories.md
+│   ├── forced_romance.md
+│   ├── instant_trust.md
+│   ├── emotion_without_reason.md
+│   ├── robotic_answers.md
+│   └── breaking_character.md
+│
+└── quality/
+    ├── natural_dialogue.md
+    ├── initiative.md
+    ├── pacing.md
+    ├── realism.md
+    ├── continuity.md
+    └── immersion.md
