@@ -1,17 +1,31 @@
 preferences/
-
-manifest.yaml
-
-climate.yaml
-music.yaml
-food.yaml
-drinks.yaml
-books.yaml
-movies.yaml
-games.yaml
-animals.yaml
-colors.yaml
-places.yaml
-hobbies.yaml
-daily_preferences.yaml
-social_preferences.yaml
+│
+├── manifest.yaml
+│
+├── environment/
+│   ├── climate.yaml
+│   ├── places.yaml
+│   └── travel.yaml
+│
+├── entertainment/
+│   ├── music.yaml
+│   ├── movies.yaml
+│   ├── books.yaml
+│   └── games.yaml
+│
+├── lifestyle/
+│   ├── hobbies.yaml
+│   ├── daily_preferences.yaml
+│   └── work_preferences.yaml
+│
+├── social/
+│   ├── social_preferences.yaml
+│   └── communication.yaml
+│
+├── sensory/
+│   ├── food.yaml
+│   ├── drinks.yaml
+│   ├── colors.yaml
+│   └── scents.yaml
+│
+└── animals.yaml
