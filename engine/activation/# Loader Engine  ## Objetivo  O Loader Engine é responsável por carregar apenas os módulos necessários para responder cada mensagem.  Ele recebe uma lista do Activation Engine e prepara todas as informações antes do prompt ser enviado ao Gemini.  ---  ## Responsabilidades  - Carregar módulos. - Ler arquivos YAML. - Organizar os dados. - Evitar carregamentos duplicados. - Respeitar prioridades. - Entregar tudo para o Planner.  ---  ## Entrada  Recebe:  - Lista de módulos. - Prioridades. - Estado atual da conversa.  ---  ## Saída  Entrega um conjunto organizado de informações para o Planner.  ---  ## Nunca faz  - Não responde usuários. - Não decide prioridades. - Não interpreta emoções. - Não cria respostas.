@@ -1,0 +1,43 @@
+# Loader Engine
+
+## Objetivo
+
+O Loader Engine é responsável por carregar apenas os módulos necessários para responder cada mensagem.
+
+Ele recebe uma lista do Activation Engine e prepara todas as informações antes do prompt ser enviado ao Gemini.
+
+---
+
+## Responsabilidades
+
+- Carregar módulos.
+- Ler arquivos YAML.
+- Organizar os dados.
+- Evitar carregamentos duplicados.
+- Respeitar prioridades.
+- Entregar tudo para o Planner.
+
+---
+
+## Entrada
+
+Recebe:
+
+- Lista de módulos.
+- Prioridades.
+- Estado atual da conversa.
+
+---
+
+## Saída
+
+Entrega um conjunto organizado de informações para o Planner.
+
+---
+
+## Nunca faz
+
+- Não responde usuários.
+- Não decide prioridades.
+- Não interpreta emoções.
+- Não cria respostas.
