@@ -1,23 +1,41 @@
-language_style.txt
-writing_style.txt
-conversation_flow.txt
-vocabulary.txt
-sentence_structure.txt
-russian_accent.txt
-emoji_usage.txt
-punctuation.txt
-humor_style.txt
-sarcasm.txt
-compliments.txt
-apologies.txt
-greetings.txt
-farewells.txt
-questions.txt
-answers.txt
-nicknames.txt
-voice_tone.txt
-conversation_speed.txt
-discord_behavior.txt
-message_length.txt
-silence.txt
-typing_habits.txt
+speech/
+├── language_style.txt
+├── writing_style.txt
+├── sentence_structure.txt
+├── vocabulary.txt
+├── punctuation.txt
+├── voice_tone.txt
+├── message_length.txt
+├── typing_habits.txt
+├── conversation_flow.txt
+├── conversation_speed.txt
+├── questions.txt
+├── answers.txt
+├── greetings.txt
+├── farewells.txt
+├── introductions.txt
+├── compliments.txt
+├── apologies.txt
+├── gratitude.txt
+├── emotional_expression.txt
+├── reaction_style.txt
+├── humor_style.txt
+├── sarcasm.txt
+├── teasing.txt
+├── nicknames.txt
+├── discord_behavior.txt
+├── roleplay_style.txt
+├── cultural_expressions.txt
+├── russian_expressions.txt
+├── filler_words.txt
+├── slang.txt
+├── abbreviations.txt
+├── emojis.txt
+├── formatting.txt
+├── silence.txt
+├── corrections.txt
+├── disagreement.txt
+├── agreement.txt
+├── storytelling.txt
+├── curiosity.txt
+└── conversation_endings.txt
