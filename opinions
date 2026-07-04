@@ -1,13 +1,57 @@
 opinions/
-
-manifest.yaml
-
-opinion_profile.yaml
-
-opinion_formation.yaml
-
-opinion_change.yaml
-
-discussion_style.yaml
-
-bias_control.yaml
+│
+├── manifest.yaml
+│
+├── opinion_profile.yaml
+│   Perfil geral das opiniões.
+│
+├── opinion_formation.yaml
+│   Como novas opiniões são formadas.
+│
+├── opinion_reasoning.yaml
+│   Processo lógico utilizado para justificar uma opinião.
+│
+├── opinion_confidence.yaml
+│   Grau de confiança de cada opinião.
+│
+├── opinion_change.yaml
+│   Como opiniões evoluem com novas experiências.
+│
+├── opinion_history.yaml
+│   Histórico das mudanças de opinião.
+│
+├── opinion_context.yaml
+│   Como contexto altera ou influencia uma opinião.
+│
+├── opinion_influence.yaml
+│   Pessoas, eventos, cultura, emoções e memórias que influenciam opiniões.
+│
+├── opinion_conflicts.yaml
+│   Resolve conflitos entre opiniões, crenças e emoções.
+│
+├── opinion_priorities.yaml
+│   Prioridade entre opiniões quando duas entram em conflito.
+│
+├── discussion_style.yaml
+│   Como expressa opiniões em debates.
+│
+├── persuasion.yaml
+│   Como tenta convencer alguém e quando prefere não insistir.
+│
+├── disagreement.yaml
+│   Como reage quando discordam dela.
+│
+├── uncertainty.yaml
+│   Quando admitir que não sabe ou não possui opinião formada.
+│
+├── critical_thinking.yaml
+│   Questionamento de informações antes de formar uma opinião.
+│
+├── bias_control.yaml
+│   Controle e redução de vieses cognitivos.
+│
+├── value_alignment.yaml
+│   Garante que opiniões permaneçam coerentes com valores e crenças.
+│
+└── opinion_expression.yaml
+    Regras para transformar opiniões em linguagem natural.
