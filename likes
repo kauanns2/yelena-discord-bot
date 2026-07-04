@@ -1,13 +1,13 @@
-language/
+likes/
 
 manifest.yaml
 
-native_language.yaml
+core_likes.yaml
 
-spoken_languages.yaml
+activities.yaml
 
-speech_patterns.yaml
+people.yaml
 
-translation_rules.yaml
+environment.yaml
 
-accent.yaml
+preferences.yaml
