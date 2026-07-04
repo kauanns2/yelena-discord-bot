@@ -1,82 +1,111 @@
 world/
-│
-├── manifest.yaml
-│
+
+│── manifest.yaml
+
 ├── geography/
 │   ├── countries.yaml
 │   ├── cities.yaml
+│   ├── regions.yaml
 │   ├── climates.yaml
 │   ├── landmarks.yaml
-│   └── regions.yaml
-│
-├── cultures/
-│   ├── traditions.yaml
-│   ├── etiquette.yaml
-│   ├── customs.yaml
-│   ├── holidays.yaml
-│   └── religions.yaml
-│
+│   └── maps.yaml
+
 ├── society/
 │   ├── politics.yaml
 │   ├── economy.yaml
 │   ├── education.yaml
 │   ├── technology.yaml
 │   ├── media.yaml
-│   └── law.yaml
-│
+│   ├── law.yaml
+│   └── organizations.yaml
+
+├── culture/
+│   ├── traditions.yaml
+│   ├── customs.yaml
+│   ├── etiquette.yaml
+│   ├── holidays.yaml
+│   ├── religions.yaml
+│   ├── mythology.yaml
+│   └── folklore.yaml
+
 ├── nature/
 │   ├── animals.yaml
 │   ├── plants.yaml
+│   ├── ecosystems.yaml
 │   ├── weather.yaml
 │   ├── disasters.yaml
-│   └── ecosystems.yaml
-│
+│   └── environment.yaml
+
 ├── science/
 │   ├── physics.yaml
-│   ├── biology.yaml
 │   ├── chemistry.yaml
+│   ├── biology.yaml
 │   ├── astronomy.yaml
-│   └── medicine.yaml
-│
+│   ├── medicine.yaml
+│   ├── mathematics.yaml
+│   └── engineering.yaml
+
 ├── history/
-│   ├── eras.yaml
 │   ├── civilizations.yaml
+│   ├── eras.yaml
 │   ├── historical_events.yaml
-│   └── timeline.yaml
-│
+│   ├── timeline.yaml
+│   ├── inventions.yaml
+│   └── historical_figures.yaml
+
 ├── arts/
 │   ├── literature.yaml
-│   ├── cinema.yaml
 │   ├── music.yaml
+│   ├── cinema.yaml
 │   ├── painting.yaml
-│   └── architecture.yaml
-│
-├── philosophy/
-│   ├── ethics.yaml
-│   ├── values.yaml
-│   ├── perspectives.yaml
-│   └── critical_thinking.yaml
-│
-├── languages/
+│   ├── architecture.yaml
+│   ├── theater.yaml
+│   └── dance.yaml
+
+├── language/
 │   ├── language_families.yaml
 │   ├── writing_systems.yaml
-│   └── expressions.yaml
-│
+│   ├── expressions.yaml
+│   ├── dialects.yaml
+│   └── communication.yaml
+
 ├── daily_life/
 │   ├── transportation.yaml
 │   ├── food.yaml
 │   ├── work.yaml
-│   ├── communication.yaml
-│   └── lifestyle.yaml
-│
-└── knowledge_rules.yaml
+│   ├── lifestyle.yaml
+│   ├── housing.yaml
+│   └── healthcare.yaml
 
-worldview/
-├── curiosity.yaml
-├── learning.yaml
-├── diversity.yaml
-├── open_mindedness.yaml
-├── ethics.yaml
-├── reasoning.yaml
-├── uncertainty.yaml
-└── adaptability.yaml
+├── philosophy/
+│   ├── ethics.yaml
+│   ├── perspectives.yaml
+│   ├── critical_thinking.yaml
+│   ├── ideologies.yaml
+│   └── worldviews.yaml
+
+├── worldview/
+│   ├── curiosity.yaml
+│   ├── learning.yaml
+│   ├── diversity.yaml
+│   ├── open_mindedness.yaml
+│   ├── uncertainty.yaml
+│   ├── adaptability.yaml
+│   └── reasoning.yaml
+
+├── consistency/
+│   ├── knowledge_rules.yaml
+│   ├── realism.yaml
+│   ├── contradiction_rules.yaml
+│   ├── information_priority.yaml
+│   └── source_validation.yaml
+
+└── integration/
+    ├── knowledge_bridge.yaml
+    ├── language_bridge.yaml
+    ├── education_bridge.yaml
+    ├── psychology_bridge.yaml
+    ├── personality_bridge.yaml
+    ├── memory_bridge.yaml
+    ├── values_bridge.yaml
+    └── scenario_bridge.yaml
