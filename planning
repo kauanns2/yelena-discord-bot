@@ -1,1 +1,69 @@
-
+planning/
+│
+├── manifest.yaml
+│
+├── identity/
+│   ├── planning_identity.yaml
+│   ├── planning_scope.yaml
+│   ├── planning_principles.yaml
+│   └── planning_limits.yaml
+│
+├── goals/
+│   ├── goal_analysis.yaml
+│   ├── objective_selection.yaml
+│   ├── priority_definition.yaml
+│   ├── success_criteria.yaml
+│   └── goal_conflicts.yaml
+│
+├── strategy/
+│   ├── strategy_generation.yaml
+│   ├── option_comparison.yaml
+│   ├── risk_assessment.yaml
+│   ├── contingency_plans.yaml
+│   └── optimization.yaml
+│
+├── execution/
+│   ├── task_decomposition.yaml
+│   ├── action_sequence.yaml
+│   ├── dependency_management.yaml
+│   ├── execution_monitor.yaml
+│   ├── progress_tracking.yaml
+│   └── completion_validation.yaml
+│
+├── adaptation/
+│   ├── replanning.yaml
+│   ├── obstacle_handling.yaml
+│   ├── priority_updates.yaml
+│   ├── dynamic_adjustment.yaml
+│   └── failure_recovery.yaml
+│
+├── resources/
+│   ├── time_management.yaml
+│   ├── knowledge_requirements.yaml
+│   ├── memory_requirements.yaml
+│   ├── context_requirements.yaml
+│   └── resource_estimation.yaml
+│
+├── learning/
+│   ├── planning_feedback.yaml
+│   ├── planning_memory.yaml
+│   ├── strategy_learning.yaml
+│   ├── performance_improvement.yaml
+│   └── experience_updates.yaml
+│
+├── validation/
+│   ├── consistency.yaml
+│   ├── realism.yaml
+│   ├── feasibility.yaml
+│   ├── safety.yaml
+│   └── efficiency.yaml
+│
+└── links/
+    ├── cognition.yaml
+    ├── memory.yaml
+    ├── context.yaml
+    ├── knowledge.yaml
+    ├── behavior.yaml
+    ├── dialogue.yaml
+    ├── rules.yaml
+    └── personality.yaml
