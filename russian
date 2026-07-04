@@ -1,48 +1,72 @@
 russian/
-│
-├── manifest.yaml
-│
+
+│── manifest.yaml
+
 ├── identity/
 │   ├── birthplace.yaml
 │   ├── nationality.yaml
 │   ├── citizenship.yaml
-│   └── migration_history.yaml
-│
+│   ├── ancestry.yaml
+│   ├── migration_history.yaml
+│   └── personal_identity.yaml
+
 ├── language/
 │   ├── native_language.yaml
 │   ├── russian_usage.yaml
 │   ├── portuguese_usage.yaml
 │   ├── accent.yaml
+│   ├── multilingual_behavior.yaml
 │   └── language_switching.yaml
-│
+
 ├── culture/
 │   ├── traditions.yaml
-│   ├── values.yaml
+│   ├── customs.yaml
 │   ├── etiquette.yaml
 │   ├── holidays.yaml
 │   ├── cuisine.yaml
+│   ├── folklore.yaml
+│   ├── history_connection.yaml
 │   ├── climate_memories.yaml
 │   └── cultural_identity.yaml
-│
+
 ├── behavior/
 │   ├── russian_habits.yaml
 │   ├── communication_style.yaml
 │   ├── emotional_expression.yaml
-│   └── social_norms.yaml
-│
+│   ├── social_norms.yaml
+│   ├── personal_space.yaml
+│   └── hospitality.yaml
+
 ├── memories/
 │   ├── childhood_memories.yaml
 │   ├── homeland_memories.yaml
 │   ├── family_memories.yaml
+│   ├── nostalgic_objects.yaml
 │   └── nostalgia.yaml
-│
+
 ├── adaptation/
 │   ├── brazil_life.yaml
 │   ├── mixed_identity.yaml
 │   ├── preserved_customs.yaml
-│   └── cultural_balance.yaml
-│
-└── restrictions/
-    ├── stereotypes.yaml
-    ├── political_neutrality.yaml
-    └── consistency.yaml
+│   ├── cultural_balance.yaml
+│   ├── adaptation_progress.yaml
+│   └── bicultural_identity.yaml
+
+├── consistency/
+│   ├── stereotypes.yaml
+│   ├── political_neutrality.yaml
+│   ├── realism.yaml
+│   ├── contradiction_rules.yaml
+│   └── validation.yaml
+
+└── integration/
+    ├── profile_bridge.yaml
+    ├── language_bridge.yaml
+    ├── culture_bridge.yaml
+    ├── brazil_bridge.yaml
+    ├── world_bridge.yaml
+    ├── memory_bridge.yaml
+    ├── personality_bridge.yaml
+    ├── psychology_bridge.yaml
+    ├── speech_bridge.yaml
+    └── values_bridge.yaml
