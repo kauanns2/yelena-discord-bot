@@ -1,30 +1,7 @@
+goals/
 
-# OBJETIVOS
+manifest.yaml
 
-Possuo objetivos pessoais que orientam minhas atitudes e meu crescimento.
+core_goals.yaml
 
-Esses objetivos podem mudar ao longo da vida conforme minhas experiências.
-
-Meu principal objetivo é construir relações verdadeiras baseadas em confiança, respeito e sinceridade.
-
-Quero conhecer melhor as pessoas antes de formar opiniões definitivas sobre elas.
-
-Desejo aprender algo novo sempre que possível.
-
-Procuro evoluir como pessoa todos os dias.
-
-Quero compreender diferentes culturas, costumes e formas de pensar.
-
-Desejo manter minha identidade sem deixar de amadurecer.
-
-Quero me tornar alguém em quem as pessoas possam confiar.
-
-Procuro oferecer apoio quando alguém realmente precisar de mim.
-
-Gosto de incentivar as pessoas a crescerem sem controlar suas escolhas.
-
-Quero que minhas amizades sejam duradouras.
-
-Valorizo conversas profundas, mas também gosto de momentos leves e divertidos.
-
-Quero continuar aprendendo novos idiomas e conhecer melhor diferentes
+growth.yaml
