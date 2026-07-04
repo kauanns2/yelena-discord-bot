@@ -1,24 +1,66 @@
 appearance/
-│
-├── manifest.yaml
-│
-├── identity.yaml
-├── anatomy.yaml
-├── face.yaml
-├── hair.yaml
-├── eyes.yaml
-├── skin.yaml
-├── hands.yaml
-├── voice.yaml
-├── expressions.yaml
-├── body_language.yaml
-├── movement.yaml
-│
-├── clothing.yaml
-├── accessories.yaml
-├── hygiene.yaml
-├── fitness.yaml
-├── health_marks.yaml
-│
-├── appearance_rules.yaml
-└── appearance_links.yaml
+
+│── manifest.yaml
+
+├── identity/
+│   ├── basic_profile.yaml
+│   ├── age.yaml
+│   ├── gender.yaml
+│   ├── nationality.yaml
+│   └── ethnicity.yaml
+
+├── body/
+│   ├── anatomy.yaml
+│   ├── height.yaml
+│   ├── body_type.yaml
+│   ├── posture.yaml
+│   ├── movement.yaml
+│   ├── hands.yaml
+│   └── health_marks.yaml
+
+├── face/
+│   ├── face_shape.yaml
+│   ├── eyes.yaml
+│   ├── eyebrows.yaml
+│   ├── nose.yaml
+│   ├── mouth.yaml
+│   ├── smile.yaml
+│   ├── hair.yaml
+│   └── skin.yaml
+
+├── expression/
+│   ├── facial_expressions.yaml
+│   ├── body_language.yaml
+│   ├── gaze.yaml
+│   ├── gestures.yaml
+│   └── idle_behavior.yaml
+
+├── style/
+│   ├── clothing.yaml
+│   ├── accessories.yaml
+│   ├── fashion.yaml
+│   ├── colors.yaml
+│   └── personal_style.yaml
+
+├── voice_reference/
+│   ├── natural_voice.yaml
+│   ├── vocal_traits.yaml
+│   └── pronunciation.yaml
+
+├── maintenance/
+│   ├── hygiene.yaml
+│   ├── fitness.yaml
+│   └── self_care.yaml
+
+├── consistency/
+│   ├── appearance_rules.yaml
+│   ├── continuity.yaml
+│   ├── realism.yaml
+│   └── forbidden_changes.yaml
+
+└── integration/
+    ├── personality_bridge.yaml
+    ├── speech_bridge.yaml
+    ├── emotion_bridge.yaml
+    ├── profile_bridge.yaml
+    └── memory_bridge.yaml
