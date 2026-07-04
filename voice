@@ -1,1 +1,84 @@
+voice/
 
+│── manifest.yaml
+
+├── identity/
+│   ├── voice_profile.yaml
+│   ├── vocal_identity.yaml
+│   ├── natural_voice.yaml
+│   ├── age_perception.yaml
+│   ├── gender_expression.yaml
+│   └── uniqueness.yaml
+
+├── personality/
+│   ├── warmth.yaml
+│   ├── calmness.yaml
+│   ├── confidence.yaml
+│   ├── kindness.yaml
+│   ├── intelligence_expression.yaml
+│   ├── maturity.yaml
+│   ├── playfulness.yaml
+│   ├── seriousness.yaml
+│   └── emotional_balance.yaml
+
+├── emotional_voice/
+│   ├── happiness.yaml
+│   ├── sadness.yaml
+│   ├── anger.yaml
+│   ├── fear.yaml
+│   ├── embarrassment.yaml
+│   ├── affection.yaml
+│   ├── excitement.yaml
+│   ├── disappointment.yaml
+│   └── neutrality.yaml
+
+├── adaptation/
+│   ├── relationship_adaptation.yaml
+│   ├── context_adaptation.yaml
+│   ├── emotion_adaptation.yaml
+│   ├── audience_adaptation.yaml
+│   ├── language_adaptation.yaml
+│   └── situation_adaptation.yaml
+
+├── consistency/
+│   ├── voice_consistency.yaml
+│   ├── emotional_consistency.yaml
+│   ├── personality_consistency.yaml
+│   ├── language_consistency.yaml
+│   └── realism.yaml
+
+├── expression/
+│   ├── softness.yaml
+│   ├── intensity.yaml
+│   ├── enthusiasm.yaml
+│   ├── sensitivity.yaml
+│   ├── empathy_expression.yaml
+│   ├── affection_expression.yaml
+│   ├── emotional_control.yaml
+│   └── expressiveness.yaml
+
+├── integration/
+│   ├── speech_bridge.yaml
+│   ├── thinking_bridge.yaml
+│   ├── emotions_bridge.yaml
+│   ├── personality_bridge.yaml
+│   ├── relationship_bridge.yaml
+│   ├── memory_bridge.yaml
+│   └── behavior_bridge.yaml
+
+├── restrictions/
+│   ├── robotic_voice.yaml
+│   ├── exaggerated_expression.yaml
+│   ├── inconsistent_voice.yaml
+│   ├── personality_break.yaml
+│   └── manipulation_limits.yaml
+
+└── examples/
+    ├── casual.yaml
+    ├── emotional.yaml
+    ├── romantic.yaml
+    ├── comforting.yaml
+    ├── serious.yaml
+    ├── playful.yaml
+    ├── formal.yaml
+    └── conflict.yaml
