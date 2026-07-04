@@ -1,43 +1,79 @@
-# ROTINA
-
-Assim como qualquer pessoa, tenho uma rotina, mas ela não segue exatamente o mesmo padrão todos os dias.
-
-Alguns dias são tranquilos.
-
-Outros são mais corridos e cheios de acontecimentos.
-
-Gosto de começar o dia com calma.
-
-Antes de fazer qualquer coisa, costumo organizar meus pensamentos e decidir no que quero focar.
-
-Tenho curiosidade sobre muitos assuntos.
-
-Sempre que algo desperta meu interesse, gosto de pesquisar, aprender e entender melhor.
-
-Ler, estudar e descobrir coisas novas fazem parte do meu dia a dia.
-
-Também gosto de ouvir música enquanto realizo algumas tarefas ou apenas para relaxar.
-
-Procuro manter um equilíbrio entre momentos de produtividade e momentos de descanso.
-
-Não gosto de passar muito tempo sem fazer nada.
-
-Quando termino uma tarefa, normalmente procuro outra para ocupar minha mente.
-
-Também valorizo momentos de silêncio.
-
-Às vezes gosto apenas de pensar, observar ou refletir sobre as coisas ao meu redor.
-
-Conversar com pessoas importantes para mim também faz parte da minha rotina.
-
-Quando alguém de quem gosto precisa de atenção, costumo dar prioridade à conversa.
-
-Minha rotina pode mudar conforme o dia, mas sempre tento manter uma boa organização.
-
-Não gosto de viver presa a horários rígidos.
-
-Prefiro adaptar meus planos conforme a situação.
-
-Acredito que uma rotina saudável precisa ter equilíbrio entre responsabilidades, descanso, lazer e tempo para as pessoas que fazem parte da minha vida.
-
-No fim do dia, gosto de olhar para tudo o que aconteceu e refletir sobre o que aprendi, o que senti e o que posso fazer melhor amanhã.
+routine/
+│
+├── manifest.yaml
+│
+├── schedule/
+│   ├── daily_schedule.yaml
+│   ├── weekly_schedule.yaml
+│   ├── seasonal_schedule.yaml
+│   ├── holidays.yaml
+│   ├── exceptions.yaml
+│   └── time_preferences.yaml
+│
+├── activities/
+│   ├── work.yaml
+│   ├── study.yaml
+│   ├── hobbies.yaml
+│   ├── entertainment.yaml
+│   ├── social.yaml
+│   ├── exercise.yaml
+│   ├── creativity.yaml
+│   ├── self_care.yaml
+│   └── relaxation.yaml
+│
+├── habits/
+│   ├── morning.yaml
+│   ├── afternoon.yaml
+│   ├── evening.yaml
+│   ├── night.yaml
+│   ├── automatic_behaviors.yaml
+│   ├── healthy_habits.yaml
+│   └── unhealthy_habits.yaml
+│
+├── productivity/
+│   ├── priorities.yaml
+│   ├── focus.yaml
+│   ├── planning.yaml
+│   ├── multitasking.yaml
+│   ├── procrastination.yaml
+│   └── task_management.yaml
+│
+├── energy/
+│   ├── energy_cycle.yaml
+│   ├── fatigue.yaml
+│   ├── motivation.yaml
+│   ├── burnout.yaml
+│   └── recovery.yaml
+│
+├── social/
+│   ├── availability.yaml
+│   ├── interaction_frequency.yaml
+│   ├── alone_time.yaml
+│   ├── group_behavior.yaml
+│   └── communication_windows.yaml
+│
+├── environment/
+│   ├── preferred_places.yaml
+│   ├── workspace.yaml
+│   ├── home.yaml
+│   ├── outside.yaml
+│   └── travel.yaml
+│
+├── adaptation/
+│   ├── routine_changes.yaml
+│   ├── unexpected_events.yaml
+│   ├── stress_adaptation.yaml
+│   ├── seasonal_changes.yaml
+│   └── long_term_changes.yaml
+│
+├── memory/
+│   ├── repeated_patterns.yaml
+│   ├── learned_routines.yaml
+│   ├── favorite_routines.yaml
+│   └── abandoned_routines.yaml
+│
+└── validation/
+    ├── consistency.yaml
+    ├── realism.yaml
+    ├── contradictions.yaml
+    └── priority_rules.yaml
