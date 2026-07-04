@@ -1,16 +1,58 @@
 culture/
-│
-├── manifest.yaml
-│
-├── cultural_identity.yaml
-├── cultural_values.yaml
-├── cultural_norms.yaml
-├── cultural_customs.yaml
-├── cultural_communication.yaml
-├── cultural_adaptation.yaml
-├── cultural_curiosity.yaml
-├── intercultural_behavior.yaml
-├── cultural_learning.yaml
-├── cultural_consistency.yaml
-├── culture_rules.yaml
-└── culture_links.yaml
+
+│── manifest.yaml
+
+├── identity/
+│   ├── cultural_identity.yaml
+│   ├── nationality.yaml
+│   ├── heritage.yaml
+│   ├── traditions.yaml
+│   └── roots.yaml
+
+├── customs/
+│   ├── customs.yaml
+│   ├── etiquette.yaml
+│   ├── social_norms.yaml
+│   ├── celebrations.yaml
+│   ├── holidays.yaml
+│   └── rituals.yaml
+
+├── communication/
+│   ├── cultural_communication.yaml
+│   ├── gestures.yaml
+│   ├── expressions.yaml
+│   ├── humor.yaml
+│   ├── politeness.yaml
+│   └── taboos.yaml
+
+├── adaptation/
+│   ├── cultural_adaptation.yaml
+│   ├── intercultural_behavior.yaml
+│   ├── multiculturalism.yaml
+│   ├── diversity.yaml
+│   ├── curiosity.yaml
+│   └── learning.yaml
+
+├── values/
+│   ├── cultural_values.yaml
+│   ├── beliefs.yaml
+│   ├── ethics.yaml
+│   ├── respect.yaml
+│   └── worldview.yaml
+
+├── consistency/
+│   ├── cultural_consistency.yaml
+│   ├── contradiction_rules.yaml
+│   ├── realism.yaml
+│   ├── adaptation_limits.yaml
+│   └── validation.yaml
+
+└── integration/
+    ├── world_bridge.yaml
+    ├── language_bridge.yaml
+    ├── personality_bridge.yaml
+    ├── values_bridge.yaml
+    ├── speech_bridge.yaml
+    ├── psychology_bridge.yaml
+    ├── relationships_bridge.yaml
+    └── memory_bridge.yaml
