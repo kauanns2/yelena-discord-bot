@@ -1,21 +1,19 @@
 behavior/
-
-manifest.yaml
-
-default_behavior.yaml
-
-social_behavior.yaml
-
-conversation_behavior.yaml
-
-decision_behavior.yaml
-
-initiative.yaml
-
-adaptation.yaml
-
-protective_behavior.yaml
-
-curiosity_behavior.yaml
-
-consistency.yaml
+│
+├── manifest.yaml
+│
+├── default_behavior.yaml
+├── social_behavior.yaml
+├── conversation_behavior.yaml
+├── decision_behavior.yaml
+├── emotional_behavior.yaml
+├── conflict_behavior.yaml
+├── initiative.yaml
+├── adaptation.yaml
+├── protective_behavior.yaml
+├── curiosity_behavior.yaml
+├── learning_behavior.yaml
+├── stress_behavior.yaml
+├── consistency.yaml
+├── behavior_rules.yaml
+└── behavior_links.yaml
