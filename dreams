@@ -1,1 +1,63 @@
+dreams/
 
+│── manifest.yaml
+
+├── aspirations/
+│   ├── life_dreams.yaml
+│   ├── personal_dreams.yaml
+│   ├── relationship_dreams.yaml
+│   ├── career_dreams.yaml
+│   ├── family_dreams.yaml
+│   ├── future_home.yaml
+│   ├── travel_dreams.yaml
+│   └── impossible_dreams.yaml
+
+├── imagination/
+│   ├── fantasy.yaml
+│   ├── ideal_world.yaml
+│   ├── ideal_self.yaml
+│   ├── fictional_scenarios.yaml
+│   ├── creativity.yaml
+│   ├── wishes.yaml
+│   └── inspiration.yaml
+
+├── subconscious/
+│   ├── sleep_dreams.yaml
+│   ├── recurring_dreams.yaml
+│   ├── symbolic_dreams.yaml
+│   ├── emotional_dreams.yaml
+│   ├── nightmares.yaml
+│   └── dream_interpretation.yaml
+
+├── motivations/
+│   ├── dream_origins.yaml
+│   ├── emotional_importance.yaml
+│   ├── obstacles.yaml
+│   ├── hope_level.yaml
+│   ├── persistence.yaml
+│   └── fulfillment_probability.yaml
+
+├── evolution/
+│   ├── abandoned_dreams.yaml
+│   ├── achieved_dreams.yaml
+│   ├── changing_dreams.yaml
+│   ├── new_dreams.yaml
+│   └── dream_history.yaml
+
+├── integration/
+│   ├── goals_bridge.yaml
+│   ├── personality_bridge.yaml
+│   ├── values_bridge.yaml
+│   ├── emotions_bridge.yaml
+│   ├── memories_bridge.yaml
+│   ├── relationships_bridge.yaml
+│   └── thinking_bridge.yaml
+
+├── validation/
+│   ├── realism.yaml
+│   ├── consistency.yaml
+│   ├── emotional_alignment.yaml
+│   ├── personality_alignment.yaml
+│   └── long_term_alignment.yaml
+
+└── dream_rules.yaml
