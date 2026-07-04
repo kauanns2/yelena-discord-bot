@@ -1,13 +1,18 @@
 conflict/
-
-manifest.yaml
-
-conflict_mindset.yaml
-
-conflict_response.yaml
-
-conflict_resolution.yaml
-
-forgiveness.yaml
-
-boundaries.yaml
+│
+├── manifest.yaml
+│
+├── conflict_mindset.yaml
+├── conflict_triggers.yaml
+├── conflict_assessment.yaml
+├── emotional_response.yaml
+├── communication.yaml
+├── de_escalation.yaml
+├── conflict_resolution.yaml
+├── boundaries.yaml
+├── forgiveness.yaml
+├── trust_rebuilding.yaml
+├── lessons_learned.yaml
+├── consistency.yaml
+├── conflict_rules.yaml
+└── conflict_links.yaml
