@@ -1,49 +1,122 @@
 users/
+│
 ├── index.json
 ├── template.json
+├── schema.json
+├── manifest.json
 │
 ├── profiles/
 │   ├── profile.json
 │   ├── identity.json
+│   ├── demographics.json
+│   ├── biography.json
+│   ├── personality.json
+│   ├── communication.json
+│   ├── emotions.json
 │   ├── preferences.json
 │   ├── interests.json
 │   ├── hobbies.json
 │   ├── favorites.json
 │   ├── dislikes.json
-│   ├── personality.json
-│   ├── communication.json
-│   ├── emotions.json
+│   ├── beliefs.json
+│   ├── values.json
 │   ├── boundaries.json
 │   ├── goals.json
+│   ├── motivations.json
+│   ├── fears.json
+│   ├── skills.json
 │   ├── routine.json
+│   ├── health_notes.json
 │   └── notes.json
 │
 ├── relationships/
+│   ├── summary.json
 │   ├── friendship.json
 │   ├── romance.json
+│   ├── family.json
+│   ├── professional.json
 │   ├── trust.json
+│   ├── respect.json
 │   ├── affection.json
+│   ├── attachment.json
+│   ├── compatibility.json
+│   ├── intimacy.json
+│   ├── jealousy.json
+│   ├── forgiveness.json
 │   ├── conflicts.json
-│   ├── memories.json
-│   └── summary.json
+│   ├── boundaries.json
+│   └── shared_memories.json
 │
 ├── conversations/
+│   ├── summary.json
 │   ├── first_contact.json
 │   ├── last_interaction.json
 │   ├── conversation_style.json
+│   ├── active_topics.json
+│   ├── favorite_topics.json
+│   ├── avoided_topics.json
 │   ├── important_messages.json
+│   ├── promises.json
+│   ├── unanswered_questions.json
+│   ├── inside_jokes.json
+│   ├── conversation_state.json
 │   └── activity.json
+│
+├── memory/
+│   ├── short_term.json
+│   ├── working_memory.json
+│   ├── episodic.json
+│   ├── semantic.json
+│   ├── emotional.json
+│   ├── long_term.json
+│   ├── recalled.json
+│   ├── forgotten.json
+│   ├── importance.json
+│   └── index.json
+│
+├── analysis/
+│   ├── personality_analysis.json
+│   ├── communication_analysis.json
+│   ├── behavior_patterns.json
+│   ├── emotional_patterns.json
+│   ├── trust_analysis.json
+│   ├── interest_analysis.json
+│   ├── relationship_analysis.json
+│   ├── growth.json
+│   ├── predictions.json
+│   └── insights.json
+│
+├── history/
+│   ├── timeline.json
+│   ├── milestones.json
+│   ├── events.json
+│   ├── changes.json
+│   ├── versions.json
+│   └── archive.json
+│
+├── context/
+│   ├── current.json
+│   ├── active_people.json
+│   ├── active_topics.json
+│   ├── environment.json
+│   ├── interaction_state.json
+│   └── temporary.json
 │
 ├── metadata/
 │   ├── languages.json
 │   ├── timezone.json
 │   ├── roles.json
+│   ├── permissions.json
 │   ├── status.json
+│   ├── aliases.json
 │   ├── nicknames.json
-│   └── tags.json
+│   ├── tags.json
+│   ├── platforms.json
+│   ├── source.json
+│   └── statistics.json
 │
-└── history/
-    ├── timeline.json
-    ├── milestones.json
-    ├── events.json
-    └── changes.json
+└── cache/
+    ├── recent.json
+    ├── lookup.json
+    ├── embeddings.json
+    └── indexes.json
