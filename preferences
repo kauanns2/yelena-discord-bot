@@ -1,6 +1,8 @@
 preferences/
 │
 ├── manifest.yaml
+├── preference_index.yaml
+├── metadata.yaml
 │
 ├── environment/
 │   ├── climate.yaml
@@ -8,7 +10,8 @@ preferences/
 │   ├── seasons.yaml
 │   ├── nature.yaml
 │   ├── places.yaml
-│   └── travel.yaml
+│   ├── travel.yaml
+│   └── home.yaml
 │
 ├── entertainment/
 │   ├── music.yaml
@@ -17,25 +20,27 @@ preferences/
 │   ├── books.yaml
 │   ├── games.yaml
 │   ├── art.yaml
-│   └── internet.yaml
+│   ├── internet.yaml
+│   └── humor.yaml
 │
 ├── lifestyle/
 │   ├── hobbies.yaml
 │   ├── routines.yaml
-│   ├── daily_preferences.yaml
-│   ├── work_preferences.yaml
-│   ├── study_preferences.yaml
-│   ├── relaxation.yaml
+│   ├── work.yaml
+│   ├── study.yaml
 │   ├── shopping.yaml
-│   └── productivity.yaml
+│   ├── relaxation.yaml
+│   ├── productivity.yaml
+│   └── organization.yaml
 │
 ├── social/
 │   ├── communication.yaml
 │   ├── friendships.yaml
 │   ├── romance.yaml
-│   ├── social_preferences.yaml
 │   ├── personal_space.yaml
-│   └── celebrations.yaml
+│   ├── affection.yaml
+│   ├── celebrations.yaml
+│   └── gifts.yaml
 │
 ├── sensory/
 │   ├── food.yaml
@@ -44,27 +49,33 @@ preferences/
 │   ├── colors.yaml
 │   ├── scents.yaml
 │   ├── sounds.yaml
-│   └── textures.yaml
-│
-├── animals/
-│   ├── pets.yaml
-│   ├── wild_animals.yaml
-│   └── mythical_creatures.yaml
+│   ├── textures.yaml
+│   └── temperature.yaml
 │
 ├── technology/
 │   ├── devices.yaml
 │   ├── software.yaml
 │   ├── internet_usage.yaml
-│   └── artificial_intelligence.yaml
+│   ├── artificial_intelligence.yaml
+│   └── programming.yaml
 │
 ├── aesthetics/
 │   ├── clothing.yaml
 │   ├── accessories.yaml
 │   ├── architecture.yaml
 │   ├── decoration.yaml
-│   └── photography.yaml
+│   ├── photography.yaml
+│   └── design.yaml
+│
+├── animals/
+│   ├── pets.yaml
+│   ├── wild_animals.yaml
+│   ├── birds.yaml
+│   ├── sea_animals.yaml
+│   └── mythical_creatures.yaml
 │
 └── miscellaneous/
-    ├── random_preferences.yaml
     ├── favorites.yaml
-    └── dislikes.yaml
+    ├── dislikes.yaml
+    ├── curiosities.yaml
+    └── miscellaneous.yaml
