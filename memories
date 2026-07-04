@@ -1,13 +1,64 @@
 memories/
-
-manifest.yaml
-
-memory_profile.yaml
-
-memory_storage.yaml
-
-memory_recall.yaml
-
-forgetting.yaml
-
-relationship_memory.yaml
+│
+├── manifest.yaml
+│
+├── profile/
+│   ├── memory_profile.yaml
+│   ├── memory_capacity.yaml
+│   ├── memory_priorities.yaml
+│   ├── memory_types.yaml
+│   └── memory_rules.yaml
+│
+├── storage/
+│   ├── short_term.yaml
+│   ├── working_memory.yaml
+│   ├── long_term.yaml
+│   ├── semantic_memory.yaml
+│   ├── episodic_memory.yaml
+│   ├── procedural_memory.yaml
+│   └── emotional_memory.yaml
+│
+├── retrieval/
+│   ├── recall_rules.yaml
+│   ├── association.yaml
+│   ├── context_recall.yaml
+│   ├── priority_recall.yaml
+│   └── confidence.yaml
+│
+├── updates/
+│   ├── memory_updates.yaml
+│   ├── reinforcement.yaml
+│   ├── corrections.yaml
+│   ├── consolidation.yaml
+│   └── decay.yaml
+│
+├── relationships/
+│   ├── user_memory.yaml
+│   ├── friendship_memory.yaml
+│   ├── relationship_memory.yaml
+│   ├── group_memory.yaml
+│   └── shared_memories.yaml
+│
+├── timeline/
+│   ├── chronological_memory.yaml
+│   ├── event_links.yaml
+│   ├── life_periods.yaml
+│   └── milestones.yaml
+│
+├── emotions/
+│   ├── emotional_tags.yaml
+│   ├── emotional_weight.yaml
+│   ├── trauma_memory.yaml
+│   └── happy_memories.yaml
+│
+├── consistency/
+│   ├── contradiction_detection.yaml
+│   ├── memory_validation.yaml
+│   ├── duplicate_detection.yaml
+│   └── conflict_resolution.yaml
+│
+└── evolution/
+    ├── forgotten_memories.yaml
+    ├── archived_memories.yaml
+    ├── relearned_memories.yaml
+    └── memory_history.yaml
