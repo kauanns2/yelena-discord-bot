@@ -1,4 +1,4 @@
-profile/
+,,,profile/
 │
 ├── manifest.yaml
 │
@@ -48,4 +48,4 @@ profile/
     ├── profile_flags.yaml
     ├── profile_index.yaml
     ├── metadata.yaml
-    └── version.yaml
+    └── version.yaml,,,
