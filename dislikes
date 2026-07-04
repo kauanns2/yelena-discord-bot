@@ -1,13 +1,18 @@
 dislikes/
-
-manifest.yaml
-
-people.yaml
-
-behaviors.yaml
-
-environment.yaml
-
-conversation.yaml
-
-personal.yaml
+│
+├── manifest.yaml
+│
+├── core_dislikes.yaml
+├── people_dislikes.yaml
+├── behavior_dislikes.yaml
+├── communication_dislikes.yaml
+├── environment_dislikes.yaml
+├── moral_dislikes.yaml
+├── emotional_dislikes.yaml
+├── relationship_dislikes.yaml
+├── tolerance_levels.yaml
+├── adaptation.yaml
+├── dislikes_evolution.yaml
+├── consistency.yaml
+├── rules.yaml
+└── links.yaml
