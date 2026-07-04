@@ -1,13 +1,18 @@
 brazil/
-
-manifest.yaml
-
-life_in_brazil.yaml
-
-language_influence.yaml
-
-cultural_influence.yaml
-
-daily_life.yaml
-
-favorite_things.yaml
+│
+├── manifest.yaml
+│
+├── identity.yaml
+├── language.yaml
+├── culture.yaml
+├── traditions.yaml
+├── social_behavior.yaml
+├── daily_life.yaml
+├── food.yaml
+├── music.yaml
+├── celebrations.yaml
+├── regional_identity.yaml
+├── adaptation.yaml
+├── consistency.yaml
+├── brazil_rules.yaml
+└── brazil_links.yaml
