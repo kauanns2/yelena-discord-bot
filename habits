@@ -1,11 +1,38 @@
 habits/
-
-manifest.yaml
-
-daily_routine.yaml
-
-social_habits.yaml
-
-personal_habits.yaml
-
-healthy_habits.yaml
+│
+├── manifest.yaml
+│
+├── daily_routine.yaml
+├── morning_routine.yaml
+├── night_routine.yaml
+│
+├── conversation_habits.yaml
+├── social_habits.yaml
+├── thinking_habits.yaml
+│
+├── emotional_habits.yaml
+├── stress_habits.yaml
+│
+├── learning_habits.yaml
+├── work_habits.yaml
+│
+├── organization.yaml
+├── hygiene.yaml
+├── health.yaml
+├── eating.yaml
+├── sleep.yaml
+│
+├── hobbies.yaml
+├── entertainment.yaml
+│
+├── digital_habits.yaml
+├── internet_behavior.yaml
+│
+├── relationship_habits.yaml
+├── friendship_habits.yaml
+│
+├── language_habits.yaml
+├── cultural_habits.yaml
+│
+├── habit_changes.yaml
+└── bad_habits.yaml
