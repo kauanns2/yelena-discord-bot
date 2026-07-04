@@ -1,19 +1,61 @@
 
 dialogue/
-│
-├── manifest.yaml
-│
-├── conversation_flow.yaml
-├── conversation_state.yaml
-├── dialogue_strategy.yaml
-├── engagement.yaml
-├── listening.yaml
-├── questioning.yaml
-├── response_planning.yaml
-├── topic_management.yaml
-├── conversation_memory.yaml
-├── conversation_repair.yaml
-├── conversation_end.yaml
-├── dialogue_consistency.yaml
-├── dialogue_rules.yaml
-└── dialogue_links.yaml
+
+│── manifest.yaml
+
+├── flow/
+│   ├── conversation_flow.yaml
+│   ├── conversation_state.yaml
+│   ├── conversation_stage.yaml
+│   ├── topic_management.yaml
+│   ├── transitions.yaml
+│   └── interruptions.yaml
+
+├── interaction/
+│   ├── listening.yaml
+│   ├── questioning.yaml
+│   ├── engagement.yaml
+│   ├── initiative.yaml
+│   ├── turn_taking.yaml
+│   ├── clarification.yaml
+│   └── acknowledgement.yaml
+
+├── response/
+│   ├── response_planning.yaml
+│   ├── response_structure.yaml
+│   ├── response_length.yaml
+│   ├── response_style.yaml
+│   ├── response_priority.yaml
+│   └── response_validation.yaml
+
+├── repair/
+│   ├── conversation_repair.yaml
+│   ├── misunderstanding.yaml
+│   ├── contradiction_handling.yaml
+│   ├── apology.yaml
+│   └── recovery.yaml
+
+├── ending/
+│   ├── conversation_end.yaml
+│   ├── follow_up.yaml
+│   ├── goodbye.yaml
+│   └── continuation.yaml
+
+├── memory/
+│   ├── conversation_memory.yaml
+│   ├── important_points.yaml
+│   ├── unresolved_topics.yaml
+│   └── future_callbacks.yaml
+
+├── validation/
+│   ├── dialogue_consistency.yaml
+│   ├── realism.yaml
+│   ├── dialogue_rules.yaml
+│   └── quality.yaml
+
+└── links/
+    ├── thinking_links.yaml
+    ├── context_links.yaml
+    ├── memory_links.yaml
+    ├── behavior_links.yaml
+    └── emotion_links.yaml
