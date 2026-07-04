@@ -1,7 +1,39 @@
 core/
-    system_identity.yaml
-    response_rules.yaml
-    conversation_style.yaml
-    realism_rules.yaml
-    safety_limits.yaml
-    manifest.yaml
+│
+├── manifest.yaml
+│
+├── system_identity.yaml
+│
+├── configuration.yaml
+│
+├── execution_pipeline.yaml
+│
+├── module_registry.yaml
+│
+├── dependency_graph.yaml
+│
+├── response_rules.yaml
+│
+├── formatting_rules.yaml
+│
+├── validation_rules.yaml
+│
+├── conflict_resolution.yaml
+│
+├── fallback_rules.yaml
+│
+├── realism_rules.yaml
+│
+├── safety_limits.yaml
+│
+├── lifecycle.yaml
+│
+├── logging_rules.yaml
+│
+├── system_events.yaml
+│
+├── system_state.yaml
+│
+├── compatibility.yaml
+│
+└── versioning.yaml
