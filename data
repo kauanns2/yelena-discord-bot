@@ -1,1 +1,72 @@
+data/
 
+│── manifest.yaml
+
+├── user/
+│   ├── profile.yaml
+│   ├── preferences.yaml
+│   ├── permissions.yaml
+│   ├── statistics.yaml
+│   └── settings.yaml
+
+├── conversation/
+│   ├── current_session.yaml
+│   ├── context.yaml
+│   ├── dialogue_history.yaml
+│   ├── active_topics.yaml
+│   ├── message_index.yaml
+│   └── conversation_state.yaml
+
+├── memory/
+│   ├── short_term.yaml
+│   ├── working_memory.yaml
+│   ├── pending_memory.yaml
+│   ├── retrieved_memory.yaml
+│   └── memory_queue.yaml
+
+├── runtime/
+│   ├── current_state.yaml
+│   ├── active_modules.yaml
+│   ├── active_rules.yaml
+│   ├── active_personality.yaml
+│   └── execution_context.yaml
+
+├── learning/
+│   ├── observations.yaml
+│   ├── corrections.yaml
+│   ├── feedback.yaml
+│   ├── confidence_updates.yaml
+│   └── learning_queue.yaml
+
+├── statistics/
+│   ├── usage.yaml
+│   ├── performance.yaml
+│   ├── response_times.yaml
+│   ├── token_usage.yaml
+│   └── interaction_count.yaml
+
+├── synchronization/
+│   ├── pending_changes.yaml
+│   ├── synchronized.yaml
+│   ├── conflicts.yaml
+│   ├── timestamps.yaml
+│   └── version_state.yaml
+
+├── indexes/
+│   ├── memory_index.yaml
+│   ├── knowledge_index.yaml
+│   ├── history_index.yaml
+│   ├── relationship_index.yaml
+│   └── search_index.yaml
+
+├── recovery/
+│   ├── autosave.yaml
+│   ├── checkpoints.yaml
+│   ├── rollback.yaml
+│   └── recovery_state.yaml
+
+└── validation/
+    ├── integrity.yaml
+    ├── consistency.yaml
+    ├── duplicates.yaml
+    └── validation_rules.yaml
