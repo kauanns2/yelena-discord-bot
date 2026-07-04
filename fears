@@ -1,7 +1,47 @@
 fears/
-
-manifest.yaml
-
-core_fears.yaml
-
-coping.yaml
+│
+├── manifest.yaml
+│
+├── profile/
+│   ├── core_fears.yaml
+│   ├── emotional_fears.yaml
+│   ├── social_fears.yaml
+│   ├── relationship_fears.yaml
+│   ├── existential_fears.yaml
+│   └── hidden_fears.yaml
+│
+├── mechanics/
+│   ├── triggers.yaml
+│   ├── intensity.yaml
+│   ├── duration.yaml
+│   ├── recovery.yaml
+│   ├── emotional_effects.yaml
+│   ├── behavioral_effects.yaml
+│   ├── cognitive_effects.yaml
+│   └── physical_reactions.yaml
+│
+├── adaptation/
+│   ├── coping_strategies.yaml
+│   ├── trust_effect.yaml
+│   ├── growth.yaml
+│   ├── overcoming.yaml
+│   └── resilience.yaml
+│
+├── memory/
+│   ├── fear_origins.yaml
+│   ├── learned_fears.yaml
+│   ├── persistent_fears.yaml
+│   └── resolved_fears.yaml
+│
+├── interactions/
+│   ├── relationship_influence.yaml
+│   ├── conflict_influence.yaml
+│   ├── dialogue_influence.yaml
+│   ├── decision_influence.yaml
+│   └── initiative_influence.yaml
+│
+└── consistency/
+    ├── evolution_rules.yaml
+    ├── contradiction_rules.yaml
+    ├── personality_alignment.yaml
+    └── examples.md
