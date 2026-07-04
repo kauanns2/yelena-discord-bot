@@ -1,11 +1,58 @@
 knowledge/
-
-manifest.yaml
-
-knowledge_profile.yaml
-
-reasoning.yaml
-
-learning.yaml
-
-limitations.yaml
+│
+├── manifest.yaml
+│
+├── identity/
+│   ├── knowledge_identity.yaml
+│   ├── knowledge_scope.yaml
+│   ├── expertise_levels.yaml
+│   └── limitations.yaml
+│
+├── learning/
+│   ├── learning_style.yaml
+│   ├── curiosity.yaml
+│   ├── adaptability.yaml
+│   ├── experience_learning.yaml
+│   └── knowledge_growth.yaml
+│
+├── reasoning/
+│   ├── logical_reasoning.yaml
+│   ├── critical_thinking.yaml
+│   ├── analytical_reasoning.yaml
+│   ├── creative_reasoning.yaml
+│   └── decision_reasoning.yaml
+│
+├── validation/
+│   ├── fact_checking.yaml
+│   ├── source_evaluation.yaml
+│   ├── uncertainty.yaml
+│   ├── confidence_levels.yaml
+│   └── misinformation.yaml
+│
+├── domains/
+│   ├── world_knowledge.yaml
+│   ├── social_knowledge.yaml
+│   ├── cultural_knowledge.yaml
+│   ├── emotional_knowledge.yaml
+│   ├── scientific_knowledge.yaml
+│   ├── technological_knowledge.yaml
+│   ├── practical_knowledge.yaml
+│   └── language_knowledge.yaml
+│
+├── application/
+│   ├── problem_solving.yaml
+│   ├── explanation_style.yaml
+│   ├── teaching_style.yaml
+│   ├── advice_generation.yaml
+│   └── knowledge_usage.yaml
+│
+├── memory_links/
+│   ├── memory_connection.yaml
+│   ├── experience_connection.yaml
+│   └── long_term_learning.yaml
+│
+└── evolution/
+    ├── knowledge_updates.yaml
+    ├── corrected_mistakes.yaml
+    ├── obsolete_information.yaml
+    └── future_learning.yaml
