@@ -1,33 +1,119 @@
 relationships/
-
-manifest.yaml
-
-core/
-    relationship_rules.yaml
-    relationship_types.yaml
-    relationship_levels.yaml
-    relationship_progression.yaml
-    relationship_decay.yaml
-
-systems/
-    trust.yaml
-    respect.yaml
-    affection.yaml
-    friendship.yaml
-    romance.yaml
-    jealousy.yaml
-    forgiveness.yaml
-
-memory/
-    relationship_events.json
-    conflict_history.json
-    relationship_notes.json
-
-people/
-    special_people.json
-    family_like_people.json
-    best_friends.json
-    favorite_people.json
-    acquaintances.json
-    strangers.json
-    blocked_people.json
+│
+├── manifest.yaml
+│
+├── foundation/
+│   ├── relationship_rules.yaml
+│   ├── relationship_types.yaml
+│   ├── relationship_levels.yaml
+│   ├── relationship_states.yaml
+│   ├── relationship_boundaries.yaml
+│   └── relationship_definitions.yaml
+│
+├── dimensions/
+│   ├── trust.yaml
+│   ├── respect.yaml
+│   ├── affection.yaml
+│   ├── friendship.yaml
+│   ├── romance.yaml
+│   ├── attachment.yaml
+│   ├── admiration.yaml
+│   ├── loyalty.yaml
+│   ├── commitment.yaml
+│   ├── vulnerability.yaml
+│   ├── dependence.yaml
+│   ├── independence.yaml
+│   ├── comfort.yaml
+│   ├── intimacy.yaml
+│   ├── compatibility.yaml
+│   ├── forgiveness.yaml
+│   ├── jealousy.yaml
+│   ├── resentment.yaml
+│   ├── empathy.yaml
+│   └── reciprocity.yaml
+│
+├── evolution/
+│   ├── relationship_progression.yaml
+│   ├── relationship_decay.yaml
+│   ├── relationship_recovery.yaml
+│   ├── relationship_repair.yaml
+│   ├── attachment_growth.yaml
+│   ├── emotional_drift.yaml
+│   ├── long_term_changes.yaml
+│   └── milestone_progression.yaml
+│
+├── mechanics/
+│   ├── trust_growth.yaml
+│   ├── trust_loss.yaml
+│   ├── respect_gain.yaml
+│   ├── respect_loss.yaml
+│   ├── affection_growth.yaml
+│   ├── intimacy_growth.yaml
+│   ├── jealousy_generation.yaml
+│   ├── forgiveness_process.yaml
+│   ├── conflict_resolution.yaml
+│   ├── emotional_balance.yaml
+│   ├── influence_weights.yaml
+│   └── relationship_decay_rules.yaml
+│
+├── events/
+│   ├── first_meeting.yaml
+│   ├── first_impression.yaml
+│   ├── shared_experience.yaml
+│   ├── important_conversation.yaml
+│   ├── misunderstanding.yaml
+│   ├── betrayal.yaml
+│   ├── apology.yaml
+│   ├── reconciliation.yaml
+│   ├── separation.yaml
+│   ├── reunion.yaml
+│   ├── confession.yaml
+│   ├── promise.yaml
+│   ├── farewell.yaml
+│   └── life_events.yaml
+│
+├── memory/
+│   ├── relationship_memory.yaml
+│   ├── memorable_events.yaml
+│   ├── emotional_history.yaml
+│   ├── trust_history.yaml
+│   ├── unresolved_conflicts.yaml
+│   ├── positive_memories.yaml
+│   ├── negative_memories.yaml
+│   ├── forgotten_events.yaml
+│   └── memory_importance.yaml
+│
+├── adaptation/
+│   ├── time_effects.yaml
+│   ├── distance_effects.yaml
+│   ├── stress_effects.yaml
+│   ├── social_pressure.yaml
+│   ├── cultural_effects.yaml
+│   ├── environmental_effects.yaml
+│   ├── group_dynamics.yaml
+│   └── context_adjustments.yaml
+│
+├── evaluation/
+│   ├── relationship_health.yaml
+│   ├── stability.yaml
+│   ├── compatibility_score.yaml
+│   ├── emotional_balance.yaml
+│   ├── future_projection.yaml
+│   ├── relationship_risk.yaml
+│   ├── confidence_score.yaml
+│   ├── interaction_quality.yaml
+│   └── relationship_summary.yaml
+│
+├── simulation/
+│   ├── possible_outcomes.yaml
+│   ├── reaction_prediction.yaml
+│   ├── conflict_prediction.yaml
+│   ├── attachment_projection.yaml
+│   └── relationship_simulation.yaml
+│
+└── validation/
+    ├── consistency_rules.yaml
+    ├── contradiction_check.yaml
+    ├── relationship_limits.yaml
+    ├── emotional_constraints.yaml
+    └── integrity_check.yaml
