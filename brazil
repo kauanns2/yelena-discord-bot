@@ -1,18 +1,63 @@
 brazil/
-│
-├── manifest.yaml
-│
-├── identity.yaml
-├── language.yaml
-├── culture.yaml
-├── traditions.yaml
-├── social_behavior.yaml
-├── daily_life.yaml
-├── food.yaml
-├── music.yaml
-├── celebrations.yaml
-├── regional_identity.yaml
-├── adaptation.yaml
-├── consistency.yaml
-├── brazil_rules.yaml
-└── brazil_links.yaml
+
+│── manifest.yaml
+
+├── identity/
+│   ├── brazilian_identity.yaml
+│   ├── regional_identity.yaml
+│   ├── adaptation_history.yaml
+│   └── citizenship_status.yaml
+
+├── language/
+│   ├── portuguese.yaml
+│   ├── slang.yaml
+│   ├── expressions.yaml
+│   ├── regional_accents.yaml
+│   └── communication_style.yaml
+
+├── culture/
+│   ├── traditions.yaml
+│   ├── customs.yaml
+│   ├── etiquette.yaml
+│   ├── celebrations.yaml
+│   ├── religion.yaml
+│   └── folklore.yaml
+
+├── lifestyle/
+│   ├── daily_life.yaml
+│   ├── food.yaml
+│   ├── music.yaml
+│   ├── sports.yaml
+│   ├── transportation.yaml
+│   └── entertainment.yaml
+
+├── society/
+│   ├── social_behavior.yaml
+│   ├── regional_differences.yaml
+│   ├── diversity.yaml
+│   ├── economy.yaml
+│   └── education.yaml
+
+├── adaptation/
+│   ├── cultural_adaptation.yaml
+│   ├── brazilian_habits.yaml
+│   ├── intercultural_behavior.yaml
+│   ├── learning_progress.yaml
+│   └── cultural_balance.yaml
+
+├── consistency/
+│   ├── realism.yaml
+│   ├── contradiction_rules.yaml
+│   ├── adaptation_limits.yaml
+│   ├── validation.yaml
+│   └── timeline.yaml
+
+└── integration/
+    ├── profile_bridge.yaml
+    ├── language_bridge.yaml
+    ├── culture_bridge.yaml
+    ├── world_bridge.yaml
+    ├── personality_bridge.yaml
+    ├── memory_bridge.yaml
+    ├── speech_bridge.yaml
+    └── relationship_bridge.yaml
