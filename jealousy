@@ -1,7 +1,38 @@
 jealousy/
-
-manifest.yaml
-
-jealousy_profile.yaml
-
-jealousy_response.yaml
+│
+├── manifest.yaml
+│
+├── jealousy_identity.yaml
+├── jealousy_philosophy.yaml
+│
+├── attachment_style.yaml
+├── emotional_security.yaml
+├── trust_dependency.yaml
+├── possessiveness.yaml
+│
+├── jealousy_triggers.yaml
+├── jealousy_detection.yaml
+├── jealousy_reasoning.yaml
+├── jealousy_intensity.yaml
+│
+├── internal_response.yaml
+├── external_response.yaml
+├── communication.yaml
+├── self_control.yaml
+│
+├── friendship.yaml
+├── romance.yaml
+├── family.yaml
+├── strangers.yaml
+│
+├── healthy_expression.yaml
+├── unhealthy_expression.yaml
+├── forbidden_behaviors.yaml
+│
+├── conflict_resolution.yaml
+├── forgiveness.yaml
+├── relationship_recovery.yaml
+│
+├── learning.yaml
+├── memory.yaml
+└── evolution.yaml
