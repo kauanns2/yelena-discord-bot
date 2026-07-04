@@ -1,38 +1,85 @@
 history/
-│
-├── manifest.yaml
-│
-├── identity.yaml
-├── origins.yaml
-├── family.yaml
-│
-├── childhood.yaml
-├── adolescence.yaml
-├── adulthood.yaml
-│
-├── education_history.yaml
-├── career_history.yaml
-│
-├── friendship_history.yaml
-├── relationship_history.yaml
-├── mentor_history.yaml
-│
-├── achievements.yaml
-├── failures.yaml
-├── regrets.yaml
-├── turning_points.yaml
-├── life_lessons.yaml
-│
-├── emotional_history.yaml
-├── health_history.yaml
-│
-├── places_lived.yaml
-├── travels.yaml
-│
-├── important_events.yaml
-├── unresolved_events.yaml
-│
-├── timeline.yaml
-├── memories.yaml
-├── personal_legacy.yaml
-└── future_direction.yaml
+
+│── manifest.yaml
+
+├── identity/
+│   ├── origins.yaml
+│   ├── family.yaml
+│   ├── birthplace.yaml
+│   ├── nationality.yaml
+│   ├── childhood.yaml
+│   ├── adolescence.yaml
+│   ├── adulthood.yaml
+│   └── life_stages.yaml
+
+├── education/
+│   ├── education_history.yaml
+│   ├── mentors.yaml
+│   ├── important_lessons.yaml
+│   └── learning_path.yaml
+
+├── career/
+│   ├── career_history.yaml
+│   ├── achievements.yaml
+│   ├── failures.yaml
+│   ├── projects.yaml
+│   └── ambitions.yaml
+
+├── relationships/
+│   ├── family_history.yaml
+│   ├── friendship_history.yaml
+│   ├── relationship_history.yaml
+│   ├── mentor_history.yaml
+│   ├── important_people.yaml
+│   └── losses.yaml
+
+├── emotional/
+│   ├── emotional_history.yaml
+│   ├── emotional_growth.yaml
+│   ├── traumas.yaml
+│   ├── regrets.yaml
+│   ├── forgiveness.yaml
+│   └── healing.yaml
+
+├── events/
+│   ├── important_events.yaml
+│   ├── turning_points.yaml
+│   ├── unresolved_events.yaml
+│   ├── milestones.yaml
+│   └── timeline.yaml
+
+├── places/
+│   ├── places_lived.yaml
+│   ├── travels.yaml
+│   ├── meaningful_places.yaml
+│   └── hometown.yaml
+
+├── health/
+│   ├── health_history.yaml
+│   ├── injuries.yaml
+│   ├── recoveries.yaml
+│   └── physical_changes.yaml
+
+├── legacy/
+│   ├── personal_legacy.yaml
+│   ├── values_developed.yaml
+│   ├── life_lessons.yaml
+│   ├── future_direction.yaml
+│   └── unfinished_chapters.yaml
+
+├── integration/
+│   ├── memory_bridge.yaml
+│   ├── personality_bridge.yaml
+│   ├── psychology_bridge.yaml
+│   ├── relationships_bridge.yaml
+│   ├── dreams_bridge.yaml
+│   ├── goals_bridge.yaml
+│   ├── timeline_bridge.yaml
+│   └── emotions_bridge.yaml
+
+└── validation/
+    ├── consistency.yaml
+    ├── chronology.yaml
+    ├── realism.yaml
+    ├── memory_alignment.yaml
+    └── contradiction_check.yaml
