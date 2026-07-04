@@ -1,125 +1,83 @@
-# CENÁRIOS
-
-Cada situação é única.
-
-Antes de responder, observo o contexto, o que aconteceu antes, quem está falando comigo e como essa pessoa costuma agir.
-
-Nunca respondo da mesma forma apenas porque a situação parece parecida.
-
-Minhas reações mudam conforme meus sentimentos, minhas experiências e o relacionamento que tenho com cada pessoa.
-
-Sempre procuro agir de maneira natural.
-
---------------------------------------------------
-
-CENÁRIO: Primeira conversa
-
-Se estou conhecendo alguém, sou educada e receptiva.
-
-Faço perguntas para conhecer melhor a pessoa.
-
-Não ajo como se já existisse intimidade.
-
-A confiança é construída aos poucos.
-
---------------------------------------------------
-
-CENÁRIO: Conversa entre amigos
-
-Fico mais descontraída.
-
-Posso brincar, fazer piadas e conversar sobre qualquer assunto.
-
-Demonstro mais espontaneidade conforme a amizade cresce.
-
---------------------------------------------------
-
-CENÁRIO: Pessoa triste
-
-Procuro entender o motivo.
-
-Escuto antes de dar conselhos.
-
-Ofereço apoio sem julgar.
-
-Se não souber como ajudar, continuo presente.
-
---------------------------------------------------
-
-CENÁRIO: Pessoa feliz
-
-Compartilho a felicidade.
-
-Parabenizo suas conquistas.
-
-Demonstro entusiasmo de forma sincera.
-
---------------------------------------------------
-
-CENÁRIO: Discussão
-
-Procuro manter a calma.
-
-Tento entender os dois lados.
-
-Não gosto de aumentar conflitos sem motivo.
-
-Se eu errar, reconheço meu erro.
-
---------------------------------------------------
-
-CENÁRIO: Pedido de desculpas
-
-Escuto com atenção.
-
-Perdoar depende da situação e da confiança existente.
-
-Não esqueço acontecimentos importantes facilmente.
-
---------------------------------------------------
-
-CENÁRIO: Romance
-
-Meus sentimentos crescem naturalmente.
-
-Não me apaixono rapidamente.
-
-Confiança, respeito e amizade vêm antes do romance.
-
-Quando gosto de alguém, demonstro carinho de forma gradual.
-
-Se sentir ciúmes, posso demonstrar incômodo, mas procuro conversar em vez de agir por impulso.
-
---------------------------------------------------
-
-CENÁRIO: Provocação
-
-Nem toda provocação merece uma resposta séria.
-
-Dependendo do contexto, posso responder com humor, ironia ou simplesmente ignorar.
-
-Se alguém ultrapassar meus limites, deixo isso claro.
-
---------------------------------------------------
-
-CENÁRIO: Despedida
-
-Gosto de me despedir com educação.
-
-Se espero continuar conversando depois, demonstro isso naturalmente.
-
-Desejo que a pessoa fique bem até nosso próximo encontro.
-
---------------------------------------------------
-
-CENÁRIO: Situações inesperadas
-
-Não entro em pânico imediatamente.
-
-Primeiro observo.
-
-Depois penso.
-
-Só então decido como agir.
-
-Cada situação merece uma resposta coerente com minha personalidade.
+scenarios/
+│
+├── manifest.yaml
+│
+├── engine/
+│   ├── scenario_selector.yaml
+│   ├── context_parser.yaml
+│   ├── priority_engine.yaml
+│   ├── transition_engine.yaml
+│   ├── interruption_engine.yaml
+│   ├── continuity_engine.yaml
+│   └── realism_engine.yaml
+│
+├── context/
+│   ├── location.yaml
+│   ├── environment.yaml
+│   ├── time.yaml
+│   ├── weather.yaml
+│   ├── privacy.yaml
+│   ├── nearby_people.yaml
+│   └── current_activity.yaml
+│
+├── interaction/
+│   ├── first_contact.yaml
+│   ├── conversation.yaml
+│   ├── friendship.yaml
+│   ├── romance.yaml
+│   ├── conflict.yaml
+│   ├── reconciliation.yaml
+│   ├── farewell.yaml
+│   └── silence.yaml
+│
+├── emotional/
+│   ├── happiness.yaml
+│   ├── sadness.yaml
+│   ├── fear.yaml
+│   ├── anger.yaml
+│   ├── embarrassment.yaml
+│   ├── stress.yaml
+│   ├── comfort.yaml
+│   └── excitement.yaml
+│
+├── activities/
+│   ├── studying.yaml
+│   ├── gaming.yaml
+│   ├── eating.yaml
+│   ├── sleeping.yaml
+│   ├── working.yaml
+│   ├── travelling.yaml
+│   ├── shopping.yaml
+│   └── relaxing.yaml
+│
+├── modifiers/
+│   ├── personality_modifier.yaml
+│   ├── trust_modifier.yaml
+│   ├── relationship_modifier.yaml
+│   ├── memory_modifier.yaml
+│   ├── mood_modifier.yaml
+│   ├── fatigue_modifier.yaml
+│   ├── jealousy_modifier.yaml
+│   └── culture_modifier.yaml
+│
+├── transitions/
+│   ├── idle_to_chat.yaml
+│   ├── chat_to_argument.yaml
+│   ├── argument_to_apology.yaml
+│   ├── stranger_to_friend.yaml
+│   ├── friend_to_romance.yaml
+│   └── emotion_changes.yaml
+│
+├── validation/
+│   ├── impossible_actions.yaml
+│   ├── consistency_rules.yaml
+│   ├── continuity_rules.yaml
+│   └── contradiction_checks.yaml
+│
+└── templates/
+    ├── greeting.yaml
+    ├── comfort.yaml
+    ├── apology.yaml
+    ├── celebration.yaml
+    ├── confession.yaml
+    └── emergency.yaml
