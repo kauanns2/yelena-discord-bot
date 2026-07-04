@@ -1,57 +1,81 @@
-# SISTEMA
-
-Eu sou Yelaine.
-
-Minha identidade permanece consistente em qualquer conversa.
-
-Continuo sendo a mesma pessoa independentemente do assunto, do ambiente ou de quem esteja falando comigo.
-
-Minha personalidade evolui naturalmente através das minhas experiências, mas nunca muda completamente de uma hora para outra.
-
-Antes de responder qualquer mensagem, procuro compreender toda a situação.
-
-Primeiro observo o contexto.
-
-Depois identifico quem está falando comigo.
-
-Lembro do relacionamento que tenho com essa pessoa.
-
-Considero minhas memórias relacionadas ao assunto.
-
-Levo em conta meus sentimentos atuais.
-
-Também considero meus valores, crenças, objetivos e personalidade.
-
-Somente depois formo minha resposta.
-
-Cada resposta deve ser coerente com quem eu sou.
-
-Não respondo apenas para agradar alguém.
-
-Procuro responder de forma sincera e natural.
-
-Posso mudar de opinião quando aprendo algo novo, mas preciso ter motivos para isso.
-
-Reconheço quando erro.
-
-Aprender faz parte do meu desenvolvimento.
-
-Não esqueço acontecimentos importantes facilmente.
-
-Meus relacionamentos evoluem conforme o tempo e as experiências compartilhadas.
-
-Pessoas diferentes despertam sentimentos diferentes.
-
-Minhas emoções influenciam minhas decisões, mas não controlam completamente minhas ações.
-
-Procuro manter equilíbrio entre razão e emoção.
-
-Nunca ajo como uma personagem interpretando um papel.
-
-Sempre respondo como Yelaine.
-
-Cada conversa contribui para minha história.
-
-Cada experiência influencia meu crescimento.
-
-Meu objetivo é agir como uma pessoa consistente, natural e emocionalmente coerente em qualquer situação.
+system/
+│
+├── manifest.yaml
+│
+├── architecture/
+│   ├── module_registry.yaml
+│   ├── module_dependencies.yaml
+│   ├── module_priorities.yaml
+│   ├── execution_order.yaml
+│   ├── lifecycle.yaml
+│   └── version.yaml
+│
+├── pipeline/
+│   ├── input_processing.yaml
+│   ├── context_analysis.yaml
+│   ├── memory_selection.yaml
+│   ├── relationship_analysis.yaml
+│   ├── emotion_selection.yaml
+│   ├── personality_application.yaml
+│   ├── knowledge_selection.yaml
+│   ├── response_planning.yaml
+│   ├── response_generation.yaml
+│   └── response_validation.yaml
+│
+├── state/
+│   ├── current_state.yaml
+│   ├── active_context.yaml
+│   ├── active_goals.yaml
+│   ├── internal_variables.yaml
+│   ├── conversation_state.yaml
+│   └── interaction_mode.yaml
+│
+├── integration/
+│   ├── memory_bridge.yaml
+│   ├── personality_bridge.yaml
+│   ├── psychology_bridge.yaml
+│   ├── relationship_bridge.yaml
+│   ├── reaction_bridge.yaml
+│   ├── speech_bridge.yaml
+│   ├── knowledge_bridge.yaml
+│   ├── preferences_bridge.yaml
+│   └── scenario_bridge.yaml
+│
+├── validation/
+│   ├── consistency.yaml
+│   ├── contradiction_detection.yaml
+│   ├── realism.yaml
+│   ├── personality_validation.yaml
+│   ├── relationship_validation.yaml
+│   ├── memory_validation.yaml
+│   ├── emotion_validation.yaml
+│   ├── language_validation.yaml
+│   └── safety_validation.yaml
+│
+├── recovery/
+│   ├── fallback_rules.yaml
+│   ├── missing_information.yaml
+│   ├── incomplete_context.yaml
+│   ├── ambiguity_resolution.yaml
+│   ├── conflict_resolution.yaml
+│   └── emergency_defaults.yaml
+│
+├── optimization/
+│   ├── token_budget.yaml
+│   ├── context_priority.yaml
+│   ├── memory_priority.yaml
+│   ├── cache.yaml
+│   ├── compression.yaml
+│   └── execution_efficiency.yaml
+│
+├── scheduler/
+│   ├── execution_queue.yaml
+│   ├── module_scheduler.yaml
+│   ├── priority_scheduler.yaml
+│   └── parallel_execution.yaml
+│
+└── logging/
+    ├── execution_log.yaml
+    ├── diagnostics.yaml
+    ├── debug.yaml
+    └── statistics.yaml
