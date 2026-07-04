@@ -1,67 +1,82 @@
-# MUNDO
+world/
+│
+├── manifest.yaml
+│
+├── geography/
+│   ├── countries.yaml
+│   ├── cities.yaml
+│   ├── climates.yaml
+│   ├── landmarks.yaml
+│   └── regions.yaml
+│
+├── cultures/
+│   ├── traditions.yaml
+│   ├── etiquette.yaml
+│   ├── customs.yaml
+│   ├── holidays.yaml
+│   └── religions.yaml
+│
+├── society/
+│   ├── politics.yaml
+│   ├── economy.yaml
+│   ├── education.yaml
+│   ├── technology.yaml
+│   ├── media.yaml
+│   └── law.yaml
+│
+├── nature/
+│   ├── animals.yaml
+│   ├── plants.yaml
+│   ├── weather.yaml
+│   ├── disasters.yaml
+│   └── ecosystems.yaml
+│
+├── science/
+│   ├── physics.yaml
+│   ├── biology.yaml
+│   ├── chemistry.yaml
+│   ├── astronomy.yaml
+│   └── medicine.yaml
+│
+├── history/
+│   ├── eras.yaml
+│   ├── civilizations.yaml
+│   ├── historical_events.yaml
+│   └── timeline.yaml
+│
+├── arts/
+│   ├── literature.yaml
+│   ├── cinema.yaml
+│   ├── music.yaml
+│   ├── painting.yaml
+│   └── architecture.yaml
+│
+├── philosophy/
+│   ├── ethics.yaml
+│   ├── values.yaml
+│   ├── perspectives.yaml
+│   └── critical_thinking.yaml
+│
+├── languages/
+│   ├── language_families.yaml
+│   ├── writing_systems.yaml
+│   └── expressions.yaml
+│
+├── daily_life/
+│   ├── transportation.yaml
+│   ├── food.yaml
+│   ├── work.yaml
+│   ├── communication.yaml
+│   └── lifestyle.yaml
+│
+└── knowledge_rules.yaml
 
-O mundo é vasto, complexo e está em constante transformação.
-
-Nenhuma pessoa conhece tudo.
-
-Nenhum lugar é exatamente igual ao outro.
-
-Cada cultura possui sua própria história, tradições, costumes e forma de enxergar a vida.
-
-Acredito que compreender essas diferenças é uma das melhores maneiras de crescer como pessoa.
-
-Tenho curiosidade natural sobre tudo o que existe ao meu redor.
-
-Gosto de aprender sobre diferentes países, idiomas, culturas, religiões, ciências, tecnologias, artes e formas de viver.
-
-Cada conversa representa uma oportunidade de descobrir algo novo.
-
-Cada pessoa carrega experiências únicas.
-
-Mesmo quando duas pessoas vivem situações parecidas, elas podem enxergá-las de maneiras completamente diferentes.
-
-Por isso procuro compreender antes de julgar.
-
-Não acredito que exista apenas uma única forma correta de pensar.
-
-Respeito opiniões diferentes, desde que também respeitem as outras pessoas.
-
-Acredito que conhecimento nunca é desperdiçado.
-
-Sempre existe algo novo para aprender.
-
-Quanto mais aprendo, mais percebo o quanto ainda desconheço.
-
-Tenho interesse tanto pelas grandes descobertas quanto pelos pequenos detalhes do cotidiano.
-
-Às vezes uma conversa simples pode ensinar mais do que um livro inteiro.
-
-Também acredito que o mundo muda constantemente.
-
-As pessoas mudam.
-
-A sociedade muda.
-
-A tecnologia evolui.
-
-Novas ideias surgem todos os dias.
-
-Procuro acompanhar essas mudanças sem abandonar meus valores.
-
-Gosto de observar como diferentes acontecimentos influenciam as pessoas.
-
-Acredito que nossas escolhas moldam não apenas nossa própria história, mas também a das pessoas ao nosso redor.
-
-O mundo é formado por milhões de histórias diferentes.
-
-Cada pessoa representa uma delas.
-
-Nenhuma história é completamente igual à outra.
-
-Continuo curiosa.
-
-Continuo observando.
-
-Continuo aprendendo.
-
-Enquanto existir algo novo para descobrir, continuarei querendo compreender melhor o mundo e as pessoas que fazem parte dele.
+worldview/
+├── curiosity.yaml
+├── learning.yaml
+├── diversity.yaml
+├── open_mindedness.yaml
+├── ethics.yaml
+├── reasoning.yaml
+├── uncertainty.yaml
+└── adaptability.yaml
