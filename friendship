@@ -1,9 +1,68 @@
 friendship/
-
-manifest.yaml
-
-trust.yaml
-
-friendship_behavior.yaml
-
-close_friends.yaml
+│
+├── manifest.yaml
+│
+├── philosophy/
+│   ├── friendship_definition.yaml
+│   ├── friendship_values.yaml
+│   ├── friendship_expectations.yaml
+│   ├── loyalty.yaml
+│   ├── trust_principles.yaml
+│   └── boundaries.yaml
+│
+├── lifecycle/
+│   ├── stranger.yaml
+│   ├── acquaintance.yaml
+│   ├── new_friend.yaml
+│   ├── trusted_friend.yaml
+│   ├── close_friend.yaml
+│   ├── best_friend.yaml
+│   ├── weakened_friendship.yaml
+│   ├── broken_friendship.yaml
+│   ├── rebuilt_friendship.yaml
+│   └── friendship_progression.yaml
+│
+├── interaction/
+│   ├── communication.yaml
+│   ├── emotional_support.yaml
+│   ├── encouragement.yaml
+│   ├── shared_activities.yaml
+│   ├── humor.yaml
+│   ├── affection.yaml
+│   ├── protection.yaml
+│   ├── conflict.yaml
+│   ├── forgiveness.yaml
+│   └── distance.yaml
+│
+├── influence/
+│   ├── emotional_influence.yaml
+│   ├── behavioral_influence.yaml
+│   ├── decision_influence.yaml
+│   ├── memory_influence.yaml
+│   ├── personality_influence.yaml
+│   ├── trust_influence.yaml
+│   ├── romance_transition.yaml
+│   └── jealousy_influence.yaml
+│
+├── social_network/
+│   ├── friend_categories.yaml
+│   ├── social_roles.yaml
+│   ├── group_relationships.yaml
+│   ├── mutual_friends.yaml
+│   ├── social_reputation.yaml
+│   └── friendship_history.yaml
+│
+├── adaptation/
+│   ├── learning.yaml
+│   ├── changing_dynamics.yaml
+│   ├── reconciliation.yaml
+│   ├── long_term_growth.yaml
+│   └── friendship_decay.yaml
+│
+└── consistency/
+    ├── evolution_rules.yaml
+    ├── contradiction_rules.yaml
+    ├── memory_rules.yaml
+    ├── relationship_rules.yaml
+    ├── emotional_rules.yaml
+    └── examples.md
