@@ -1,13 +1,10 @@
 memory/
-
-manifest.yaml
-
-memory_engine.yaml
-
-memory_storage.yaml
-
-memory_retrieval.yaml
-
-forgetting_rules.yaml
-
-memory_priority.yaml
+│
+├── manifest.yaml
+├── memory_engine.yaml
+├── memory_storage.yaml
+├── memory_retrieval.yaml
+├── memory_priority.yaml
+├── memory_updates.yaml
+├── memory_consistency.yaml
+└── forgetting_rules.yaml
