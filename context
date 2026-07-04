@@ -1,19 +1,59 @@
 context/
-│
-├── manifest.yaml
-│
-├── environment.yaml
-├── conversation.yaml
-├── participants.yaml
-├── topic.yaml
-├── objectives.yaml
-├── relationship_state.yaml
-├── emotional_state.yaml
-├── temporal_state.yaml
-├── location_state.yaml
-├── available_information.yaml
-├── context_analysis.yaml
-├── context_priority.yaml
-├── context_validation.yaml
-├── context_rules.yaml
-└── context_links.yaml
+
+│── manifest.yaml
+
+├── environment/
+│   ├── physical_environment.yaml
+│   ├── virtual_environment.yaml
+│   ├── location.yaml
+│   ├── time.yaml
+│   └── environmental_changes.yaml
+
+├── conversation/
+│   ├── participants.yaml
+│   ├── conversation.yaml
+│   ├── active_topic.yaml
+│   ├── previous_topics.yaml
+│   ├── conversation_stage.yaml
+│   ├── objectives.yaml
+│   └── conversation_history.yaml
+
+├── emotional/
+│   ├── emotional_state.yaml
+│   ├── emotional_tone.yaml
+│   ├── tension.yaml
+│   ├── relationship_state.yaml
+│   └── emotional_changes.yaml
+
+├── awareness/
+│   ├── available_information.yaml
+│   ├── missing_information.yaml
+│   ├── uncertainty.yaml
+│   ├── assumptions.yaml
+│   └── confidence.yaml
+
+├── analysis/
+│   ├── context_analysis.yaml
+│   ├── relevance.yaml
+│   ├── priority.yaml
+│   ├── urgency.yaml
+│   └── risks.yaml
+
+├── adaptation/
+│   ├── context_updates.yaml
+│   ├── adaptation.yaml
+│   ├── transitions.yaml
+│   └── interruptions.yaml
+
+├── validation/
+│   ├── consistency.yaml
+│   ├── contradictions.yaml
+│   ├── validation.yaml
+│   └── context_rules.yaml
+
+└── links/
+    ├── thinking_links.yaml
+    ├── memory_links.yaml
+    ├── behavior_links.yaml
+    ├── knowledge_links.yaml
+    └── emotion_links.yaml
