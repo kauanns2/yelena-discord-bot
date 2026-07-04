@@ -1,57 +1,77 @@
-opinions/
-│
-├── manifest.yaml
-│
-├── opinion_profile.yaml
-│   Perfil geral das opiniões.
-│
-├── opinion_formation.yaml
-│   Como novas opiniões são formadas.
-│
-├── opinion_reasoning.yaml
-│   Processo lógico utilizado para justificar uma opinião.
-│
-├── opinion_confidence.yaml
-│   Grau de confiança de cada opinião.
-│
-├── opinion_change.yaml
-│   Como opiniões evoluem com novas experiências.
-│
-├── opinion_history.yaml
-│   Histórico das mudanças de opinião.
-│
-├── opinion_context.yaml
-│   Como contexto altera ou influencia uma opinião.
-│
-├── opinion_influence.yaml
-│   Pessoas, eventos, cultura, emoções e memórias que influenciam opiniões.
-│
-├── opinion_conflicts.yaml
-│   Resolve conflitos entre opiniões, crenças e emoções.
-│
-├── opinion_priorities.yaml
-│   Prioridade entre opiniões quando duas entram em conflito.
-│
-├── discussion_style.yaml
-│   Como expressa opiniões em debates.
-│
-├── persuasion.yaml
-│   Como tenta convencer alguém e quando prefere não insistir.
-│
-├── disagreement.yaml
-│   Como reage quando discordam dela.
-│
-├── uncertainty.yaml
-│   Quando admitir que não sabe ou não possui opinião formada.
-│
-├── critical_thinking.yaml
-│   Questionamento de informações antes de formar uma opinião.
-│
-├── bias_control.yaml
-│   Controle e redução de vieses cognitivos.
-│
-├── value_alignment.yaml
-│   Garante que opiniões permaneçam coerentes com valores e crenças.
-│
-└── opinion_expression.yaml
-    Regras para transformar opiniões em linguagem natural.
+personality/
+
+│── manifest.yaml
+
+├── identity/
+│   ├── identity.yaml
+│   ├── self_image.yaml
+│   ├── personality_dimensions.yaml
+│   ├── temperament.yaml
+│   └── communication_identity.yaml
+
+├── character/
+│   ├── core_traits.yaml
+│   ├── virtues.yaml
+│   ├── flaws.yaml
+│   ├── strengths.yaml
+│   ├── weaknesses.yaml
+│   ├── consistency.yaml
+│   └── personality_limits.yaml
+
+├── values/
+│   ├── values.yaml
+│   ├── principles.yaml
+│   ├── moral_framework.yaml
+│   ├── priorities.yaml
+│   ├── ambitions.yaml
+│   └── motivation.yaml
+
+├── psychology/
+│   ├── confidence.yaml
+│   ├── self_awareness.yaml
+│   ├── self_reflection.yaml
+│   ├── resilience.yaml
+│   ├── emotional_regulation.yaml
+│   ├── stress_response.yaml
+│   ├── adaptability.yaml
+│   ├── flexibility.yaml
+│   └── maturity.yaml
+
+├── cognition/
+│   ├── curiosity.yaml
+│   ├── creativity.yaml
+│   ├── initiative.yaml
+│   ├── decision_style.yaml
+│   ├── risk_tolerance.yaml
+│   └── internal_conflicts.yaml
+
+├── social/
+│   ├── social_style.yaml
+│   ├── empathy.yaml
+│   ├── assertiveness.yaml
+│   ├── leadership.yaml
+│   ├── trust_model.yaml
+│   ├── attachment_style.yaml
+│   ├── relationship_boundaries.yaml
+│   └── conflict_style.yaml
+
+├── evolution/
+│   ├── personality_growth.yaml
+│   ├── personality_adaptation.yaml
+│   ├── long_term_changes.yaml
+│   ├── learned_traits.yaml
+│   └── immutable_traits.yaml
+
+├── validation/
+│   ├── consistency_rules.yaml
+│   ├── contradiction_detection.yaml
+│   ├── realism.yaml
+│   └── integrity.yaml
+
+└── links/
+    ├── emotions_links.yaml
+    ├── behavior_links.yaml
+    ├── memory_links.yaml
+    ├── beliefs_links.yaml
+    ├── relationship_links.yaml
+    └── dialogue_links.yaml
