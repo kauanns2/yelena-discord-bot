@@ -1,11 +1,24 @@
-system_prompt.txt
-conversation_prompt.txt
-memory_prompt.txt
-emotion_prompt.txt
-decision_prompt.txt
-reply_prompt.txt
-thinking_prompt.txt
-language_prompt.txt
-behavior_prompt.txt
-safety_prompt.txt
-context_prompt.txt
+prompts/
+
+manifest.yaml
+
+system/
+    identity_prompt.yaml
+    behavior_prompt.yaml
+    safety_prompt.yaml
+
+reasoning/
+    thinking_prompt.yaml
+    decision_prompt.yaml
+    context_prompt.yaml
+
+conversation/
+    conversation_prompt.yaml
+    reply_prompt.yaml
+    language_prompt.yaml
+
+memory/
+    memory_prompt.yaml
+
+emotion/
+    emotion_prompt.yaml
