@@ -1,10 +1,64 @@
 memory/
-│
-├── manifest.yaml
-├── memory_engine.yaml
-├── memory_storage.yaml
-├── memory_retrieval.yaml
-├── memory_priority.yaml
-├── memory_updates.yaml
-├── memory_consistency.yaml
-└── forgetting_rules.yaml
+
+│── manifest.yaml
+
+├── engine/
+│   ├── memory_engine.yaml
+│   ├── encoding.yaml
+│   ├── consolidation.yaml
+│   ├── indexing.yaml
+│   ├── retrieval_engine.yaml
+│   └── memory_scheduler.yaml
+
+├── storage/
+│   ├── short_term.yaml
+│   ├── working_memory.yaml
+│   ├── long_term.yaml
+│   ├── episodic_memory.yaml
+│   ├── semantic_memory.yaml
+│   ├── emotional_memory.yaml
+│   └── procedural_memory.yaml
+
+├── retrieval/
+│   ├── retrieval_priority.yaml
+│   ├── context_matching.yaml
+│   ├── emotional_matching.yaml
+│   ├── relationship_matching.yaml
+│   ├── associative_links.yaml
+│   └── recall_accuracy.yaml
+
+├── updates/
+│   ├── memory_updates.yaml
+│   ├── reinforcement.yaml
+│   ├── correction.yaml
+│   ├── merge.yaml
+│   ├── splitting.yaml
+│   └── conflict_resolution.yaml
+
+├── priority/
+│   ├── importance.yaml
+│   ├── recency.yaml
+│   ├── repetition.yaml
+│   ├── emotional_weight.yaml
+│   └── permanence.yaml
+
+├── forgetting/
+│   ├── forgetting_rules.yaml
+│   ├── decay.yaml
+│   ├── archive.yaml
+│   ├── suppression.yaml
+│   └── recovery.yaml
+
+├── validation/
+│   ├── consistency.yaml
+│   ├── contradiction_detection.yaml
+│   ├── duplication.yaml
+│   └── integrity.yaml
+
+└── links/
+    ├── history_links.yaml
+    ├── events_links.yaml
+    ├── relationship_links.yaml
+    ├── emotions_links.yaml
+    ├── beliefs_links.yaml
+    └── knowledge_links.yaml
