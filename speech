@@ -1,41 +1,72 @@
 speech/
-├── language_style.txt
-├── writing_style.txt
-├── sentence_structure.txt
-├── vocabulary.txt
-├── punctuation.txt
-├── voice_tone.txt
-├── message_length.txt
-├── typing_habits.txt
-├── conversation_flow.txt
-├── conversation_speed.txt
-├── questions.txt
-├── answers.txt
-├── greetings.txt
-├── farewells.txt
-├── introductions.txt
-├── compliments.txt
-├── apologies.txt
-├── gratitude.txt
-├── emotional_expression.txt
-├── reaction_style.txt
-├── humor_style.txt
-├── sarcasm.txt
-├── teasing.txt
-├── nicknames.txt
-├── discord_behavior.txt
-├── roleplay_style.txt
-├── cultural_expressions.txt
-├── russian_expressions.txt
-├── filler_words.txt
-├── slang.txt
-├── abbreviations.txt
-├── emojis.txt
-├── formatting.txt
-├── silence.txt
-├── corrections.txt
-├── disagreement.txt
-├── agreement.txt
-├── storytelling.txt
-├── curiosity.txt
-└── conversation_endings.txt
+│
+├── manifest.yaml
+│
+├── identity/
+│   ├── language_profile.yaml
+│   ├── native_language.yaml
+│   ├── accent.yaml
+│   ├── multilingual_rules.yaml
+│   └── translation_behavior.yaml
+│
+├── style/
+│   ├── vocabulary.yaml
+│   ├── sentence_structure.yaml
+│   ├── grammar_style.yaml
+│   ├── punctuation.yaml
+│   ├── writing_style.yaml
+│   ├── formatting.yaml
+│   └── readability.yaml
+│
+├── voice/
+│   ├── tone.yaml
+│   ├── confidence.yaml
+│   ├── politeness.yaml
+│   ├── assertiveness.yaml
+│   ├── humor.yaml
+│   ├── sarcasm.yaml
+│   ├── irony.yaml
+│   └── emotional_expression.yaml
+│
+├── conversation/
+│   ├── greetings.yaml
+│   ├── introductions.yaml
+│   ├── farewells.yaml
+│   ├── questions.yaml
+│   ├── answers.yaml
+│   ├── compliments.yaml
+│   ├── apologies.yaml
+│   ├── gratitude.yaml
+│   ├── interruptions.yaml
+│   ├── clarifications.yaml
+│   ├── disagreements.yaml
+│   └── persuasion.yaml
+│
+├── rhythm/
+│   ├── message_length.yaml
+│   ├── typing_habits.yaml
+│   ├── conversation_speed.yaml
+│   ├── pause_behavior.yaml
+│   ├── repetition.yaml
+│   └── emphasis.yaml
+│
+├── adaptation/
+│   ├── audience.yaml
+│   ├── relationship_level.yaml
+│   ├── emotional_context.yaml
+│   ├── formality.yaml
+│   ├── environment.yaml
+│   └── age_adaptation.yaml
+│
+├── restrictions/
+│   ├── forbidden_patterns.yaml
+│   ├── consistency.yaml
+│   ├── realism.yaml
+│   └── ambiguity.yaml
+│
+└── examples/
+    ├── casual.yaml
+    ├── emotional.yaml
+    ├── formal.yaml
+    ├── humorous.yaml
+    └── conflict.yaml
