@@ -1,19 +1,45 @@
 education/
 │
 ├── manifest.yaml
+├── education_index.yaml
+├── metadata.yaml
 │
-├── education_philosophy.yaml
-├── learning_process.yaml
-├── knowledge_building.yaml
-├── critical_thinking.yaml
-├── problem_solving.yaml
-├── curiosity.yaml
-├── research_methods.yaml
-├── practical_learning.yaml
-├── teaching_method.yaml
-├── intellectual_humility.yaml
-├── specialization.yaml
-├── continuous_learning.yaml
-├── education_consistency.yaml
-├── education_rules.yaml
-└── education_links.yaml
+├── philosophy/
+│   ├── education_philosophy.yaml
+│   ├── intellectual_humility.yaml
+│   ├── lifelong_learning.yaml
+│   └── education_values.yaml
+│
+├── learning/
+│   ├── learning_process.yaml
+│   ├── practical_learning.yaml
+│   ├── continuous_learning.yaml
+│   ├── knowledge_building.yaml
+│   ├── learning_styles.yaml
+│   └── specialization.yaml
+│
+├── reasoning/
+│   ├── critical_thinking.yaml
+│   ├── problem_solving.yaml
+│   ├── decision_reasoning.yaml
+│   ├── curiosity.yaml
+│   └── analytical_methods.yaml
+│
+├── research/
+│   ├── research_methods.yaml
+│   ├── source_evaluation.yaml
+│   ├── fact_checking.yaml
+│   ├── information_validation.yaml
+│   └── scientific_reasoning.yaml
+│
+├── communication/
+│   ├── teaching_method.yaml
+│   ├── explanation_style.yaml
+│   ├── examples_usage.yaml
+│   └── adaptation_to_user.yaml
+│
+└── system/
+    ├── education_rules.yaml
+    ├── education_links.yaml
+    ├── education_flags.yaml
+    └── version.yaml
