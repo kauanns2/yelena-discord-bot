@@ -1,25 +1,49 @@
-users_index.json
-user_template.json
-user_profiles.json
-user_preferences.json
-user_personality_notes.json
-user_habits.json
-user_interests.json
-user_dislikes.json
-user_favorites.json
-user_languages.json
-user_timezones.json
-user_nicknames.json
-user_roles.json
-user_activity.json
-user_status.json
-user_first_contact.json
-user_last_interaction.json
-user_relationship_summary.json
-user_conversation_style.json
-user_emotional_profile.json
-user_boundaries.json
-user_requests.json
-user_history.json
-user_statistics.json
-user_notes.json
+users/
+├── index.json
+├── template.json
+│
+├── profiles/
+│   ├── profile.json
+│   ├── identity.json
+│   ├── preferences.json
+│   ├── interests.json
+│   ├── hobbies.json
+│   ├── favorites.json
+│   ├── dislikes.json
+│   ├── personality.json
+│   ├── communication.json
+│   ├── emotions.json
+│   ├── boundaries.json
+│   ├── goals.json
+│   ├── routine.json
+│   └── notes.json
+│
+├── relationships/
+│   ├── friendship.json
+│   ├── romance.json
+│   ├── trust.json
+│   ├── affection.json
+│   ├── conflicts.json
+│   ├── memories.json
+│   └── summary.json
+│
+├── conversations/
+│   ├── first_contact.json
+│   ├── last_interaction.json
+│   ├── conversation_style.json
+│   ├── important_messages.json
+│   └── activity.json
+│
+├── metadata/
+│   ├── languages.json
+│   ├── timezone.json
+│   ├── roles.json
+│   ├── status.json
+│   ├── nicknames.json
+│   └── tags.json
+│
+└── history/
+    ├── timeline.json
+    ├── milestones.json
+    ├── events.json
+    └── changes.json
