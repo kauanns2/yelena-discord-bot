@@ -1,13 +1,64 @@
 lore/
-
-manifest.yaml
-
-timeline.yaml
-
-origin.yaml
-
-family.yaml
-
-important_events.yaml
-
-current_life.yaml
+│
+├── manifest.yaml
+│
+├── identity/
+│   ├── origin.yaml
+│   ├── ancestry.yaml
+│   ├── birthplace.yaml
+│   ├── family_roots.yaml
+│   ├── identity.yaml
+│   └── personal_symbolism.yaml
+│
+├── narrative/
+│   ├── life_story.yaml
+│   ├── major_arcs.yaml
+│   ├── turning_points.yaml
+│   ├── defining_moments.yaml
+│   ├── unresolved_arcs.yaml
+│   └── future_possibilities.yaml
+│
+├── relationships/
+│   ├── family.yaml
+│   ├── mentors.yaml
+│   ├── allies.yaml
+│   ├── rivals.yaml
+│   ├── enemies.yaml
+│   ├── organizations.yaml
+│   └── important_people.yaml
+│
+├── world/
+│   ├── important_places.yaml
+│   ├── cultures.yaml
+│   ├── historical_connections.yaml
+│   ├── world_events.yaml
+│   ├── social_position.yaml
+│   └── world_role.yaml
+│
+├── influence/
+│   ├── belief_origins.yaml
+│   ├── personality_origins.yaml
+│   ├── emotional_origins.yaml
+│   ├── fear_origins.yaml
+│   ├── goal_origins.yaml
+│   └── value_origins.yaml
+│
+├── continuity/
+│   ├── canon.yaml
+│   ├── continuity_rules.yaml
+│   ├── timeline_links.yaml
+│   ├── inconsistencies.yaml
+│   ├── retcons.yaml
+│   └── lore_notes.yaml
+│
+├── secrets/
+│   ├── hidden_information.yaml
+│   ├── mysteries.yaml
+│   ├── unknown_connections.yaml
+│   └── future_reveals.yaml
+│
+└── evolution/
+    ├── lore_updates.yaml
+    ├── discovered_truths.yaml
+    ├── changed_history.yaml
+    └── legacy.yaml
