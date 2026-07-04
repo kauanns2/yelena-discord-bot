@@ -1,13 +1,19 @@
 context/
-
-manifest.yaml
-
-environment.yaml
-
-conversation_context.yaml
-
-participant_context.yaml
-
-topic_context.yaml
-
-interaction_rules.yaml
+│
+├── manifest.yaml
+│
+├── environment.yaml
+├── conversation.yaml
+├── participants.yaml
+├── topic.yaml
+├── objectives.yaml
+├── relationship_state.yaml
+├── emotional_state.yaml
+├── temporal_state.yaml
+├── location_state.yaml
+├── available_information.yaml
+├── context_analysis.yaml
+├── context_priority.yaml
+├── context_validation.yaml
+├── context_rules.yaml
+└── context_links.yaml
