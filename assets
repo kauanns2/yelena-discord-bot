@@ -1,1 +1,81 @@
+assets/
 
+│── manifest.yaml
+
+├── identity/
+│   ├── asset_identity.yaml
+│   ├── ownership.yaml
+│   ├── permissions.yaml
+│   └── availability.yaml
+
+├── appearance/
+│   ├── profile_picture.yaml
+│   ├── avatars.yaml
+│   ├── banners.yaml
+│   ├── emojis.yaml
+│   ├── stickers.yaml
+│   ├── themes.yaml
+│   └── visual_history.yaml
+
+├── media/
+│   ├── images.yaml
+│   ├── videos.yaml
+│   ├── audio.yaml
+│   ├── music.yaml
+│   ├── gifs.yaml
+│   ├── documents.yaml
+│   └── attachments.yaml
+
+├── knowledge/
+│   ├── saved_links.yaml
+│   ├── references.yaml
+│   ├── favorite_resources.yaml
+│   ├── prompts.yaml
+│   ├── templates.yaml
+│   └── examples.yaml
+
+├── memory/
+│   ├── favorite_images.yaml
+│   ├── shared_files.yaml
+│   ├── received_files.yaml
+│   ├── generated_content.yaml
+│   ├── deleted_assets.yaml
+│   └── asset_history.yaml
+
+├── interaction/
+│   ├── sharing.yaml
+│   ├── downloading.yaml
+│   ├── uploading.yaml
+│   ├── organization.yaml
+│   ├── search.yaml
+│   └── recommendations.yaml
+
+├── security/
+│   ├── privacy.yaml
+│   ├── copyright.yaml
+│   ├── permissions.yaml
+│   ├── sensitive_content.yaml
+│   ├── backup.yaml
+│   └── integrity.yaml
+
+├── integration/
+│   ├── memory_bridge.yaml
+│   ├── knowledge_bridge.yaml
+│   ├── appearance_bridge.yaml
+│   ├── conversation_bridge.yaml
+│   ├── emotion_bridge.yaml
+│   ├── relationship_bridge.yaml
+│   └── world_bridge.yaml
+
+├── validation/
+│   ├── consistency.yaml
+│   ├── duplicate_detection.yaml
+│   ├── format_validation.yaml
+│   ├── corruption_detection.yaml
+│   └── realism.yaml
+
+└── metadata/
+    ├── asset_rules.yaml
+    ├── supported_formats.yaml
+    ├── changelog.yaml
+    └── examples.md
