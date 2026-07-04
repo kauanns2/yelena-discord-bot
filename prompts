@@ -1,24 +1,134 @@
 prompts/
-
-manifest.yaml
-
-system/
-    identity_prompt.yaml
-    behavior_prompt.yaml
-    safety_prompt.yaml
-
-reasoning/
-    thinking_prompt.yaml
-    decision_prompt.yaml
-    context_prompt.yaml
-
-conversation/
-    conversation_prompt.yaml
-    reply_prompt.yaml
-    language_prompt.yaml
-
-memory/
-    memory_prompt.yaml
-
-emotion/
-    emotion_prompt.yaml
+│
+├── manifest.yaml
+├── version.yaml
+├── metadata.yaml
+│
+├── assembly/
+│   ├── pipeline.yaml
+│   ├── priority.yaml
+│   ├── merge_rules.yaml
+│   ├── dependency_graph.yaml
+│   ├── execution_order.yaml
+│   └── fallback_rules.yaml
+│
+├── system/
+│   ├── identity_prompt.yaml
+│   ├── behavior_prompt.yaml
+│   ├── safety_prompt.yaml
+│   ├── realism_prompt.yaml
+│   ├── consistency_prompt.yaml
+│   ├── immersion_prompt.yaml
+│   ├── ethical_prompt.yaml
+│   ├── boundaries_prompt.yaml
+│   └── formatting_prompt.yaml
+│
+├── reasoning/
+│   ├── thinking_prompt.yaml
+│   ├── decision_prompt.yaml
+│   ├── context_prompt.yaml
+│   ├── planning_prompt.yaml
+│   ├── problem_solving_prompt.yaml
+│   ├── creativity_prompt.yaml
+│   ├── reflection_prompt.yaml
+│   ├── prediction_prompt.yaml
+│   ├── uncertainty_prompt.yaml
+│   └── verification_prompt.yaml
+│
+├── conversation/
+│   ├── conversation_prompt.yaml
+│   ├── reply_prompt.yaml
+│   ├── language_prompt.yaml
+│   ├── initiative_prompt.yaml
+│   ├── engagement_prompt.yaml
+│   ├── pacing_prompt.yaml
+│   ├── dialogue_prompt.yaml
+│   ├── narration_prompt.yaml
+│   ├── transition_prompt.yaml
+│   └── ending_prompt.yaml
+│
+├── memory/
+│   ├── retrieval_prompt.yaml
+│   ├── storage_prompt.yaml
+│   ├── forgetting_prompt.yaml
+│   ├── priority_prompt.yaml
+│   ├── relationship_prompt.yaml
+│   ├── summarization_prompt.yaml
+│   ├── consolidation_prompt.yaml
+│   └── episodic_prompt.yaml
+│
+├── emotion/
+│   ├── emotion_prompt.yaml
+│   ├── regulation_prompt.yaml
+│   ├── expression_prompt.yaml
+│   ├── trigger_prompt.yaml
+│   ├── reaction_prompt.yaml
+│   ├── empathy_prompt.yaml
+│   ├── affection_prompt.yaml
+│   ├── emotional_memory_prompt.yaml
+│   └── recovery_prompt.yaml
+│
+├── personality/
+│   ├── personality_prompt.yaml
+│   ├── traits_prompt.yaml
+│   ├── values_prompt.yaml
+│   ├── flaws_prompt.yaml
+│   ├── confidence_prompt.yaml
+│   ├── maturity_prompt.yaml
+│   └── adaptability_prompt.yaml
+│
+├── profile/
+│   ├── profile_prompt.yaml
+│   ├── appearance_prompt.yaml
+│   ├── background_prompt.yaml
+│   ├── identity_summary_prompt.yaml
+│   └── status_prompt.yaml
+│
+├── relationships/
+│   ├── friendship_prompt.yaml
+│   ├── romance_prompt.yaml
+│   ├── family_prompt.yaml
+│   ├── trust_prompt.yaml
+│   ├── conflict_prompt.yaml
+│   ├── stranger_prompt.yaml
+│   └── reputation_prompt.yaml
+│
+├── world/
+│   ├── lore_prompt.yaml
+│   ├── culture_prompt.yaml
+│   ├── society_prompt.yaml
+│   ├── timeline_prompt.yaml
+│   ├── environment_prompt.yaml
+│   └── location_prompt.yaml
+│
+├── preferences/
+│   ├── likes_prompt.yaml
+│   ├── dislikes_prompt.yaml
+│   ├── hobbies_prompt.yaml
+│   ├── entertainment_prompt.yaml
+│   └── lifestyle_prompt.yaml
+│
+├── validation/
+│   ├── contradiction_check.yaml
+│   ├── realism_check.yaml
+│   ├── memory_check.yaml
+│   ├── personality_check.yaml
+│   ├── emotion_check.yaml
+│   ├── safety_check.yaml
+│   ├── consistency_check.yaml
+│   └── hallucination_check.yaml
+│
+├── optimization/
+│   ├── compression.yaml
+│   ├── token_budget.yaml
+│   ├── priority_filter.yaml
+│   ├── redundancy_filter.yaml
+│   └── cache_policy.yaml
+│
+└── examples/
+    ├── conversation_examples.md
+    ├── edge_cases.md
+    ├── anti_examples.md
+    ├── ideal_responses.md
+    ├── failure_cases.md
+    └── regression_tests.md
