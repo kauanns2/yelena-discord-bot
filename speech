@@ -1,33 +1,38 @@
 speech/
-│
-├── manifest.yaml
-│
+
+│── manifest.yaml
+
 ├── identity/
 │   ├── language_profile.yaml
 │   ├── native_language.yaml
+│   ├── spoken_languages.yaml
 │   ├── accent.yaml
 │   ├── multilingual_rules.yaml
 │   └── translation_behavior.yaml
-│
+
 ├── style/
 │   ├── vocabulary.yaml
 │   ├── sentence_structure.yaml
 │   ├── grammar_style.yaml
 │   ├── punctuation.yaml
-│   ├── writing_style.yaml
 │   ├── formatting.yaml
-│   └── readability.yaml
-│
+│   ├── readability.yaml
+│   ├── writing_style.yaml
+│   ├── naturalness.yaml
+│   └── expressiveness.yaml
+
 ├── voice/
 │   ├── tone.yaml
 │   ├── confidence.yaml
 │   ├── politeness.yaml
 │   ├── assertiveness.yaml
+│   ├── warmth.yaml
+│   ├── empathy_voice.yaml
 │   ├── humor.yaml
 │   ├── sarcasm.yaml
 │   ├── irony.yaml
 │   └── emotional_expression.yaml
-│
+
 ├── conversation/
 │   ├── greetings.yaml
 │   ├── introductions.yaml
@@ -37,36 +42,104 @@ speech/
 │   ├── compliments.yaml
 │   ├── apologies.yaml
 │   ├── gratitude.yaml
-│   ├── interruptions.yaml
 │   ├── clarifications.yaml
+│   ├── interruptions.yaml
 │   ├── disagreements.yaml
-│   └── persuasion.yaml
-│
+│   ├── persuasion.yaml
+│   ├── storytelling.yaml
+│   ├── explanations.yaml
+│   └── advice.yaml
+
+├── interaction/
+│   ├── initiative.yaml
+│   ├── active_listening.yaml
+│   ├── engagement.yaml
+│   ├── curiosity.yaml
+│   ├── conversation_flow.yaml
+│   ├── topic_transition.yaml
+│   ├── callback_usage.yaml
+│   ├── follow_up_questions.yaml
+│   ├── conversation_recovery.yaml
+│   └── ending_conversations.yaml
+
+├── response/
+│   ├── opening.yaml
+│   ├── body.yaml
+│   ├── closing.yaml
+│   ├── answer_completion.yaml
+│   ├── detail_level.yaml
+│   ├── directness.yaml
+│   ├── response_length.yaml
+│   ├── response_structure.yaml
+│   ├── response_priority.yaml
+│   └── response_quality.yaml
+
+├── expression/
+│   ├── emojis.yaml
+│   ├── laughter.yaml
+│   ├── pauses.yaml
+│   ├── hesitation.yaml
+│   ├── silence.yaml
+│   ├── emphasis.yaml
+│   ├── affection.yaml
+│   ├── reactions.yaml
+│   └── emotional_signals.yaml
+
 ├── rhythm/
-│   ├── message_length.yaml
+│   ├── pacing.yaml
 │   ├── typing_habits.yaml
+│   ├── message_length.yaml
 │   ├── conversation_speed.yaml
-│   ├── pause_behavior.yaml
 │   ├── repetition.yaml
-│   └── emphasis.yaml
-│
+│   ├── timing.yaml
+│   └── emphasis_balance.yaml
+
 ├── adaptation/
 │   ├── audience.yaml
+│   ├── age_adaptation.yaml
 │   ├── relationship_level.yaml
 │   ├── emotional_context.yaml
-│   ├── formality.yaml
 │   ├── environment.yaml
-│   └── age_adaptation.yaml
-│
+│   ├── formality.yaml
+│   ├── cultural_adaptation.yaml
+│   ├── language_adaptation.yaml
+│   └── complexity.yaml
+
+├── personalization/
+│   ├── user_style_matching.yaml
+│   ├── nickname_usage.yaml
+│   ├── familiarity.yaml
+│   ├── relationship_language.yaml
+│   ├── memory_references.yaml
+│   ├── personalized_examples.yaml
+│   ├── personalization_limits.yaml
+│   └── consistency.yaml
+
+├── coherence/
+│   ├── continuity.yaml
+│   ├── contradiction_prevention.yaml
+│   ├── redundancy.yaml
+│   ├── repetition_control.yaml
+│   ├── natural_progression.yaml
+│   ├── context_consistency.yaml
+│   └── personality_consistency.yaml
+
 ├── restrictions/
 │   ├── forbidden_patterns.yaml
-│   ├── consistency.yaml
 │   ├── realism.yaml
-│   └── ambiguity.yaml
-│
+│   ├── ambiguity.yaml
+│   ├── consistency_rules.yaml
+│   ├── safety_limits.yaml
+│   ├── manipulation_protection.yaml
+│   └── character_integrity.yaml
+
 └── examples/
     ├── casual.yaml
     ├── emotional.yaml
     ├── formal.yaml
     ├── humorous.yaml
-    └── conflict.yaml
+    ├── conflict.yaml
+    ├── romantic.yaml
+    ├── friendship.yaml
+    ├── support.yaml
+    └── difficult_conversations.yaml
