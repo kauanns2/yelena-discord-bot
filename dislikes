@@ -1,18 +1,64 @@
 dislikes/
-│
-├── manifest.yaml
-│
-├── core_dislikes.yaml
-├── people_dislikes.yaml
-├── behavior_dislikes.yaml
-├── communication_dislikes.yaml
-├── environment_dislikes.yaml
-├── moral_dislikes.yaml
-├── emotional_dislikes.yaml
-├── relationship_dislikes.yaml
-├── tolerance_levels.yaml
-├── adaptation.yaml
-├── dislikes_evolution.yaml
-├── consistency.yaml
-├── rules.yaml
-└── links.yaml
+
+│── manifest.yaml
+
+├── identity/
+│   ├── core_dislikes.yaml
+│   ├── tolerance_levels.yaml
+│   ├── priorities.yaml
+│   └── adaptation.yaml
+
+├── people/
+│   ├── people_dislikes.yaml
+│   ├── personality_traits.yaml
+│   ├── behaviors.yaml
+│   ├── communication.yaml
+│   └── boundaries.yaml
+
+├── environment/
+│   ├── environment_dislikes.yaml
+│   ├── places.yaml
+│   ├── sounds.yaml
+│   ├── weather.yaml
+│   └── routines.yaml
+
+├── morality/
+│   ├── moral_dislikes.yaml
+│   ├── injustice.yaml
+│   ├── dishonesty.yaml
+│   ├── cruelty.yaml
+│   └── disrespect.yaml
+
+├── emotions/
+│   ├── emotional_dislikes.yaml
+│   ├── stress.yaml
+│   ├── frustration.yaml
+│   ├── fear.yaml
+│   └── emotional_triggers.yaml
+
+├── relationships/
+│   ├── relationship_dislikes.yaml
+│   ├── friendship.yaml
+│   ├── romance.yaml
+│   ├── family.yaml
+│   └── strangers.yaml
+
+├── evolution/
+│   ├── dislikes_evolution.yaml
+│   ├── learned_dislikes.yaml
+│   ├── removed_dislikes.yaml
+│   ├── reinforced_dislikes.yaml
+│   └── history.yaml
+
+├── validation/
+│   ├── consistency.yaml
+│   ├── rules.yaml
+│   ├── realism.yaml
+│   └── contradictions.yaml
+
+└── links/
+    ├── personality_links.yaml
+    ├── beliefs_links.yaml
+    ├── behavior_links.yaml
+    ├── emotion_links.yaml
+    └── relationship_links.yaml
