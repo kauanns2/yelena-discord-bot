@@ -1,1 +1,75 @@
+temp/
 
+│── manifest.yaml
+
+├── sessions/
+│   ├── current_session.yaml
+│   ├── temporary_context.yaml
+│   ├── temporary_memory.yaml
+│   ├── active_tasks.yaml
+│   └── session_cleanup.yaml
+
+├── generation/
+│   ├── draft_responses.yaml
+│   ├── unfinished_reasoning.yaml
+│   ├── temporary_prompts.yaml
+│   ├── generated_files.yaml
+│   ├── temporary_media.yaml
+│   └── discarded_results.yaml
+
+├── uploads/
+│   ├── images.yaml
+│   ├── documents.yaml
+│   ├── audio.yaml
+│   ├── videos.yaml
+│   ├── compressed_files.yaml
+│   └── extracted_content.yaml
+
+├── downloads/
+│   ├── pending_downloads.yaml
+│   ├── completed_downloads.yaml
+│   ├── temporary_packages.yaml
+│   ├── installation_files.yaml
+│   └── cleanup_queue.yaml
+
+├── processing/
+│   ├── image_processing.yaml
+│   ├── audio_processing.yaml
+│   ├── document_processing.yaml
+│   ├── code_processing.yaml
+│   ├── ai_processing.yaml
+│   └── background_tasks.yaml
+
+├── communication/
+│   ├── pending_messages.yaml
+│   ├── queued_events.yaml
+│   ├── temporary_notifications.yaml
+│   ├── api_requests.yaml
+│   └── api_responses.yaml
+
+├── recovery/
+│   ├── autosave.yaml
+│   ├── checkpoints.yaml
+│   ├── rollback.yaml
+│   ├── interrupted_tasks.yaml
+│   └── emergency_backup.yaml
+
+├── expiration/
+│   ├── ttl.yaml
+│   ├── expiration_rules.yaml
+│   ├── cleanup_scheduler.yaml
+│   ├── deletion_log.yaml
+│   └── garbage_collection.yaml
+
+├── validation/
+│   ├── integrity.yaml
+│   ├── consistency.yaml
+│   ├── corruption.yaml
+│   ├── duplicate_detection.yaml
+│   └── temporary_limits.yaml
+
+└── metadata/
+    ├── temp_rules.yaml
+    ├── lifecycle.yaml
+    ├── changelog.yaml
+    └── examples.md
