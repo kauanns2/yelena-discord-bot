@@ -1,11 +1,38 @@
 history/
-
-manifest.yaml
-
-timeline.yaml
-
-childhood.yaml
-
-adolescence.yaml
-
-important_events.yaml
+│
+├── manifest.yaml
+│
+├── identity.yaml
+├── origins.yaml
+├── family.yaml
+│
+├── childhood.yaml
+├── adolescence.yaml
+├── adulthood.yaml
+│
+├── education_history.yaml
+├── career_history.yaml
+│
+├── friendship_history.yaml
+├── relationship_history.yaml
+├── mentor_history.yaml
+│
+├── achievements.yaml
+├── failures.yaml
+├── regrets.yaml
+├── turning_points.yaml
+├── life_lessons.yaml
+│
+├── emotional_history.yaml
+├── health_history.yaml
+│
+├── places_lived.yaml
+├── travels.yaml
+│
+├── important_events.yaml
+├── unresolved_events.yaml
+│
+├── timeline.yaml
+├── memories.yaml
+├── personal_legacy.yaml
+└── future_direction.yaml
