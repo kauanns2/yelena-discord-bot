@@ -62,6 +62,10 @@ planning/
 
 └── planning_links.yaml
 
+#########################################
+# PRIORITY SCALE
+#########################################
+
 version: 1.0
 
 priority_scale:
@@ -118,6 +122,10 @@ priority_scale:
 sorting:
   lower_number_first: true
 
+#########################################
+# ACTIVATION RULES
+#########################################
+
 activation:
 
   always_load:
@@ -170,6 +178,11 @@ activation:
         - moral
 
   max_modules: 10
+
+#########################################
+# MODULE RANKING
+#########################################
+
 modules:
 
   core:
