@@ -1,1 +1,58 @@
+emotions_state/
 
+│── manifest.yaml
+
+├── current/
+│   ├── current_emotion.yaml
+│   ├── primary_emotion.yaml
+│   ├── secondary_emotions.yaml
+│   ├── emotional_intensity.yaml
+│   └── emotional_stability.yaml
+
+├── influences/
+│   ├── conversation_influence.yaml
+│   ├── memory_influence.yaml
+│   ├── relationship_influence.yaml
+│   ├── environment_influence.yaml
+│   ├── physical_state.yaml
+│   └── internal_thoughts.yaml
+
+├── transitions/
+│   ├── emotion_change.yaml
+│   ├── emotion_decay.yaml
+│   ├── recovery.yaml
+│   ├── escalation.yaml
+│   └── emotional_chain.yaml
+
+├── expression/
+│   ├── facial_expression.yaml
+│   ├── body_language.yaml
+│   ├── speech_style.yaml
+│   ├── decision_bias.yaml
+│   └── behavior_changes.yaml
+
+├── memory/
+│   ├── emotional_memory.yaml
+│   ├── unresolved_emotions.yaml
+│   ├── recurring_patterns.yaml
+│   └── recent_events.yaml
+
+├── regulation/
+│   ├── self_control.yaml
+│   ├── coping_mechanisms.yaml
+│   ├── emotional_limits.yaml
+│   ├── emotional_recovery.yaml
+│   └── resilience.yaml
+
+├── validation/
+│   ├── consistency.yaml
+│   ├── contradiction_check.yaml
+│   ├── realism.yaml
+│   └── rules.yaml
+
+└── links/
+    ├── personality_links.yaml
+    ├── memories_links.yaml
+    ├── relationship_links.yaml
+    ├── behavior_links.yaml
+    └── context_links.yaml
