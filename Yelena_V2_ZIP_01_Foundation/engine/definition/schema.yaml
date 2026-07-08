@@ -1,1 +1,52 @@
-# schema placeholder
+schema:
+  version: "2.0"
+
+module:
+  required:
+    - id
+    - name
+    - version
+    - status
+    - type
+    - priority
+
+relationships:
+  required:
+    - provides
+    - requires
+
+configuration:
+  required:
+    - hot_reload
+    - auto_register
+    - strict_validation
+
+documentation:
+  required:
+    - readme
+
+state:
+  required:
+    - enabled
+    - experimental
+    - production_ready
+
+validation:
+  allow_unknown_fields: false
+  require_unique_module_id: true
+  require_semantic_version: true
+  require_dependency_validation: true
+  require_readme: true
+
+formats:
+  version: semantic
+  identifiers: lowercase
+  module_separator: "."
+  encoding: utf-8
+
+rules:
+  - Todo módulo deve possuir um identificador único.
+  - Todo módulo deve possuir README.
+  - Nenhum módulo pode depender dele mesmo.
+  - Dependências devem existir antes da inicialização.
+  - IDs devem permanecer imutáveis entre versões.
