@@ -1,45 +1,38 @@
-required:
+version: "2.0.0"
 
-  engine:
-    minimum_version: "2.0.0"
-    reason: "Inicialização do sistema"
+codename: Yelena V2
 
-optional:
+stage: stable
 
-  memory:
-    minimum_version: "2.0.0"
+release: final
 
-  cognition:
-    minimum_version: "2.0.0"
+schema_version: "2.0"
 
-  dialogue:
-    minimum_version: "2.0.0"
+engine_version: "2.0.0"
 
-  relationships:
-    minimum_version: "2.0.0"
+kernel_version: "2.0.0"
 
-  knowledge:
-    minimum_version: "2.0.0"
+minimum_supported_version: "2.0.0"
 
-  discord:
-    minimum_version: "2.0.0"
+compatibility:
 
-load_order:
+  gemini: true
 
-  - engine
-  - kernel
-  - memory
-  - cognition
-  - emotions
-  - relationships
-  - knowledge
-  - dialogue
-  - discord
+  openai: true
 
-fail_policy:
+  claude: true
 
-  required: stop
+  mistral: true
 
-  optional: ignore
+  deepseek: true
 
-hot_reload: true
+  openrouter: true
+
+changelog:
+
+  - "Primeira versão estável do Kernel."
+  - "Arquitetura Web Brain implementada."
+  - "Sistema modular definitivo."
+  - "Compatibilidade com múltiplos modelos de IA."
+
+last_updated: "2026-07"
