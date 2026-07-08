@@ -1,6 +1,0 @@
-discord.py
-aiohttp
-python-dotenv
-Flask
-gunicorn
-google-generativeai
