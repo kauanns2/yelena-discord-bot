@@ -1,1 +1,55 @@
-version: 2.0.0
+version:
+
+  current: "2.0.0"
+
+  codename: "Foundation"
+
+  stage: "Production"
+
+  release_date: "2026-07"
+
+  architecture: "Yelena V2"
+
+compatibility:
+
+  minimum_engine: "2.0.0"
+
+  minimum_kernel: "2.0.0"
+
+  backward_compatible: true
+
+  forward_compatible: false
+
+lifecycle:
+
+  supported: true
+
+  deprecated: false
+
+  experimental: false
+
+history:
+
+  previous:
+
+    - version: "1.0.0"
+      stage: "Prototype"
+
+  current:
+
+    - version: "2.0.0"
+      stage: "Production"
+
+future:
+
+  next_target: "2.1.0"
+
+  notes: >
+
+    Próxima atualização destinada apenas para melhorias internas.
+
+validation:
+
+  semantic_versioning: true
+
+  immutable_major_release: true
