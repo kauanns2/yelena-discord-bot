@@ -1,1 +1,51 @@
-# dependencies.yaml
+required:
+
+  - foundation
+
+optional:
+
+  - cognition
+
+  - emotions
+
+  - relationships
+
+  - dialogue
+
+  - speech
+
+  - memory
+
+provides:
+
+  - identity
+
+  - personality
+
+  - appearance
+
+  - behavior
+
+  - voice
+
+  - presence
+
+kernel:
+
+  load_order: 2
+
+  preload: true
+
+  cache: true
+
+  persistent: true
+
+graph:
+
+  enabled: true
+
+  node_type: core
+
+  default_weight: 2.0
+
+  expandable: true
