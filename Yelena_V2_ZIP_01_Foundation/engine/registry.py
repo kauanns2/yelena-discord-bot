@@ -4,10 +4,11 @@ YELENA V2
 Module Registry
 ===========================================================
 
-Registro central de todos os módulos da arquitetura.
+Registro central de todos os módulos carregados.
+O Registry é responsável apenas por armazenar módulos.
+Toda a lógica de decisão pertence ao Kernel.
+===========================================================
 """
-
-from pathlib import Path
 
 
 class ModuleRegistry:
@@ -16,39 +17,63 @@ class ModuleRegistry:
 
         self.modules = {}
 
-    def register(self, module_path: Path):
+    def register(self, module):
 
-        module_name = module_path.name
+        manifest = module.get("manifest", {})
 
-        self.modules[module_name] = {
-            "name": module_name,
-            "path": module_path,
-            "loaded": False,
-            "metadata": {},
-        }
+        module_id = manifest.get("id")
 
-    def load(self, module_name):
+        if module_id is None:
+            raise ValueError(
+                "Manifest sem campo 'id'."
+            )
 
-        if module_name in self.modules:
+        module["loaded"] = False
 
-            self.modules[module_name]["loaded"] = True
+        module["initialized"] = False
 
-    def get(self, module_name):
+        module["connections"] = []
 
-        return self.modules.get(module_name)
+        module["weight"] = {}
 
-    def exists(self, module_name):
+        module["cache"] = {}
 
-        return module_name in self.modules
+        module["errors"] = []
 
-    def count(self):
+        self.modules[module_id] = module
 
-        return len(self.modules)
+    def exists(self, module_id):
+
+        return module_id in self.modules
+
+    def get(self, module_id):
+
+        return self.modules.get(module_id)
 
     def all(self):
 
         return list(self.modules.values())
 
+    def count(self):
+
+        return len(self.modules)
+
     def clear(self):
 
         self.modules.clear()
+
+    def loaded_modules(self):
+
+        return [
+            module
+            for module in self.modules.values()
+            if module["loaded"]
+        ]
+
+    def initialized_modules(self):
+
+        return [
+            module
+            for module in self.modules.values()
+            if module["initialized"]
+        ]
