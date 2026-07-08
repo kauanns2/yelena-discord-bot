@@ -1,1 +1,65 @@
-# schema placeholder
+schema: 2.0
+
+module:
+
+  id: string
+
+  name: string
+
+  version: string
+
+  description: string
+
+  priority: integer
+
+  status: string
+
+  type: string
+
+dependencies:
+
+  required:
+
+    - module
+
+  optional:
+
+    - module
+
+exports:
+
+  - string
+
+imports:
+
+  - string
+
+runtime:
+
+  boot: boolean
+
+  autoload: boolean
+
+  critical: boolean
+
+validation:
+
+  require_manifest: true
+
+  require_metadata: true
+
+  require_version: true
+
+  require_dependencies: true
+
+  reject_unknown_fields: false
+
+memory:
+
+  persistent: true
+
+  cache: true
+
+compatibility:
+
+  minimum_schema: 2.0# schema placeholder
