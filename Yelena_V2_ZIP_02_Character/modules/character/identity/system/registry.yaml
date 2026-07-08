@@ -1,1 +1,39 @@
-# registry.yaml
+id: identity
+
+module: character
+
+name: Identity System
+
+description: >
+  Sistema responsável por registrar e fornecer a identidade
+  permanente da Yelena para todos os outros módulos.
+
+owner: character
+
+status: active
+
+enabled: true
+
+persistent: true
+
+load_order: 2.0
+
+services:
+
+  - identity.read
+
+  - identity.validate
+
+  - identity.provide
+
+storage:
+
+  type: internal
+
+  mutable: false
+
+visibility:
+
+  public: true
+
+  internal: true
