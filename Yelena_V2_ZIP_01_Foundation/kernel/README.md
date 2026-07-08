@@ -1,0 +1,2 @@
+# Kernel
+Base do projeto.

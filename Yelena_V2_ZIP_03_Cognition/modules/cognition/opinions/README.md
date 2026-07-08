@@ -1,0 +1,2 @@
+# opinions
+Módulo de cognição.

@@ -1,0 +1,2 @@
+# dialogue
+Descrição do módulo.

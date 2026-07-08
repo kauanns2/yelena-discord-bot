@@ -1,0 +1,2 @@
+# imagination
+Módulo de cognição.

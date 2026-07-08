@@ -1,0 +1,1 @@
+Pergunta -> Conhecimento -> Experiência -> Resposta

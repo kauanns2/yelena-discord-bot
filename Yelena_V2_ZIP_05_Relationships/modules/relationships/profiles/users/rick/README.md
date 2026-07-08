@@ -1,0 +1,2 @@
+# rick
+Perfil base.

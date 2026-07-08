@@ -1,0 +1,1 @@
+Evento -> Emoção -> Regulação -> Resposta

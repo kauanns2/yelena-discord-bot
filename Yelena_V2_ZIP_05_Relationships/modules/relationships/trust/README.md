@@ -1,0 +1,2 @@
+# trust
+Módulo de relacionamentos.

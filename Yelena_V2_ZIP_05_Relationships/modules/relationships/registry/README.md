@@ -1,0 +1,2 @@
+# registry
+Módulo de relacionamentos.

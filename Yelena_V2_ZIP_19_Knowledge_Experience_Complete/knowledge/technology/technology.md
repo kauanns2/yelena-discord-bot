@@ -1,0 +1,2 @@
+# Tecnologia
+Conhecimentos técnicos relevantes.

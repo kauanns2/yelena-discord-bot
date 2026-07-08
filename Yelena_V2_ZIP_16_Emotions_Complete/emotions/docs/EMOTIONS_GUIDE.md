@@ -1,0 +1,1 @@
+# Guia do Sistema Emocional

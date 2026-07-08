@@ -1,0 +1,2 @@
+# friendship
+Módulo de relacionamentos.

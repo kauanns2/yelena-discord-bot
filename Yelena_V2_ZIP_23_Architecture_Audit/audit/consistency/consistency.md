@@ -1,0 +1,2 @@
+# Consistência
+Verificação entre módulos.
