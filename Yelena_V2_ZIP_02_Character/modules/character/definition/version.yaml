@@ -1,1 +1,55 @@
-# version.yaml
+version:
+
+  current: "2.0.0"
+
+  codename: "Character"
+
+  stage: "Production"
+
+  release_date: "2026-07"
+
+  architecture: "Yelena V2"
+
+compatibility:
+
+  minimum_engine: "2.0.0"
+
+  minimum_kernel: "2.0.0"
+
+  backward_compatible: true
+
+  forward_compatible: false
+
+lifecycle:
+
+  supported: true
+
+  deprecated: false
+
+  experimental: false
+
+history:
+
+  previous:
+
+    - version: "1.0.0"
+      stage: "Prototype"
+
+  current:
+
+    - version: "2.0.0"
+      stage: "Production"
+
+future:
+
+  next_target: "2.1.0"
+
+  notes: >
+    Próxima atualização destinada ao refinamento da personalidade,
+    comportamento e integração com os demais módulos.
+
+validation:
+
+  semantic_versioning: true
+
+  immutable_major_release: true
