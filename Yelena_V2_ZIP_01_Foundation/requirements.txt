@@ -1,1 +1,41 @@
-# Python dependencies
+# ==============================
+# Core
+# ==============================
+
+discord.py>=2.6.0
+
+PyYAML>=6.0
+
+python-dotenv>=1.1.0
+
+aiofiles>=24.1.0
+
+httpx>=0.28.1
+
+orjson>=3.11.0
+
+networkx>=3.5
+
+pydantic>=2.11.7
+
+loguru>=0.7.3
+
+typing_extensions>=4.15.0
+
+# ==============================
+# AI Providers
+# ==============================
+
+google-genai>=1.30.0
+
+openai>=1.99.0
+
+# ==============================
+# Utilities
+# ==============================
+
+tenacity>=9.1.2
+
+cachetools>=6.2.0
+
+watchdog>=6.0.0
