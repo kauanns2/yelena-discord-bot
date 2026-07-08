@@ -1,1 +1,45 @@
-dependencies: []
+required:
+
+  engine:
+    minimum_version: "2.0.0"
+    reason: "Inicialização do sistema"
+
+optional:
+
+  memory:
+    minimum_version: "2.0.0"
+
+  cognition:
+    minimum_version: "2.0.0"
+
+  dialogue:
+    minimum_version: "2.0.0"
+
+  relationships:
+    minimum_version: "2.0.0"
+
+  knowledge:
+    minimum_version: "2.0.0"
+
+  discord:
+    minimum_version: "2.0.0"
+
+load_order:
+
+  - engine
+  - kernel
+  - memory
+  - cognition
+  - emotions
+  - relationships
+  - knowledge
+  - dialogue
+  - discord
+
+fail_policy:
+
+  required: stop
+
+  optional: ignore
+
+hot_reload: true
