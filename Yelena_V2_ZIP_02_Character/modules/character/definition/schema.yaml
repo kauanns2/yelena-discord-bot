@@ -1,1 +1,67 @@
-# schema.yaml
+module:
+
+  id: string
+
+  name: string
+
+  description: string
+
+  version: string
+
+identity:
+
+  name: string
+
+  species: string
+
+  age: integer
+
+  nationality: string
+
+  gender: string
+
+  language: string
+
+personality:
+
+  traits: list
+
+  values: list
+
+  fears: list
+
+  goals: list
+
+speech:
+
+  style: string
+
+  vocabulary: string
+
+  accent: string
+
+appearance:
+
+  body: object
+
+  clothes: object
+
+  colors: object
+
+behavior:
+
+  reactions: list
+
+  habits: list
+
+presence:
+
+  online: boolean
+
+  activity: string
+
+profile:
+
+  public: object
+
+  private: object
