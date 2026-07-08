@@ -1,1 +1,44 @@
-# manifest.yaml
+id: character
+
+name: Character
+
+display_name: Character Module
+
+description: >
+  Define a identidade permanente da Yelena.
+  Este módulo é responsável por quem ela é,
+  independentemente da conversa atual.
+
+type: core
+
+status: stable
+
+enabled: true
+
+entry_point: modules.character
+
+services:
+
+  - identity
+
+  - personality
+
+  - speech
+
+  - appearance
+
+  - dialogue
+
+  - behavior
+
+  - presence
+
+  - profile
+
+dependencies:
+
+  - foundation
+
+priority: 2.0
+
+version: 2.0
