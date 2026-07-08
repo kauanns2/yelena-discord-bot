@@ -1,1 +1,35 @@
-# metadata.yaml
+module_id: character
+
+author: Kauan Souza
+
+project: Yelena V2
+
+category: Core Module
+
+language: pt-BR
+
+engine: Gemini
+
+architecture: Web Brain
+
+created_for: Discord AI
+
+load_mode: dynamic
+
+load_strategy: weighted_graph
+
+kernel_managed: true
+
+graph_node: true
+
+graph_weight: 2.0
+
+supports_memory: true
+
+supports_context: true
+
+supports_streaming: true
+
+editable: true
+
+stable: true
