@@ -1,7 +1,17 @@
 """
-Kernel da Yelena V2
+===========================================================
+YELENA V2
+Kernel
+===========================================================
 
-Responsável por controlar o ciclo de vida do sistema.
+O Kernel coordena a arquitetura.
+
+Ele NÃO conhece a estrutura dos módulos.
+
+Cada módulo informa suas conexões.
+
+O Kernel apenas navega pela teia.
+===========================================================
 """
 
 from pathlib import Path
@@ -15,34 +25,58 @@ class Kernel:
 
         self.registry = None
 
-        self.started = False
+        self.running = False
+
+    def boot(self):
+
+        print("[Kernel] Inicializando...")
+
+        self.running = True
+
+    def shutdown(self):
+
+        print("[Kernel] Encerrando...")
+
+        self.running = False
 
     def attach_registry(self, registry):
 
         self.registry = registry
 
-        print("[Kernel] Registry conectado.")
+    def modules(self):
 
-    def boot(self):
+        if self.registry is None:
 
-        print("[Kernel] Inicializando Kernel...")
+            return []
 
-        self.started = True
+        return self.registry.all()
 
-    def shutdown(self):
+    def get_module(self, module_id):
 
-        print("[Kernel] Encerrando Kernel...")
+        if self.registry is None:
 
-        self.started = False
+            return None
+
+        return self.registry.get(module_id)
+
+    def resolve_connections(self, module_id):
+
+        module = self.get_module(module_id)
+
+        if module is None:
+
+            return []
+
+        return sorted(
+
+            module.get("connections", []),
+
+            key=lambda item: item["weight"],
+
+            reverse=True
+
+        )
 
     def is_running(self):
 
-        return self.started
-
-    def get_root(self):
-
-        return self.root
-
-    def get_registry(self):
-
-        return self.registry
+        return self.running
