@@ -1,1 +1,49 @@
-dependencies: []
+dependencies:
+
+  required:
+
+    foundation:
+      minimum_version: "2.0.0"
+      required: true
+      reason: "Base estrutural da arquitetura."
+
+    kernel:
+      minimum_version: "2.0.0"
+      required: true
+      reason: "Gerencia a execução e coordena os módulos."
+
+  optional:
+
+    prompt_engine:
+      minimum_version: "2.0.0"
+      required: false
+      reason: "Responsável pela construção dinâmica do prompt."
+
+    discord_integration:
+      minimum_version: "2.0.0"
+      required: false
+      reason: "Permite comunicação com o Discord."
+
+    gemini:
+      required: false
+      reason: "Modelo de IA suportado."
+
+    openrouter:
+      required: false
+      reason: "Gateway para modelos de IA."
+
+validation:
+
+  fail_on_missing_required: true
+
+  warn_on_missing_optional: true
+
+  allow_future_versions: true
+
+loading:
+
+  strategy: dependency_order
+
+  parallel_loading: true
+
+  verify_before_start: true
