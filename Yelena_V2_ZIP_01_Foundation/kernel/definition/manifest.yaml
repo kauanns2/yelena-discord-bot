@@ -1,3 +1,40 @@
-name: 
+id: kernel
+
+name: Yelena Kernel
+
 version: 2.0.0
-description: 
+
+type: core
+
+status: stable
+
+priority: 100
+
+description: >
+  Núcleo responsável por inicializar o sistema,
+  registrar módulos e navegar pela arquitetura
+  em forma de teia.
+
+owner: engine
+
+exports:
+
+  - module_registry
+
+  - dependency_graph
+
+  - lifecycle
+
+  - loader
+
+  - validator
+
+requires: []
+
+boot: true
+
+autoload: true
+
+editable: false
+
+critical: true
