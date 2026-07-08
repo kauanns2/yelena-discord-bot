@@ -1,3 +1,66 @@
+# ==========================
+# Python
+# ==========================
+
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
 .env
-*.pyc
+.env.*
+
+# Secrets
+secrets/
+credentials/
+tokens/
+
+# Runtime
+tmp/
+temp/
+
+# Discord
+discord_token.txt
+
+# AI Providers
+openrouter.key
+gemini.key
+api_keys.json
+
+# Local Database
+*.db
+*.sqlite3
+
+# Backup
+backup/
+*.bak
+
+# Git
+*.orig
