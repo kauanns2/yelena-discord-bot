@@ -1,10 +1,15 @@
 """
+===========================================================
+YELENA V2
 Module Loader
+===========================================================
 
-Responsável por localizar todos os módulos da Yelena.
+Responsável por localizar todos os módulos da arquitetura
+e registrar suas definições.
 """
 
 from pathlib import Path
+import yaml
 
 
 class ModuleLoader:
@@ -21,19 +26,62 @@ class ModuleLoader:
 
         for folder in sorted(self.root.iterdir()):
 
-            if (
-                folder.is_dir()
-                and folder.name.startswith("Yelena_V2_ZIP_")
-            ):
+            if not folder.is_dir():
+                continue
 
-                self.registry.register(folder)
+            if not folder.name.startswith("Yelena_V2_ZIP_"):
+                continue
 
-                print(f"[Loader] Encontrado: {folder.name}")
+            definition = folder / "definition"
+
+            manifest = definition / "manifest.yaml"
+
+            metadata = definition / "metadata.yaml"
+
+            schema = definition / "schema.yaml"
+
+            dependencies = definition / "dependencies.yaml"
+
+            version = definition / "version.yaml"
+
+            if not manifest.exists():
+                continue
+
+            module = {
+
+                "path": folder,
+
+                "manifest": self.read_yaml(manifest),
+
+                "metadata": self.read_yaml(metadata),
+
+                "schema": self.read_yaml(schema),
+
+                "dependencies": self.read_yaml(dependencies),
+
+                "version": self.read_yaml(version),
+
+            }
+
+            self.registry.register(module)
+
+            print(
+                f"[Loader] {module['manifest']['name']} registrado."
+            )
 
     def load_modules(self):
 
-        print("[Loader] Carregando módulos...")
+        for module in self.registry.all():
 
-        for module in self.registry.modules:
+            module["loaded"] = True
 
-            print(f"[Loader] Carregado: {module.name}")
+    @staticmethod
+    def read_yaml(path):
+
+        if not path.exists():
+
+            return {}
+
+        with open(path, "r", encoding="utf-8") as file:
+
+            return yaml.safe_load(file) or {}
