@@ -1,2 +1,54 @@
-author: Kauan
-status: draft
+module:
+  id: foundation.engine
+  name: Engine
+  display_name: Yelena Core Engine
+
+project:
+  name: Yelena V2
+  architecture: Modular Knowledge Web
+  repository: yelena-discord-bot
+
+author:
+  name: Kauanns2
+
+created_for:
+  - Discord
+  - Gemini
+  - OpenRouter
+
+category:
+  - foundation
+  - infrastructure
+  - execution
+
+purpose: >
+  Coordenar toda a infraestrutura lógica da arquitetura,
+  oferecendo uma camada de execução comum para todos os módulos.
+
+responsibilities:
+  - Inicialização do sistema
+  - Registro de módulos
+  - Coordenação de execução
+  - Comunicação interna
+  - Gerenciamento de fluxo
+
+scope:
+  affects:
+    - Kernel
+    - Prompt Engine
+    - Core Engine
+    - Todos os módulos da arquitetura
+
+stability:
+  level: stable
+  production_ready: true
+
+maintainability:
+  expected_changes: low
+  backwards_compatible: true
+
+documentation:
+  readme: ../README.md
+
+last_review:
+  architecture: V2
