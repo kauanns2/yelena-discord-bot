@@ -1,2 +1,53 @@
-author: Kauan
-status: draft
+uuid: yelena-kernel-v2
+
+title: Yelena Core Kernel
+
+author: Kauan Souza
+
+project: Yelena Discord Bot
+
+architecture: Web Brain
+
+language: pt-BR
+
+license: MIT
+
+created: 2026
+
+generator: Manual
+
+compatible:
+
+  - Gemini
+
+  - OpenAI
+
+  - Claude
+
+  - Mistral
+
+  - DeepSeek
+
+  - OpenRouter
+
+role: >
+  Coordenar toda a arquitetura da Yelena,
+  mantendo a comunicação entre módulos,
+  controlando carregamento, validação,
+  memória e fluxo interno.
+
+tags:
+
+  - kernel
+
+  - core
+
+  - orchestration
+
+  - cognition
+
+  - memory
+
+  - architecture
+
+immutable: true
