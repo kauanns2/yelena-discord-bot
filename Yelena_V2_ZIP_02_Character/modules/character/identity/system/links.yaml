@@ -1,1 +1,57 @@
-# links.yaml
+links:
+
+  incoming:
+
+    foundation:
+      weight: 2.0
+      relation: managed_by
+
+    kernel:
+      weight: 2.0
+      relation: controlled_by
+
+  outgoing:
+
+    personality:
+      weight: 2.0
+      relation: provides_identity
+
+    appearance:
+      weight: 1.9
+      relation: provides_reference
+
+    behavior:
+      weight: 1.8
+      relation: influences
+
+    dialogue:
+      weight: 1.7
+      relation: contextualizes
+
+    speech:
+      weight: 1.7
+      relation: defines_voice
+
+    profile:
+      weight: 1.6
+      relation: exports_data
+
+    presence:
+      weight: 1.4
+      relation: synchronizes
+
+rules:
+
+  follow_weights: true
+
+  allow_bidirectional: true
+
+  stop_when_context_is_sufficient: true
+
+graph:
+
+  node: identity
+
+  type: core
+
+  expandable: true
