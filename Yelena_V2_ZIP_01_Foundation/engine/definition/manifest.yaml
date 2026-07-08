@@ -1,3 +1,59 @@
-name: 
+id: foundation.engine
+
+name: Engine
+
+display_name: Yelena Core Engine
+
 version: 2.0.0
-description: 
+
+status: active
+
+type: infrastructure
+
+priority: critical
+
+layer: foundation
+
+entry_point: engine
+
+description: >
+  Camada responsável por coordenar a execução interna da arquitetura
+  Yelena V2. Atua como intermediária entre o Kernel e os módulos
+  especializados, garantindo organização, estabilidade e desacoplamento.
+
+owner: Foundation
+
+author: Kauanns2
+
+license: MIT
+
+compatible_with:
+  - Kernel
+  - Prompt Engine
+  - Core Engine
+  - Discord Integration
+  - Gemini
+  - OpenRouter
+
+provides:
+  - module_registry
+  - execution_flow
+  - initialization
+  - routing
+  - internal_services
+
+requires:
+  - Foundation
+
+configuration:
+  hot_reload: true
+  auto_register: true
+  strict_validation: true
+
+state:
+  enabled: true
+  experimental: false
+  production_ready: true
+
+documentation:
+  readme: ../README.md
