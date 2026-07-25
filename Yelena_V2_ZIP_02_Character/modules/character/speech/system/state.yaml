@@ -1,1 +1,53 @@
-# state.yaml
+state:
+
+  id: character.speech.state
+
+  version: "1.0.0"
+
+  enabled: true
+
+  initialized: false
+
+  active: false
+
+  persistent: true
+
+  locked: false
+
+runtime:
+
+  loaded: false
+
+  healthy: true
+
+  errors: []
+
+  warnings: []
+
+context:
+
+  available: true
+
+  participates_in_web_brain: true
+
+  activation_weight: 1.8
+
+activation:
+
+  automatic: true
+
+  lazy_loading: true
+
+  preload: false
+
+memory:
+
+  save_runtime_changes: true
+
+  restore_previous_state: true
+
+validation:
+
+  schema_valid: true
+
+  dependencies_valid: true
