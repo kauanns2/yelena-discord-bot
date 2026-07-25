@@ -1,1 +1,64 @@
-# registry.yaml
+registry:
+
+  id: character.profile
+
+  module: character
+
+  name: Profile
+
+  description: >
+    Registro principal do subsistema responsável por consolidar
+    informações públicas e persistentes da personagem,
+    disponibilizando um perfil unificado para consulta pelos
+    demais módulos da arquitetura.
+
+  version: "1.0.0"
+
+  priority: 1.7
+
+  enabled: true
+
+  persistent: true
+
+  load: automatic
+
+  category: character
+
+exports:
+
+  - profile
+  - public_information
+  - character_summary
+  - biography_summary
+  - personality_summary
+  - appearance_summary
+  - preferences_summary
+  - current_status
+
+imports:
+
+  - character.identity
+  - character.appearance
+  - character.personality
+  - character.behavior
+  - character.presence
+  - character.dialogue
+  - character.speech
+  - character.voice_style
+
+used_by:
+
+  - foundation.engine
+  - foundation.kernel
+  - memory
+  - context
+  - dialogue
+  - reasoning
+
+web_brain:
+
+  node: true
+
+  activation_weight: 1.7
+
+  participates_in_context: true
