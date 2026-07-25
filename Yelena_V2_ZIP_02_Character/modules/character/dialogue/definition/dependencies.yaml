@@ -1,1 +1,69 @@
-dependencies: []
+dependencies:
+
+  required:
+
+    engine:
+      module: foundation.engine
+      minimum_version: "2.0"
+
+    kernel:
+      module: foundation.kernel
+      minimum_version: "2.0"
+
+    identity:
+      module: character.identity
+      relation: identity_reference
+
+    personality:
+      module: character.personality
+      relation: personality_reference
+
+    behavior:
+      module: character.behavior
+      relation: behavior_reference
+
+  internal:
+
+    speech:
+      module: character.speech
+      relation: formats_responses
+
+    voice_style:
+      module: character.voice_style
+      relation: defines_expression
+
+    presence:
+      module: character.presence
+      relation: adapts_presence
+
+    appearance:
+      module: character.appearance
+      relation: supports_visual_descriptions
+
+    profile:
+      module: character.profile
+      relation: exports_dialogue_profile
+
+loading:
+
+  strategy: lazy
+
+  required_before_initialization:
+
+    - foundation.engine
+    - foundation.kernel
+    - character.identity
+    - character.personality
+    - character.behavior
+
+validation:
+
+  fail_on_missing_required: true
+
+  warn_on_missing_internal: true
+
+graph:
+
+  participates: true
+
+  weight: 1.7
