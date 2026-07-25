@@ -1,1 +1,47 @@
-# registry.yaml
+id: behavior
+
+module: character
+
+name: Behavior System
+
+description: >
+  Sistema responsável por registrar, organizar e disponibilizar
+  os padrões de comportamento da personagem para os demais módulos.
+
+owner: character
+
+status: active
+
+enabled: true
+
+persistent: true
+
+load_order: 1.8
+
+services:
+
+  - behavior.read
+
+  - behavior.validate
+
+  - behavior.provide
+
+storage:
+
+  type: internal
+
+  mutable: true
+
+visibility:
+
+  public: true
+
+  internal: true
+
+graph:
+
+  node: behavior
+
+  role: support
+
+  weight: 1.8
