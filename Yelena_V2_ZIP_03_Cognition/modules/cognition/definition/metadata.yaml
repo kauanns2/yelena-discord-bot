@@ -1,1 +1,63 @@
-# metadata.yaml
+id: cognition
+
+name: Cognition
+
+module: cognition
+
+version: "1.0.0"
+
+status: stable
+
+priority: 2.0
+
+description: >
+  Módulo central responsável pelo processamento cognitivo da Yelena.
+  Coordena percepção, atenção, memória, raciocínio, planejamento,
+  tomada de decisões e demais processos mentais, funcionando como o
+  núcleo de pensamento da arquitetura Web Brain.
+
+exports:
+
+  - cognition
+  - reasoning
+  - thinking
+  - decision
+  - planning
+  - attention
+  - perception
+  - memory
+  - knowledge_retrieval
+  - learning
+  - beliefs
+  - opinions
+  - psychology
+  - imagination
+  - executive
+
+imports:
+
+  - character.identity
+  - character.personality
+  - character.behavior
+  - character.profile
+
+used_by:
+
+  - foundation.engine
+  - foundation.kernel
+  - memory
+  - context
+  - world
+  - relationship
+
+web_brain:
+
+  node: true
+
+  activation_weight: 2.0
+
+  participates_in_context: true
+
+persistent: true
+
+load: automatic
