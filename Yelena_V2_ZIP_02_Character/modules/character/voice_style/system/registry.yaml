@@ -1,1 +1,60 @@
-# registry.yaml
+registry:
+
+  id: character.voice_style
+
+  module: character
+
+  name: Voice Style
+
+  description: >
+    Registro principal do subsistema responsável por definir
+    a identidade única da voz da personagem, garantindo
+    consistência na forma como ela se expressa em qualquer
+    contexto ou conversa.
+
+  version: "1.0.0"
+
+  priority: 1.9
+
+  enabled: true
+
+  persistent: true
+
+  load: automatic
+
+  category: character
+
+exports:
+
+  - voice_style
+  - linguistic_signature
+  - favorite_expressions
+  - catchphrases
+  - greeting_style
+  - farewell_style
+  - language_habits
+  - expressive_patterns
+  - emotional_signature
+
+imports:
+
+  - character.identity
+  - character.personality
+  - character.behavior
+  - character.dialogue
+  - character.presence
+  - character.speech
+
+used_by:
+
+  - character.profile
+  - foundation.engine
+  - foundation.kernel
+
+web_brain:
+
+  node: true
+
+  activation_weight: 1.9
+
+  participates_in_context: true
