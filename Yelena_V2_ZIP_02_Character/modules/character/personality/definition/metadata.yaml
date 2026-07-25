@@ -1,1 +1,61 @@
-status: draft
+title: Character Personality
+
+name: Personality
+
+id: character.personality
+
+author: Kauan Souza
+
+maintainer: Kauan Souza
+
+description: >
+  Subsistema responsável por armazenar, organizar e disponibilizar
+  os traços psicológicos da personagem. Define personalidade,
+  valores, crenças, preferências, motivações e padrões de tomada
+  de decisão para garantir consistência em qualquer contexto.
+
+category: Character
+
+type: Core Subsystem
+
+language: YAML
+
+encoding: UTF-8
+
+license: Proprietary
+
+created_for: Yelena V2
+
+compatibility:
+
+  engine: ">=2.0"
+
+  kernel: ">=2.0"
+
+stability: Stable
+
+status: Active
+
+persistent: true
+
+read_only: false
+
+documentation:
+
+  readme: ../README.md
+
+repository:
+
+  module: Yelena_V2_ZIP_02_Character
+
+keywords:
+
+  - personality
+  - psychology
+  - traits
+  - values
+  - beliefs
+  - preferences
+  - character
+  - yelena
+  - web-brain
