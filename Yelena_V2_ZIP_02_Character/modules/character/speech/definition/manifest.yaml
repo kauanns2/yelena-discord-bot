@@ -1,3 +1,56 @@
-name: speech
-domain: character
-version: 2.0.0
+id: character.speech
+
+name: Speech
+
+module: character
+
+version: "1.0.0"
+
+status: stable
+
+priority: 1.8
+
+description: >
+  Subsistema responsável por definir como a personagem se comunica.
+  Controla estilo linguístico, vocabulário, formalidade, ritmo,
+  pontuação, comprimento das mensagens e demais aspectos da fala,
+  garantindo consistência comunicativa em qualquer contexto.
+
+exports:
+
+  - speech
+  - vocabulary
+  - language_style
+  - formality
+  - message_length
+  - punctuation_style
+  - emoji_usage
+  - conversation_rhythm
+  - communication_rules
+
+imports:
+
+  - character.identity
+  - character.personality
+  - character.behavior
+  - character.dialogue
+  - character.presence
+
+used_by:
+
+  - character.voice_style
+  - character.profile
+  - foundation.engine
+  - foundation.kernel
+
+web_brain:
+
+  node: true
+
+  activation_weight: 1.8
+
+  participates_in_context: true
+
+persistent: true
+
+load: automatic
