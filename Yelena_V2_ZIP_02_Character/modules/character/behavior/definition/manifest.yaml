@@ -1,3 +1,61 @@
-name: behavior
-domain: character
-version: 2.0.0
+id: character.behavior
+
+name: Behavior
+
+display_name: Character Behavior
+
+description: >
+  Subsistema responsável por definir os padrões de comportamento,
+  hábitos, reações e tomada de decisões da personagem.
+
+type: subsystem
+
+module: character
+
+version: 1.0.0
+
+status: stable
+
+enabled: true
+
+priority: 1.8
+
+persistent: true
+
+entrypoint: ../README.md
+
+system:
+
+  registry: ../system/registry.yaml
+
+  state: ../system/state.yaml
+
+  links: ../system/links.yaml
+
+definition:
+
+  metadata: metadata.yaml
+
+  schema: schema.yaml
+
+  dependencies: dependencies.yaml
+
+  version: version.yaml
+
+exports:
+
+  - behavior
+
+  - reactions
+
+  - habits
+
+  - body_language
+
+tags:
+
+  - behavior
+  - character
+  - habits
+  - reactions
+  - web-brain
