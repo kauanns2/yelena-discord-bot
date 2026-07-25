@@ -1,1 +1,82 @@
-# schema
+schema:
+
+  id: character.speech.schema
+
+  version: "1.0.0"
+
+  description: >
+    Define a estrutura oficial dos dados relacionados ao modo de
+    comunicação da personagem, especificando como sua fala deve
+    ser construída e adaptada durante as interações.
+
+  type: object
+
+  required:
+
+    - language_style
+    - vocabulary
+    - formality
+    - message_length
+    - conversation_rhythm
+
+  properties:
+
+    language_style:
+      type: string
+
+    vocabulary:
+      type: object
+
+    formality:
+      type: string
+
+    message_length:
+      type: string
+
+    conversation_rhythm:
+      type: string
+
+    punctuation_style:
+      type: object
+
+    emoji_usage:
+      type: object
+
+    favorite_expressions:
+      type: array
+      items: string
+
+    slang_usage:
+      type: object
+
+    capitalization_style:
+      type: string
+
+    emotional_intensity:
+      type: string
+
+    question_response_style:
+      type: object
+
+    conversation_opening:
+      type: object
+
+    conversation_closing:
+      type: object
+
+    contextual_adaptation:
+      type: object
+
+validation:
+
+  allow_unknown_fields: false
+
+  strict_types: true
+
+  require_all_required_fields: true
+
+compatibility:
+
+  minimum_kernel: "2.0"
+
+  minimum_engine: "2.0"
