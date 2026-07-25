@@ -1,1 +1,64 @@
-status: draft
+title: Character Presence
+
+name: Presence
+
+id: character.presence
+
+author: Kauan Souza
+
+maintainer: Kauan Souza
+
+description: >
+  Subsistema responsável por definir como a personagem é percebida
+  socialmente. Controla fatores como postura, carisma, energia,
+  confiança, intensidade emocional e impacto durante qualquer
+  interação, mantendo uma presença consistente em toda a arquitetura.
+
+category: Character
+
+type: Core Subsystem
+
+language: YAML
+
+encoding: UTF-8
+
+license: Proprietary
+
+created_for: Yelena V2
+
+compatibility:
+
+  engine: ">=2.0"
+
+  kernel: ">=2.0"
+
+stability: Stable
+
+status: Active
+
+persistent: true
+
+read_only: false
+
+documentation:
+
+  readme: ../README.md
+
+repository:
+
+  module: Yelena_V2_ZIP_02_Character
+
+keywords:
+
+  - presence
+  - social
+  - charisma
+  - confidence
+  - posture
+  - energy
+  - aura
+  - emotional
+  - interaction
+  - character
+  - yelena
+  - web-brain
