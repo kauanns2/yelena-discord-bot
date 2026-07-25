@@ -1,1 +1,47 @@
-# registry.yaml
+id: dialogue
+
+module: character
+
+name: Dialogue System
+
+description: >
+  Sistema responsável por registrar, organizar e disponibilizar
+  as estruturas de diálogo da personagem para os demais módulos.
+
+owner: character
+
+status: active
+
+enabled: true
+
+persistent: true
+
+load_order: 1.7
+
+services:
+
+  - dialogue.read
+
+  - dialogue.validate
+
+  - dialogue.provide
+
+storage:
+
+  type: internal
+
+  mutable: true
+
+visibility:
+
+  public: true
+
+  internal: true
+
+graph:
+
+  node: dialogue
+
+  role: communication
+
+  weight: 1.7
