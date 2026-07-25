@@ -1,1 +1,57 @@
-# state.yaml
+state:
+
+  current: active
+
+  initialized: true
+
+  loaded: true
+
+  locked: false
+
+  persistent: true
+
+  cache_enabled: true
+
+  read_only: false
+
+health:
+
+  status: healthy
+
+  last_check: boot
+
+  errors: []
+
+runtime:
+
+  registered: true
+
+  available: true
+
+  in_use: false
+
+  priority: 1.9
+
+kernel:
+
+  managed: true
+
+  auto_start: true
+
+  auto_shutdown: false
+
+validation:
+
+  integrity: true
+
+  verified: true
+
+appearance:
+
+  initialized: true
+
+  data_loaded: true
+
+  synchronized: true
+
+  last_update: startup
