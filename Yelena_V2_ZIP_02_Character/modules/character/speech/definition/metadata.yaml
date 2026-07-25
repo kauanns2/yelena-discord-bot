@@ -1,1 +1,66 @@
-status: draft
+title: Character Speech
+
+name: Speech
+
+id: character.speech
+
+author: Kauan Souza
+
+maintainer: Kauan Souza
+
+description: >
+  Subsistema responsável por definir como a personagem
+  se comunica. Controla aspectos linguísticos, estilo
+  de escrita, vocabulário, formalidade, ritmo,
+  pontuação e demais características da fala,
+  garantindo consistência comunicativa em qualquer
+  contexto.
+
+category: Character
+
+type: Core Subsystem
+
+language: YAML
+
+encoding: UTF-8
+
+license: Proprietary
+
+created_for: Yelena V2
+
+compatibility:
+
+  engine: ">=2.0"
+
+  kernel: ">=2.0"
+
+stability: Stable
+
+status: Active
+
+persistent: true
+
+read_only: false
+
+documentation:
+
+  readme: ../README.md
+
+repository:
+
+  module: Yelena_V2_ZIP_02_Character
+
+keywords:
+
+  - speech
+  - communication
+  - dialogue
+  - vocabulary
+  - language
+  - style
+  - punctuation
+  - emojis
+  - formality
+  - conversation
+  - yelena
+  - web-brain
