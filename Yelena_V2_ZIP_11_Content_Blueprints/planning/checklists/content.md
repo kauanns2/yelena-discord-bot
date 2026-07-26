@@ -1,1 +1,0 @@
-# Checklist de Conteúdo
