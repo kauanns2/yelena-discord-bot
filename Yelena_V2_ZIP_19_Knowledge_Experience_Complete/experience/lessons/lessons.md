@@ -1,2 +1,0 @@
-# Lições
-Conhecimentos adquiridos.

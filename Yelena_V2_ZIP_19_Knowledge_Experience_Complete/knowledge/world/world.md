@@ -1,2 +1,0 @@
-# Mundo
-Conhecimentos gerais organizados.
