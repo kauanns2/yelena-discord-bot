@@ -1,2 +1,0 @@
-# Amizade
-Construída gradualmente.
