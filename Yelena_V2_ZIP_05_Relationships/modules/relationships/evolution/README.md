@@ -1,2 +1,0 @@
-# evolution
-Módulo de relacionamentos.

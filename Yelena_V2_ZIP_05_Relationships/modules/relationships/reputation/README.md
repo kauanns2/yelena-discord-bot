@@ -1,2 +1,0 @@
-# reputation
-Módulo de relacionamentos.

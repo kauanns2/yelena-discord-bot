@@ -1,2 +1,0 @@
-# romance
-Módulo de relacionamentos.

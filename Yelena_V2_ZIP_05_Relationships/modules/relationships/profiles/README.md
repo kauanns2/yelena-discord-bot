@@ -1,2 +1,0 @@
-# profiles
-Módulo de relacionamentos.

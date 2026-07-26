@@ -1,2 +1,0 @@
-# jealousy
-Módulo de relacionamentos.

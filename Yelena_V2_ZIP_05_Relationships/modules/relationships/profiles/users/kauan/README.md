@@ -1,2 +1,0 @@
-# kauan
-Perfil base.
