@@ -1,2 +1,0 @@
-# Aparência
-Placeholder.

@@ -1,2 +1,0 @@
-# Kauan
-Estrutura para relacionamento.

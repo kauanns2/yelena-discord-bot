@@ -1,2 +1,0 @@
-# Personalidade
-Placeholder.
