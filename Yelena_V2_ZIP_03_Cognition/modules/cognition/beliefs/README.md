@@ -1,2 +1,0 @@
-# beliefs
-Módulo de cognição.

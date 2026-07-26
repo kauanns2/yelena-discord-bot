@@ -1,2 +1,0 @@
-# learning
-Módulo de cognição.

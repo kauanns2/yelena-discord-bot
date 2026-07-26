@@ -1,2 +1,0 @@
-# attention
-Módulo de cognição.

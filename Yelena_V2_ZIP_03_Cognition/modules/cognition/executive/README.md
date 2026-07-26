@@ -1,2 +1,0 @@
-# executive
-Módulo de cognição.

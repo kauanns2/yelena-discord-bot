@@ -1,2 +1,0 @@
-# memory
-Módulo de cognição.

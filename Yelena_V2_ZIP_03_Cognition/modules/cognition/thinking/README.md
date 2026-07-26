@@ -1,2 +1,0 @@
-# thinking
-Módulo de cognição.

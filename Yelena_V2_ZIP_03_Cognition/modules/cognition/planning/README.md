@@ -1,2 +1,0 @@
-# planning
-Módulo de cognição.

@@ -1,2 +1,0 @@
-# reasoning
-Módulo de cognição.
