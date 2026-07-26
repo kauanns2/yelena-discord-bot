@@ -1,2 +1,0 @@
-# Bootstrap
-Inicialização do sistema.
