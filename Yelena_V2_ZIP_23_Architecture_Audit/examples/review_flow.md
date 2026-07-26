@@ -1,1 +1,0 @@
-Arquitetura -> Auditoria -> Correções -> Release
