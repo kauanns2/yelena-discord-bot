@@ -1,2 +1,0 @@
-# Gemini
-Camada de integração.

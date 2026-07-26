@@ -1,2 +1,0 @@
-# OpenRouter
-Camada de integração.
