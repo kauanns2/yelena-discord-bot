@@ -1,1 +1,0 @@
-Mensagem -> Contexto -> Resposta Natural
