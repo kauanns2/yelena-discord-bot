@@ -1,1 +1,0 @@
-# Conhecimentos essenciais
