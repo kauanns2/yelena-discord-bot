@@ -1,2 +1,0 @@
-# mood
-Módulo emocional.

@@ -1,2 +1,0 @@
-# fears
-Módulo emocional.
